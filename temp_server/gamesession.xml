@@ -1,25 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Gamesession savetime="1636804973" version="0.15.13.0" submarine="Humpback" mapseed="WnUJCAOP" selectedcontentpackages="Data/ContentPackages/Vanilla 0.9.xml" campaignid="1">
+<Gamesession savetime="1636838803" version="0.15.13.0" submarine="Humpback" mapseed="WnUJCAOP" selectedcontentpackages="Data/ContentPackages/Vanilla 0.9.xml" campaignid="4">
   <ownedsubmarines>
     <sub name="Humpback" />
   </ownedsubmarines>
-  <MultiPlayerCampaign money="872" purchasedlostshuttles="false" purchasedhullrepairs="false" purchaseditemrepairs="false" cheatsenabled="false">
+  <MultiPlayerCampaign money="840" purchasedlostshuttles="false" purchasedhullrepairs="false" purchaseditemrepairs="false" cheatsenabled="false">
     <CampaignSettings radiationenabled="false" maxmissioncount="6" />
     <Metadata>
       <Data key="reputation.location.89" value="63" type="System.Single" />
-      <Data key="reputation.faction.coalition" value="30" type="System.Single" />
+      <Data key="reputation.faction.coalition" value="35" type="System.Single" />
       <Data key="reputation.faction.separatists" value="-10" type="System.Single" />
       <Data key="reputation.faction.huskcult" value="-5" type="System.Single" />
       <Data key="reputation.faction.clowns" value="-5" type="System.Single" />
-      <Data key="campaign.location.id" value="89" type="System.Int32" />
-      <Data key="campaign.location.name" value="The city of Couwola" type="System.String" />
+      <Data key="campaign.location.id" value="40" type="System.Int32" />
+      <Data key="campaign.location.name" value="Gangpo" type="System.String" />
       <Data key="campaign.location.biome" value="null" type="System.String" />
       <Data key="campaign.location.type" value="City" type="System.String" />
       <Data key="reputation.location.53" value="54" type="System.Single" />
       <Data key="subraevent_state" value="0" type="System.Single" />
       <Data key="reputation.location.108" value="9" type="System.Single" />
+      <Data key="reputation.location.71" value="8" type="System.Single" />
+      <Data key="reputation.location.56" value="17" type="System.Single" />
+      <Data key="reputation.location.40" value="23" type="System.Single" />
+      <Data key="reputation.location.38" value="-4" type="System.Single" />
+      <Data key="reputation.location.8" value="-2" type="System.Single" />
     </Metadata>
-    <map version="0.15.13.0" currentlocation="108" currentlocationconnection="155" width="8000" height="800" selectedlocation="71" startlocation="89" endlocation="65" seed="WnUJCAOP">
+    <map version="0.15.13.0" currentlocation="40" currentlocationconnection="60" width="8000" height="800" selectedlocation="56" startlocation="89" endlocation="65" seed="WnUJCAOP">
       <location type="None" originaltype="None" basename="Glaukos Linea" name="Glaukos Linea" discovered="false" position="5846.287,26.972136" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" proximitytimer0-0="0" proximitytimer0-1="0" proximitytimer0-2="0" i="0">
         <Level seed="Glaukos Linea" biome="hydrothermalwastes" type="Outpost" difficulty="73.07859" size="40000,40000" generationparams="outpostlevel" initialdepth="129464" />
       </location>
@@ -41,11 +46,243 @@
       <location type="None" originaltype="None" basename="Vorta" name="Vorta" discovered="false" position="4998.4077,96.182816" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" proximitytimer0-0="0" proximitytimer0-1="0" proximitytimer0-2="0" i="6">
         <Level seed="Vorta" biome="thegreatsea" type="Outpost" difficulty="62.4801" size="40000,40000" generationparams="outpostlevel" initialdepth="147648" />
       </location>
-      <location type="City" originaltype="City" basename="Chandelle Crevasse" name="Chandelle Crevasse" discovered="false" position="229.1416,12.359416" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="7">
+      <location type="City" originaltype="City" basename="Chandelle Crevasse" name="Chandelle Crevasse" discovered="false" position="229.1416,12.359416" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="9" turnsinradiation="0" i="7">
         <Level seed="Chandelle Crevasse" biome="coldcaverns" type="Outpost" difficulty="2.8642702" size="40000,40000" generationparams="outpostlevel" initialdepth="187381" />
       </location>
-      <location type="None" originaltype="None" basename="Sparti Linea" name="Sparti Linea" discovered="false" position="414.8543,130.45845" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" proximitytimer0-0="0" proximitytimer0-1="0" proximitytimer0-2="0" i="8">
+      <location type="City" originaltype="City" basename="Sparti Linea" name="Sparti Linea" discovered="false" position="414.8543,130.45845" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="1" turnsinradiation="0" i="8">
         <Level seed="Sparti Linea" biome="coldcaverns" type="Outpost" difficulty="5.185679" size="40000,40000" generationparams="outpostlevel" initialdepth="195523" />
+        <store balance="5000" pricemodifier="4" stepssincespecialsupdated="0">
+          <stock id="button" qty="10" />
+          <stock id="switch" qty="10" />
+          <stock id="lever" qty="10" />
+          <stock id="coilgunammobox" qty="15" />
+          <stock id="coilgunammoboxexplosive" qty="2" />
+          <stock id="coilgunammoboxpiercing" qty="8" />
+          <stock id="railguncanistershell" qty="5" />
+          <stock id="chaingunammobox" qty="3" />
+          <stock id="artifacttransportcase" qty="6" />
+          <stock id="captainscap1" qty="1" />
+          <stock id="captainscap2" qty="1" />
+          <stock id="captainscap3" qty="1" />
+          <stock id="captainsuniform1" qty="1" />
+          <stock id="captainsuniform2" qty="1" />
+          <stock id="captainsuniform3" qty="1" />
+          <stock id="healthscanner" qty="1" />
+          <stock id="doctorsuniform1" qty="1" />
+          <stock id="doctorsuniform2" qty="1" />
+          <stock id="orangejumpsuit1" qty="1" />
+          <stock id="orangejumpsuit2" qty="1" />
+          <stock id="bluejumpsuit1" qty="1" />
+          <stock id="bluejumpsuit2" qty="1" />
+          <stock id="baseballcap" qty="3" />
+          <stock id="assistantclothes" qty="1" />
+          <stock id="securityuniform1" qty="1" />
+          <stock id="securityuniform2" qty="1" />
+          <stock id="securityuniform3" qty="1" />
+          <stock id="bodyarmor" qty="3" />
+          <stock id="ballistichelmet1" qty="3" />
+          <stock id="ballistichelmet2" qty="3" />
+          <stock id="ballistichelmet3" qty="3" />
+          <stock id="handcuffs" qty="3" />
+          <stock id="commonerclothes1" qty="1" />
+          <stock id="commonerclothes2" qty="1" />
+          <stock id="commonerclothes3" qty="1" />
+          <stock id="commonerclothes4" qty="1" />
+          <stock id="commonerclothes5" qty="1" />
+          <stock id="crewchiefclothes" qty="1" />
+          <stock id="medicalofficerclothes" qty="1" />
+          <stock id="minerclothes" qty="1" />
+          <stock id="quartermasterclothes" qty="1" />
+          <stock id="researcherclothes" qty="1" />
+          <stock id="securitypatrolclothes" qty="1" />
+          <stock id="administratorclothes" qty="1" />
+          <stock id="clownmask" qty="1" />
+          <stock id="clowncostume" qty="1" />
+          <stock id="headset" qty="10" />
+          <stock id="huskeggs" qty="1" />
+          <stock id="swimbladder" qty="2" />
+          <stock id="adrenalinegland" qty="2" />
+          <stock id="divingmask" qty="7" />
+          <stock id="divingsuit" qty="4" />
+          <stock id="underwaterscooter" qty="6" />
+          <stock id="batterycell" qty="9" />
+          <stock id="fulguriumbatterycell" qty="1" />
+          <stock id="wire" qty="5" />
+          <stock id="redwire" qty="5" />
+          <stock id="bluewire" qty="5" />
+          <stock id="orangewire" qty="5" />
+          <stock id="greenwire" qty="5" />
+          <stock id="blackwire" qty="5" />
+          <stock id="brownwire" qty="5" />
+          <stock id="fpgacircuit" qty="5" />
+          <stock id="andcomponent" qty="5" />
+          <stock id="equalscomponent" qty="5" />
+          <stock id="greatercomponent" qty="5" />
+          <stock id="addercomponent" qty="5" />
+          <stock id="colorcomponent" qty="5" />
+          <stock id="subtractcomponent" qty="5" />
+          <stock id="multiplycomponent" qty="5" />
+          <stock id="dividecomponent" qty="5" />
+          <stock id="powcomponent" qty="5" />
+          <stock id="orcomponent" qty="5" />
+          <stock id="xorcomponent" qty="5" />
+          <stock id="notcomponent" qty="5" />
+          <stock id="concatcomponent" qty="5" />
+          <stock id="sincomponent" qty="5" />
+          <stock id="coscomponent" qty="5" />
+          <stock id="tancomponent" qty="5" />
+          <stock id="asincomponent" qty="5" />
+          <stock id="acoscomponent" qty="5" />
+          <stock id="atancomponent" qty="5" />
+          <stock id="roundcomponent" qty="5" />
+          <stock id="ceilcomponent" qty="5" />
+          <stock id="floorcomponent" qty="5" />
+          <stock id="factorialcomponent" qty="5" />
+          <stock id="abscomponent" qty="5" />
+          <stock id="squarerootcomponent" qty="5" />
+          <stock id="modulocomponent" qty="5" />
+          <stock id="relaycomponent" qty="5" />
+          <stock id="delaycomponent" qty="5" />
+          <stock id="memorycomponent" qty="5" />
+          <stock id="lightcomponent" qty="5" />
+          <stock id="lightcomponent90" qty="5" />
+          <stock id="oxygendetector" qty="5" />
+          <stock id="waterdetector" qty="5" />
+          <stock id="smokedetector" qty="5" />
+          <stock id="motiondetector" qty="5" />
+          <stock id="signalcheckcomponent" qty="5" />
+          <stock id="regexcomponent" qty="5" />
+          <stock id="oscillator" qty="5" />
+          <stock id="wificomponent" qty="5" />
+          <stock id="emergencysiren" qty="5" />
+          <stock id="alarmbuzzer" qty="5" />
+          <stock id="genesplicer" qty="5" />
+          <stock id="magnesium" qty="4" />
+          <stock id="steel" qty="15" />
+          <stock id="titaniumaluminiumalloy" qty="5" />
+          <stock id="plastic" qty="10" />
+          <stock id="ballisticfiber" qty="4" />
+          <stock id="organicfiber" qty="8" />
+          <stock id="rubber" qty="13" />
+          <stock id="flashpowder" qty="7" />
+          <stock id="fiberplant" qty="3" />
+          <stock id="elastinplant" qty="3" />
+          <stock id="aquaticpoppy" qty="1" />
+          <stock id="yeastshroom" qty="1" />
+          <stock id="slimebacteria" qty="1" />
+          <stock id="antibleeding1" qty="30" />
+          <stock id="antibleeding2" qty="15" />
+          <stock id="antibleeding3" qty="10" />
+          <stock id="antidama1" qty="16" />
+          <stock id="antidama2" qty="4" />
+          <stock id="pomegrenadeextract" qty="4" />
+          <stock id="antibloodloss1" qty="18" />
+          <stock id="antibloodloss2" qty="10" />
+          <stock id="liquidoxygenite" qty="3" />
+          <stock id="calyxanide" qty="5" />
+          <stock id="antipsychosis" qty="5" />
+          <stock id="antinarc" qty="5" />
+          <stock id="morbusineantidote" qty="2" />
+          <stock id="cyanideantidote" qty="2" />
+          <stock id="sufforinantidote" qty="2" />
+          <stock id="deliriumineantidote" qty="2" />
+          <stock id="antirad" qty="2" />
+          <stock id="elastin" qty="6" />
+          <stock id="opium" qty="6" />
+          <stock id="antibiotics" qty="12" />
+          <stock id="stabilozine" qty="10" />
+          <stock id="antiparalysis" qty="2" />
+          <stock id="morbusine" qty="1" />
+          <stock id="chloralhydrate" qty="1" />
+          <stock id="cyanide" qty="1" />
+          <stock id="radiotoxin" qty="1" />
+          <stock id="sufforin" qty="1" />
+          <stock id="deliriumine" qty="1" />
+          <stock id="paralyzant" qty="1" />
+          <stock id="raptorbaneextract" qty="1" />
+          <stock id="tonicliquid" qty="8" />
+          <stock id="meth" qty="2" />
+          <stock id="steroids" qty="2" />
+          <stock id="ethanol" qty="8" />
+          <stock id="guitar" qty="1" />
+          <stock id="harmonica" qty="1" />
+          <stock id="accordion" qty="1" />
+          <stock id="captainspipe" qty="5" />
+          <stock id="pipetobacco" qty="2" />
+          <stock id="bikehorn" qty="1" />
+          <stock id="toolbelt" qty="6" />
+          <stock id="toolbox" qty="6" />
+          <stock id="weldingtool" qty="5" />
+          <stock id="plasmacutter" qty="5" />
+          <stock id="weldingfueltank" qty="7" />
+          <stock id="extinguisher" qty="4" />
+          <stock id="sprayer" qty="5" />
+          <stock id="screwdriver" qty="15" />
+          <stock id="wrench" qty="15" />
+          <stock id="crowbar" qty="15" />
+          <stock id="handheldsonar" qty="2" />
+          <stock id="sonarbeacon" qty="1" />
+          <stock id="flashlight" qty="3" />
+          <stock id="flare" qty="10" />
+          <stock id="syringegun" qty="1" />
+          <stock id="oxygentank" qty="15" />
+          <stock id="fuelrod" qty="3" />
+          <stock id="thoriumfuelrod" qty="1" />
+          <stock id="redpaint" qty="2" />
+          <stock id="greenpaint" qty="2" />
+          <stock id="bluepaint" qty="2" />
+          <stock id="blackpaint" qty="2" />
+          <stock id="whitepaint" qty="2" />
+          <stock id="glowstick" qty="10" />
+          <stock id="depthchargeshell" qty="4" />
+          <stock id="depthdecoyshell" qty="2" />
+          <stock id="uex" qty="4" />
+          <stock id="c4block" qty="3" />
+          <stock id="compoundn" qty="4" />
+          <stock id="detonator" qty="2" />
+          <stock id="nitroglycerin" qty="4" />
+          <stock id="railgunshell" qty="10" />
+          <stock id="spear" qty="12" />
+          <stock id="explosivespear" qty="6" />
+          <stock id="harpoongun" qty="3" />
+          <stock id="revolverround" qty="24" />
+          <stock id="revolver" qty="3" />
+          <stock id="smgmagazine" qty="4" />
+          <stock id="smg" qty="2" />
+          <stock id="stungrenade" qty="6" />
+          <stock id="empgrenade" qty="4" />
+          <stock id="fraggrenade" qty="3" />
+          <stock id="stunbaton" qty="6" />
+          <stock id="divingknife" qty="15" />
+          <stock id="shotgun" qty="3" />
+          <stock id="shotgunshell" qty="12" />
+          <stock id="stungun" qty="4" />
+          <stock id="stungundart" qty="6" />
+          <stock id="toyhammer" qty="1" />
+          <stock id="peanutegg" qty="1" />
+          <stock id="psilotoadegg" qty="1" />
+          <stock id="orangeboyegg" qty="1" />
+          <stock id="food" qty="5" />
+          <stock id="petnametag" qty="5" />
+          <stock id="creepingorangevineseed" qty="1" />
+          <stock id="tobaccovineseed" qty="1" />
+          <stock id="saltvineseed" qty="1" />
+          <stock id="raptorbaneseed" qty="1" />
+          <stock id="smallplanter" qty="1" />
+          <stock id="wateringcan" qty="1" />
+          <stock id="fertilizer" qty="1" />
+          <stock id="seedbag" qty="1" />
+          <dailyspecials>
+            <item id="commonerclothes2" />
+            <item id="squarerootcomponent" />
+            <item id="fiberplant" />
+          </dailyspecials>
+          <requestedgoods>
+            <item id="chamosite" />
+            <item id="quartermasterclothes" />
+            <item id="orcomponent" />
+          </requestedgoods>
+        </store>
       </location>
       <location type="Military" originaltype="Military" basename="Androgeos Linea" name="Androgeos Linea" discovered="false" position="492.06345,54.775597" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" proximitytimer0-0="0" proximitytimer1-0="0" i="9">
         <Level seed="Androgeos Linea" biome="coldcaverns" type="Outpost" difficulty="6.150793" size="40000,40000" generationparams="outpostlevel" initialdepth="137984" />
@@ -98,31 +335,41 @@
       <location type="None" originaltype="None" basename="Ino Linea" name="Ino Linea" discovered="false" position="1395.496,97.1192" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" proximitytimer0-0="0" proximitytimer0-1="0" proximitytimer0-2="0" i="24">
         <Level seed="Ino Linea" biome="europanridge" type="Outpost" difficulty="17.4437" size="40000,40000" generationparams="outpostlevel" initialdepth="126094" />
       </location>
-      <location type="Outpost" originaltype="Outpost" basename="Phineus Linea" name="Phineus Linea居住區" discovered="false" position="149.39972,136.97665" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="25">
+      <location type="City" originaltype="City" basename="Phineus Linea" name="Phineus Linea" discovered="false" position="149.39972,136.97665" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="3" turnsinradiation="0" i="25">
         <Level seed="Phineus Linea" biome="coldcaverns" type="Outpost" difficulty="1.8674964" size="40000,40000" generationparams="outpostlevel" initialdepth="132693" />
-        <store balance="5000" pricemodifier="-4" stepssincespecialsupdated="0">
-          <stock id="button" qty="5" />
-          <stock id="switch" qty="5" />
-          <stock id="lever" qty="5" />
-          <stock id="coilgunammobox" qty="3" />
+        <store balance="5000" pricemodifier="-2" stepssincespecialsupdated="0">
+          <stock id="button" qty="10" />
+          <stock id="switch" qty="10" />
+          <stock id="lever" qty="10" />
+          <stock id="coilgunammobox" qty="6" />
+          <stock id="coilgunammoboxexplosive" qty="1" />
+          <stock id="coilgunammoboxpiercing" qty="1" />
+          <stock id="railguncanistershell" qty="1" />
+          <stock id="chaingunammobox" qty="1" />
+          <stock id="artifacttransportcase" qty="6" />
           <stock id="captainscap1" qty="1" />
           <stock id="captainscap2" qty="1" />
           <stock id="captainscap3" qty="1" />
           <stock id="captainsuniform1" qty="1" />
           <stock id="captainsuniform2" qty="1" />
           <stock id="captainsuniform3" qty="1" />
+          <stock id="healthscanner" qty="8" />
           <stock id="doctorsuniform1" qty="1" />
           <stock id="doctorsuniform2" qty="1" />
           <stock id="orangejumpsuit1" qty="1" />
           <stock id="orangejumpsuit2" qty="1" />
           <stock id="bluejumpsuit1" qty="1" />
           <stock id="bluejumpsuit2" qty="1" />
-          <stock id="baseballcap" qty="2" />
+          <stock id="baseballcap" qty="3" />
           <stock id="assistantclothes" qty="1" />
           <stock id="securityuniform1" qty="1" />
           <stock id="securityuniform2" qty="1" />
           <stock id="securityuniform3" qty="1" />
-          <stock id="handcuffs" qty="1" />
+          <stock id="bodyarmor" qty="1" />
+          <stock id="ballistichelmet1" qty="1" />
+          <stock id="ballistichelmet2" qty="1" />
+          <stock id="ballistichelmet3" qty="1" />
+          <stock id="handcuffs" qty="2" />
           <stock id="commonerclothes1" qty="1" />
           <stock id="commonerclothes2" qty="1" />
           <stock id="commonerclothes3" qty="1" />
@@ -137,11 +384,15 @@
           <stock id="administratorclothes" qty="1" />
           <stock id="clownmask" qty="1" />
           <stock id="clowncostume" qty="1" />
-          <stock id="headset" qty="3" />
-          <stock id="divingmask" qty="5" />
-          <stock id="divingsuit" qty="2" />
-          <stock id="underwaterscooter" qty="4" />
-          <stock id="batterycell" qty="5" />
+          <stock id="headset" qty="10" />
+          <stock id="huskeggs" qty="1" />
+          <stock id="swimbladder" qty="3" />
+          <stock id="adrenalinegland" qty="3" />
+          <stock id="divingmask" qty="7" />
+          <stock id="divingsuit" qty="4" />
+          <stock id="underwaterscooter" qty="6" />
+          <stock id="batterycell" qty="9" />
+          <stock id="fulguriumbatterycell" qty="2" />
           <stock id="wire" qty="5" />
           <stock id="redwire" qty="5" />
           <stock id="bluewire" qty="5" />
@@ -191,79 +442,131 @@
           <stock id="wificomponent" qty="5" />
           <stock id="emergencysiren" qty="5" />
           <stock id="alarmbuzzer" qty="5" />
-          <stock id="magnesium" qty="2" />
-          <stock id="steel" qty="7" />
-          <stock id="plastic" qty="7" />
-          <stock id="organicfiber" qty="4" />
-          <stock id="rubber" qty="9" />
-          <stock id="antibleeding1" qty="25" />
-          <stock id="antibleeding2" qty="12" />
-          <stock id="antidama1" qty="12" />
-          <stock id="antibloodloss1" qty="12" />
-          <stock id="antibloodloss2" qty="2" />
-          <stock id="calyxanide" qty="5" />
-          <stock id="antipsychosis" qty="5" />
-          <stock id="antinarc" qty="5" />
+          <stock id="genesplicer" qty="5" />
+          <stock id="magnesium" qty="4" />
+          <stock id="steel" qty="10" />
+          <stock id="titaniumaluminiumalloy" qty="3" />
+          <stock id="plastic" qty="12" />
+          <stock id="ballisticfiber" qty="2" />
+          <stock id="organicfiber" qty="8" />
+          <stock id="rubber" qty="13" />
+          <stock id="flashpowder" qty="6" />
+          <stock id="fiberplant" qty="6" />
+          <stock id="elastinplant" qty="6" />
+          <stock id="aquaticpoppy" qty="2" />
+          <stock id="yeastshroom" qty="2" />
+          <stock id="slimebacteria" qty="2" />
+          <stock id="antibleeding1" qty="30" />
+          <stock id="antibleeding2" qty="18" />
+          <stock id="antibleeding3" qty="12" />
+          <stock id="antidama1" qty="18" />
+          <stock id="antidama2" qty="4" />
+          <stock id="pomegrenadeextract" qty="4" />
+          <stock id="antibloodloss1" qty="22" />
+          <stock id="antibloodloss2" qty="10" />
+          <stock id="liquidoxygenite" qty="4" />
+          <stock id="calyxanide" qty="7" />
+          <stock id="antipsychosis" qty="7" />
+          <stock id="antinarc" qty="7" />
           <stock id="morbusineantidote" qty="2" />
           <stock id="cyanideantidote" qty="2" />
           <stock id="sufforinantidote" qty="2" />
           <stock id="deliriumineantidote" qty="2" />
           <stock id="antirad" qty="2" />
-          <stock id="opium" qty="4" />
-          <stock id="antibiotics" qty="6" />
-          <stock id="stabilozine" qty="6" />
+          <stock id="elastin" qty="8" />
+          <stock id="opium" qty="8" />
+          <stock id="antibiotics" qty="12" />
+          <stock id="stabilozine" qty="15" />
           <stock id="antiparalysis" qty="2" />
-          <stock id="tonicliquid" qty="3" />
-          <stock id="ethanol" qty="6" />
+          <stock id="morbusine" qty="1" />
+          <stock id="chloralhydrate" qty="2" />
+          <stock id="cyanide" qty="1" />
+          <stock id="radiotoxin" qty="1" />
+          <stock id="sufforin" qty="1" />
+          <stock id="deliriumine" qty="1" />
+          <stock id="paralyzant" qty="1" />
+          <stock id="raptorbaneextract" qty="1" />
+          <stock id="tonicliquid" qty="10" />
+          <stock id="meth" qty="3" />
+          <stock id="steroids" qty="1" />
+          <stock id="ethanol" qty="10" />
           <stock id="guitar" qty="1" />
           <stock id="harmonica" qty="1" />
           <stock id="accordion" qty="1" />
           <stock id="captainspipe" qty="5" />
-          <stock id="pipetobacco" qty="1" />
+          <stock id="pipetobacco" qty="2" />
           <stock id="bikehorn" qty="1" />
-          <stock id="toolbelt" qty="4" />
-          <stock id="toolbox" qty="4" />
-          <stock id="weldingtool" qty="3" />
-          <stock id="plasmacutter" qty="3" />
-          <stock id="weldingfueltank" qty="6" />
-          <stock id="extinguisher" qty="3" />
-          <stock id="sprayer" qty="3" />
-          <stock id="screwdriver" qty="10" />
-          <stock id="wrench" qty="10" />
-          <stock id="crowbar" qty="10" />
-          <stock id="handheldsonar" qty="1" />
-          <stock id="flashlight" qty="2" />
-          <stock id="flare" qty="6" />
-          <stock id="oxygentank" qty="10" />
-          <stock id="fuelrod" qty="2" />
+          <stock id="toolbelt" qty="6" />
+          <stock id="toolbox" qty="6" />
+          <stock id="weldingtool" qty="5" />
+          <stock id="plasmacutter" qty="5" />
+          <stock id="weldingfueltank" qty="7" />
+          <stock id="extinguisher" qty="4" />
+          <stock id="sprayer" qty="5" />
+          <stock id="screwdriver" qty="15" />
+          <stock id="wrench" qty="15" />
+          <stock id="crowbar" qty="15" />
+          <stock id="handheldsonar" qty="2" />
+          <stock id="sonarbeacon" qty="1" />
+          <stock id="flashlight" qty="3" />
+          <stock id="flare" qty="10" />
+          <stock id="syringegun" qty="1" />
+          <stock id="oxygentank" qty="15" />
+          <stock id="fuelrod" qty="3" />
+          <stock id="thoriumfuelrod" qty="1" />
           <stock id="redpaint" qty="2" />
           <stock id="greenpaint" qty="2" />
           <stock id="bluepaint" qty="2" />
           <stock id="blackpaint" qty="2" />
           <stock id="whitepaint" qty="2" />
-          <stock id="glowstick" qty="6" />
-          <stock id="depthchargeshell" qty="1" />
-          <stock id="uex" qty="2" />
-          <stock id="railgunshell" qty="3" />
-          <stock id="harpoongun" qty="1" />
-          <stock id="revolverround" qty="6" />
-          <stock id="divingknife" qty="6" />
+          <stock id="glowstick" qty="10" />
+          <stock id="depthchargeshell" qty="2" />
+          <stock id="depthdecoyshell" qty="2" />
+          <stock id="uex" qty="4" />
+          <stock id="c4block" qty="2" />
+          <stock id="compoundn" qty="2" />
+          <stock id="detonator" qty="1" />
+          <stock id="nitroglycerin" qty="2" />
+          <stock id="railgunshell" qty="4" />
+          <stock id="spear" qty="6" />
+          <stock id="explosivespear" qty="3" />
+          <stock id="harpoongun" qty="2" />
+          <stock id="revolverround" qty="12" />
+          <stock id="revolver" qty="1" />
+          <stock id="smgmagazine" qty="2" />
+          <stock id="smg" qty="1" />
+          <stock id="stungrenade" qty="3" />
+          <stock id="empgrenade" qty="2" />
+          <stock id="fraggrenade" qty="2" />
+          <stock id="stunbaton" qty="2" />
+          <stock id="divingknife" qty="8" />
+          <stock id="shotgun" qty="1" />
+          <stock id="shotgunshell" qty="4" />
+          <stock id="stungun" qty="2" />
+          <stock id="stungundart" qty="3" />
           <stock id="toyhammer" qty="1" />
+          <stock id="peanutegg" qty="1" />
+          <stock id="psilotoadegg" qty="1" />
+          <stock id="orangeboyegg" qty="1" />
           <stock id="food" qty="5" />
           <stock id="petnametag" qty="5" />
-          <stock id="smallplanter" qty="1" />
-          <stock id="wateringcan" qty="1" />
-          <stock id="fertilizer" qty="1" />
-          <stock id="seedbag" qty="1" />
+          <stock id="creepingorangevineseed" qty="2" />
+          <stock id="tobaccovineseed" qty="2" />
+          <stock id="saltvineseed" qty="2" />
+          <stock id="raptorbaneseed" qty="2" />
+          <stock id="smallplanter" qty="2" />
+          <stock id="wateringcan" qty="2" />
+          <stock id="fertilizer" qty="2" />
+          <stock id="seedbag" qty="2" />
           <dailyspecials>
-            <item id="flare" />
-            <item id="bluejumpsuit2" />
-            <item id="plasmacutter" />
+            <item id="commonerclothes5" />
+            <item id="ballistichelmet2" />
+            <item id="lightcomponent90" />
           </dailyspecials>
           <requestedgoods>
-            <item id="stabilozine" />
-            <item id="titaniumaluminiumalloy" />
-            <item id="cigar" />
+            <item id="tin" />
+            <item id="sodium" />
+            <item id="peanutegg" />
           </requestedgoods>
         </store>
       </location>
@@ -303,32 +606,41 @@
       <location type="City" originaltype="City" basename="Dunwice" name="Dunwice Station" discovered="false" position="743.2326,255.22495" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="37">
         <Level seed="Dunwice" biome="coldcaverns" type="Outpost" difficulty="9.290407" size="40000,40000" generationparams="outpostlevel" initialdepth="155459" />
       </location>
-      <location type="Outpost" originaltype="Outpost" basename="Dyfed" name="Dyfed居住區" discovered="false" position="149.92479,222.8263" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="1" turnsinradiation="0" i="38">
+      <location type="City" originaltype="City" basename="Dyfed" name="Dyfed" discovered="false" position="149.92479,222.8263" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="3" turnsinradiation="0" i="38">
         <Level seed="Dyfed" biome="coldcaverns" type="Outpost" difficulty="1.8740598" size="40000,40000" generationparams="outpostlevel" initialdepth="133403" />
-        <pendinglocationtypechange timer="2" index="1" />
-        <store balance="5000" pricemodifier="-1" stepssincespecialsupdated="0">
-          <stock id="button" qty="5" />
-          <stock id="switch" qty="5" />
-          <stock id="lever" qty="5" />
-          <stock id="coilgunammobox" qty="3" />
+        <store balance="5000" pricemodifier="2" stepssincespecialsupdated="0">
+          <stock id="button" qty="10" />
+          <stock id="switch" qty="10" />
+          <stock id="lever" qty="10" />
+          <stock id="coilgunammobox" qty="6" />
+          <stock id="coilgunammoboxexplosive" qty="1" />
+          <stock id="coilgunammoboxpiercing" qty="1" />
+          <stock id="railguncanistershell" qty="1" />
+          <stock id="chaingunammobox" qty="1" />
+          <stock id="artifacttransportcase" qty="6" />
           <stock id="captainscap1" qty="1" />
           <stock id="captainscap2" qty="1" />
           <stock id="captainscap3" qty="1" />
           <stock id="captainsuniform1" qty="1" />
           <stock id="captainsuniform2" qty="1" />
           <stock id="captainsuniform3" qty="1" />
+          <stock id="healthscanner" qty="8" />
           <stock id="doctorsuniform1" qty="1" />
           <stock id="doctorsuniform2" qty="1" />
           <stock id="orangejumpsuit1" qty="1" />
           <stock id="orangejumpsuit2" qty="1" />
           <stock id="bluejumpsuit1" qty="1" />
           <stock id="bluejumpsuit2" qty="1" />
-          <stock id="baseballcap" qty="2" />
+          <stock id="baseballcap" qty="3" />
           <stock id="assistantclothes" qty="1" />
           <stock id="securityuniform1" qty="1" />
           <stock id="securityuniform2" qty="1" />
           <stock id="securityuniform3" qty="1" />
-          <stock id="handcuffs" qty="1" />
+          <stock id="bodyarmor" qty="1" />
+          <stock id="ballistichelmet1" qty="1" />
+          <stock id="ballistichelmet2" qty="1" />
+          <stock id="ballistichelmet3" qty="1" />
+          <stock id="handcuffs" qty="2" />
           <stock id="commonerclothes1" qty="1" />
           <stock id="commonerclothes2" qty="1" />
           <stock id="commonerclothes3" qty="1" />
@@ -343,11 +655,15 @@
           <stock id="administratorclothes" qty="1" />
           <stock id="clownmask" qty="1" />
           <stock id="clowncostume" qty="1" />
-          <stock id="headset" qty="3" />
-          <stock id="divingmask" qty="5" />
-          <stock id="divingsuit" qty="2" />
-          <stock id="underwaterscooter" qty="4" />
-          <stock id="batterycell" qty="5" />
+          <stock id="headset" qty="10" />
+          <stock id="huskeggs" qty="1" />
+          <stock id="swimbladder" qty="3" />
+          <stock id="adrenalinegland" qty="3" />
+          <stock id="divingmask" qty="7" />
+          <stock id="divingsuit" qty="4" />
+          <stock id="underwaterscooter" qty="6" />
+          <stock id="batterycell" qty="9" />
+          <stock id="fulguriumbatterycell" qty="2" />
           <stock id="wire" qty="5" />
           <stock id="redwire" qty="5" />
           <stock id="bluewire" qty="5" />
@@ -397,16 +713,264 @@
           <stock id="wificomponent" qty="5" />
           <stock id="emergencysiren" qty="5" />
           <stock id="alarmbuzzer" qty="5" />
-          <stock id="magnesium" qty="2" />
-          <stock id="steel" qty="7" />
-          <stock id="plastic" qty="7" />
-          <stock id="organicfiber" qty="4" />
-          <stock id="rubber" qty="9" />
-          <stock id="antibleeding1" qty="25" />
-          <stock id="antibleeding2" qty="12" />
-          <stock id="antidama1" qty="12" />
-          <stock id="antibloodloss1" qty="12" />
-          <stock id="antibloodloss2" qty="2" />
+          <stock id="genesplicer" qty="5" />
+          <stock id="magnesium" qty="4" />
+          <stock id="steel" qty="10" />
+          <stock id="titaniumaluminiumalloy" qty="3" />
+          <stock id="plastic" qty="12" />
+          <stock id="ballisticfiber" qty="2" />
+          <stock id="organicfiber" qty="8" />
+          <stock id="rubber" qty="13" />
+          <stock id="flashpowder" qty="6" />
+          <stock id="fiberplant" qty="6" />
+          <stock id="elastinplant" qty="6" />
+          <stock id="aquaticpoppy" qty="2" />
+          <stock id="yeastshroom" qty="2" />
+          <stock id="slimebacteria" qty="2" />
+          <stock id="antibleeding1" qty="30" />
+          <stock id="antibleeding2" qty="18" />
+          <stock id="antibleeding3" qty="12" />
+          <stock id="antidama1" qty="18" />
+          <stock id="antidama2" qty="4" />
+          <stock id="pomegrenadeextract" qty="4" />
+          <stock id="antibloodloss1" qty="22" />
+          <stock id="antibloodloss2" qty="10" />
+          <stock id="liquidoxygenite" qty="4" />
+          <stock id="calyxanide" qty="7" />
+          <stock id="antipsychosis" qty="7" />
+          <stock id="antinarc" qty="7" />
+          <stock id="morbusineantidote" qty="2" />
+          <stock id="cyanideantidote" qty="2" />
+          <stock id="sufforinantidote" qty="2" />
+          <stock id="deliriumineantidote" qty="2" />
+          <stock id="antirad" qty="2" />
+          <stock id="elastin" qty="8" />
+          <stock id="opium" qty="8" />
+          <stock id="antibiotics" qty="12" />
+          <stock id="stabilozine" qty="15" />
+          <stock id="antiparalysis" qty="2" />
+          <stock id="morbusine" qty="1" />
+          <stock id="chloralhydrate" qty="2" />
+          <stock id="cyanide" qty="1" />
+          <stock id="radiotoxin" qty="1" />
+          <stock id="sufforin" qty="1" />
+          <stock id="deliriumine" qty="1" />
+          <stock id="paralyzant" qty="1" />
+          <stock id="raptorbaneextract" qty="1" />
+          <stock id="tonicliquid" qty="10" />
+          <stock id="meth" qty="3" />
+          <stock id="steroids" qty="1" />
+          <stock id="ethanol" qty="10" />
+          <stock id="guitar" qty="1" />
+          <stock id="harmonica" qty="1" />
+          <stock id="accordion" qty="1" />
+          <stock id="captainspipe" qty="5" />
+          <stock id="pipetobacco" qty="2" />
+          <stock id="bikehorn" qty="1" />
+          <stock id="toolbelt" qty="6" />
+          <stock id="toolbox" qty="6" />
+          <stock id="weldingtool" qty="5" />
+          <stock id="plasmacutter" qty="5" />
+          <stock id="weldingfueltank" qty="7" />
+          <stock id="extinguisher" qty="4" />
+          <stock id="sprayer" qty="5" />
+          <stock id="screwdriver" qty="15" />
+          <stock id="wrench" qty="15" />
+          <stock id="crowbar" qty="15" />
+          <stock id="handheldsonar" qty="2" />
+          <stock id="sonarbeacon" qty="1" />
+          <stock id="flashlight" qty="3" />
+          <stock id="flare" qty="10" />
+          <stock id="syringegun" qty="1" />
+          <stock id="oxygentank" qty="15" />
+          <stock id="fuelrod" qty="3" />
+          <stock id="thoriumfuelrod" qty="1" />
+          <stock id="redpaint" qty="2" />
+          <stock id="greenpaint" qty="2" />
+          <stock id="bluepaint" qty="2" />
+          <stock id="blackpaint" qty="2" />
+          <stock id="whitepaint" qty="2" />
+          <stock id="glowstick" qty="10" />
+          <stock id="depthchargeshell" qty="2" />
+          <stock id="depthdecoyshell" qty="2" />
+          <stock id="uex" qty="4" />
+          <stock id="c4block" qty="2" />
+          <stock id="compoundn" qty="2" />
+          <stock id="detonator" qty="1" />
+          <stock id="nitroglycerin" qty="2" />
+          <stock id="railgunshell" qty="4" />
+          <stock id="spear" qty="6" />
+          <stock id="explosivespear" qty="3" />
+          <stock id="harpoongun" qty="2" />
+          <stock id="revolverround" qty="12" />
+          <stock id="revolver" qty="1" />
+          <stock id="smgmagazine" qty="2" />
+          <stock id="smg" qty="1" />
+          <stock id="stungrenade" qty="3" />
+          <stock id="empgrenade" qty="2" />
+          <stock id="fraggrenade" qty="2" />
+          <stock id="stunbaton" qty="2" />
+          <stock id="divingknife" qty="8" />
+          <stock id="shotgun" qty="1" />
+          <stock id="shotgunshell" qty="4" />
+          <stock id="stungun" qty="2" />
+          <stock id="stungundart" qty="3" />
+          <stock id="toyhammer" qty="1" />
+          <stock id="peanutegg" qty="1" />
+          <stock id="psilotoadegg" qty="1" />
+          <stock id="orangeboyegg" qty="1" />
+          <stock id="food" qty="5" />
+          <stock id="petnametag" qty="5" />
+          <stock id="creepingorangevineseed" qty="2" />
+          <stock id="tobaccovineseed" qty="2" />
+          <stock id="saltvineseed" qty="2" />
+          <stock id="raptorbaneseed" qty="2" />
+          <stock id="smallplanter" qty="2" />
+          <stock id="wateringcan" qty="2" />
+          <stock id="fertilizer" qty="2" />
+          <stock id="seedbag" qty="2" />
+          <dailyspecials>
+            <item id="weldingtool" />
+            <item id="waterdetector" />
+            <item id="powcomponent" />
+          </dailyspecials>
+          <requestedgoods>
+            <item id="cigar" />
+            <item id="toolbelt" />
+            <item id="petnametag" />
+          </requestedgoods>
+        </store>
+      </location>
+      <location type="None" originaltype="None" basename="Yelland Linea" name="Yelland Linea" discovered="false" position="2853.978,236.25139" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" proximitytimer0-0="0" proximitytimer0-1="0" proximitytimer0-2="0" i="39">
+        <Level seed="Yelland Linea" biome="theaphoticplateau" type="Outpost" difficulty="35.674725" size="40000,40000" generationparams="outpostlevel" initialdepth="194656" />
+      </location>
+      <location type="City" originaltype="City" basename="Gangpo" name="Gangpo" discovered="true" position="416.61346,248.48349" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="0.85" timesincelasttypechange="1" turnsinradiation="0" i="40">
+        <Level seed="Gangpo" biome="coldcaverns" type="Outpost" difficulty="5.2076683" size="40000,40000" generationparams="outpostlevel" initialdepth="134554" eventhistory="Engineers_are_special,healreaperstax,missionevent_clownoutbreak,missionevent_killmonstercommon,missionevent_crawlernest,missionevent_escort1" nonrepeatableevents="givingdirections,clownrelations1,goodsamaritan,propaganda,miketheidiot1,separatistrelations,Engineers_are_special,huskcultist,fanclub,atwitsend,shockjock,assassinationofjacovsubra2,assassinationofjacovsubra3,infiltration,manandhisraptor1,bombscare,terrorism101,censorship" />
+        <store balance="3343" pricemodifier="-4" stepssincespecialsupdated="0">
+          <stock id="button" qty="10" />
+          <stock id="switch" qty="10" />
+          <stock id="lever" qty="10" />
+          <stock id="coilgunammobox" qty="6" />
+          <stock id="coilgunammoboxexplosive" qty="1" />
+          <stock id="coilgunammoboxpiercing" qty="1" />
+          <stock id="railguncanistershell" qty="1" />
+          <stock id="chaingunammobox" qty="1" />
+          <stock id="artifacttransportcase" qty="6" />
+          <stock id="captainscap1" qty="1" />
+          <stock id="captainscap2" qty="1" />
+          <stock id="captainscap3" qty="1" />
+          <stock id="captainsuniform1" qty="1" />
+          <stock id="captainsuniform2" qty="1" />
+          <stock id="captainsuniform3" qty="1" />
+          <stock id="healthscanner" qty="1" />
+          <stock id="doctorsuniform1" qty="1" />
+          <stock id="doctorsuniform2" qty="1" />
+          <stock id="orangejumpsuit1" qty="1" />
+          <stock id="orangejumpsuit2" qty="2" />
+          <stock id="bluejumpsuit1" qty="2" />
+          <stock id="bluejumpsuit2" qty="1" />
+          <stock id="baseballcap" qty="4" />
+          <stock id="assistantclothes" qty="1" />
+          <stock id="securityuniform1" qty="1" />
+          <stock id="securityuniform2" qty="1" />
+          <stock id="securityuniform3" qty="1" />
+          <stock id="bodyarmor" qty="1" />
+          <stock id="ballistichelmet1" qty="1" />
+          <stock id="ballistichelmet2" qty="1" />
+          <stock id="ballistichelmet3" qty="1" />
+          <stock id="handcuffs" qty="2" />
+          <stock id="commonerclothes1" qty="1" />
+          <stock id="commonerclothes2" qty="1" />
+          <stock id="commonerclothes3" qty="1" />
+          <stock id="commonerclothes4" qty="1" />
+          <stock id="commonerclothes5" qty="1" />
+          <stock id="crewchiefclothes" qty="1" />
+          <stock id="medicalofficerclothes" qty="1" />
+          <stock id="minerclothes" qty="1" />
+          <stock id="quartermasterclothes" qty="1" />
+          <stock id="researcherclothes" qty="1" />
+          <stock id="securitypatrolclothes" qty="1" />
+          <stock id="administratorclothes" qty="1" />
+          <stock id="clownmask" qty="2" />
+          <stock id="clowncostume" qty="3" />
+          <stock id="headset" qty="11" />
+          <stock id="huskeggs" qty="1" />
+          <stock id="swimbladder" qty="2" />
+          <stock id="adrenalinegland" qty="2" />
+          <stock id="divingmask" qty="7" />
+          <stock id="divingsuit" qty="4" />
+          <stock id="underwaterscooter" qty="6" />
+          <stock id="batterycell" qty="11" />
+          <stock id="fulguriumbatterycell" qty="1" />
+          <stock id="wire" qty="5" />
+          <stock id="redwire" qty="5" />
+          <stock id="bluewire" qty="5" />
+          <stock id="orangewire" qty="5" />
+          <stock id="greenwire" qty="5" />
+          <stock id="blackwire" qty="5" />
+          <stock id="brownwire" qty="5" />
+          <stock id="fpgacircuit" qty="13" />
+          <stock id="andcomponent" qty="5" />
+          <stock id="equalscomponent" qty="5" />
+          <stock id="greatercomponent" qty="5" />
+          <stock id="addercomponent" qty="5" />
+          <stock id="colorcomponent" qty="5" />
+          <stock id="subtractcomponent" qty="5" />
+          <stock id="multiplycomponent" qty="5" />
+          <stock id="dividecomponent" qty="5" />
+          <stock id="powcomponent" qty="5" />
+          <stock id="orcomponent" qty="5" />
+          <stock id="xorcomponent" qty="5" />
+          <stock id="notcomponent" qty="5" />
+          <stock id="concatcomponent" qty="5" />
+          <stock id="sincomponent" qty="5" />
+          <stock id="coscomponent" qty="5" />
+          <stock id="tancomponent" qty="5" />
+          <stock id="asincomponent" qty="5" />
+          <stock id="acoscomponent" qty="5" />
+          <stock id="atancomponent" qty="5" />
+          <stock id="roundcomponent" qty="5" />
+          <stock id="ceilcomponent" qty="5" />
+          <stock id="floorcomponent" qty="5" />
+          <stock id="factorialcomponent" qty="5" />
+          <stock id="abscomponent" qty="5" />
+          <stock id="squarerootcomponent" qty="5" />
+          <stock id="modulocomponent" qty="5" />
+          <stock id="relaycomponent" qty="5" />
+          <stock id="delaycomponent" qty="5" />
+          <stock id="memorycomponent" qty="5" />
+          <stock id="lightcomponent" qty="5" />
+          <stock id="lightcomponent90" qty="5" />
+          <stock id="oxygendetector" qty="5" />
+          <stock id="waterdetector" qty="5" />
+          <stock id="smokedetector" qty="5" />
+          <stock id="motiondetector" qty="5" />
+          <stock id="signalcheckcomponent" qty="5" />
+          <stock id="regexcomponent" qty="5" />
+          <stock id="oscillator" qty="5" />
+          <stock id="wificomponent" qty="5" />
+          <stock id="emergencysiren" qty="5" />
+          <stock id="alarmbuzzer" qty="5" />
+          <stock id="genesplicer" qty="5" />
+          <stock id="magnesium" qty="4" />
+          <stock id="steel" qty="10" />
+          <stock id="plastic" qty="26" />
+          <stock id="organicfiber" qty="8" />
+          <stock id="rubber" qty="13" />
+          <stock id="flashpowder" qty="4" />
+          <stock id="fiberplant" qty="3" />
+          <stock id="elastinplant" qty="3" />
+          <stock id="aquaticpoppy" qty="1" />
+          <stock id="yeastshroom" qty="1" />
+          <stock id="antibleeding1" qty="30" />
+          <stock id="antibleeding2" qty="15" />
+          <stock id="antibleeding3" qty="10" />
+          <stock id="antidama1" qty="16" />
+          <stock id="antidama2" qty="4" />
+          <stock id="pomegrenadeextract" qty="4" />
+          <stock id="antibloodloss1" qty="18" />
+          <stock id="antibloodloss2" qty="6" />
+          <stock id="liquidoxygenite" qty="3" />
           <stock id="calyxanide" qty="5" />
           <stock id="antipsychosis" qty="5" />
           <stock id="antinarc" qty="5" />
@@ -415,69 +979,103 @@
           <stock id="sufforinantidote" qty="2" />
           <stock id="deliriumineantidote" qty="2" />
           <stock id="antirad" qty="2" />
-          <stock id="opium" qty="4" />
-          <stock id="antibiotics" qty="6" />
-          <stock id="stabilozine" qty="6" />
+          <stock id="elastin" qty="6" />
+          <stock id="opium" qty="6" />
+          <stock id="antibiotics" qty="4" />
           <stock id="antiparalysis" qty="2" />
-          <stock id="tonicliquid" qty="3" />
-          <stock id="ethanol" qty="6" />
+          <stock id="morbusine" qty="1" />
+          <stock id="chloralhydrate" qty="1" />
+          <stock id="cyanide" qty="1" />
+          <stock id="radiotoxin" qty="1" />
+          <stock id="sufforin" qty="1" />
+          <stock id="deliriumine" qty="1" />
+          <stock id="paralyzant" qty="1" />
+          <stock id="raptorbaneextract" qty="1" />
+          <stock id="tonicliquid" qty="7" />
+          <stock id="meth" qty="2" />
+          <stock id="steroids" qty="1" />
+          <stock id="ethanol" qty="8" />
           <stock id="guitar" qty="1" />
           <stock id="harmonica" qty="1" />
           <stock id="accordion" qty="1" />
           <stock id="captainspipe" qty="5" />
-          <stock id="pipetobacco" qty="1" />
-          <stock id="bikehorn" qty="1" />
-          <stock id="toolbelt" qty="4" />
-          <stock id="toolbox" qty="4" />
-          <stock id="weldingtool" qty="3" />
-          <stock id="plasmacutter" qty="3" />
-          <stock id="weldingfueltank" qty="6" />
-          <stock id="extinguisher" qty="3" />
-          <stock id="sprayer" qty="3" />
-          <stock id="screwdriver" qty="10" />
-          <stock id="wrench" qty="10" />
-          <stock id="crowbar" qty="10" />
-          <stock id="handheldsonar" qty="1" />
-          <stock id="flashlight" qty="2" />
-          <stock id="flare" qty="6" />
-          <stock id="oxygentank" qty="10" />
-          <stock id="fuelrod" qty="2" />
+          <stock id="pipetobacco" qty="2" />
+          <stock id="bikehorn" qty="2" />
+          <stock id="toolbelt" qty="6" />
+          <stock id="toolbox" qty="6" />
+          <stock id="weldingtool" qty="5" />
+          <stock id="plasmacutter" qty="5" />
+          <stock id="weldingfueltank" qty="7" />
+          <stock id="extinguisher" qty="4" />
+          <stock id="sprayer" qty="5" />
+          <stock id="screwdriver" qty="15" />
+          <stock id="wrench" qty="16" />
+          <stock id="crowbar" qty="15" />
+          <stock id="handheldsonar" qty="2" />
+          <stock id="sonarbeacon" qty="1" />
+          <stock id="flashlight" qty="3" />
+          <stock id="flare" qty="10" />
+          <stock id="syringegun" qty="1" />
+          <stock id="oxygentank" qty="16" />
+          <stock id="fuelrod" qty="3" />
+          <stock id="thoriumfuelrod" qty="1" />
           <stock id="redpaint" qty="2" />
           <stock id="greenpaint" qty="2" />
           <stock id="bluepaint" qty="2" />
           <stock id="blackpaint" qty="2" />
           <stock id="whitepaint" qty="2" />
-          <stock id="glowstick" qty="6" />
-          <stock id="depthchargeshell" qty="1" />
-          <stock id="uex" qty="2" />
-          <stock id="railgunshell" qty="3" />
-          <stock id="harpoongun" qty="1" />
-          <stock id="revolverround" qty="6" />
-          <stock id="divingknife" qty="6" />
+          <stock id="glowstick" qty="10" />
+          <stock id="depthchargeshell" qty="2" />
+          <stock id="depthdecoyshell" qty="2" />
+          <stock id="uex" qty="4" />
+          <stock id="c4block" qty="2" />
+          <stock id="compoundn" qty="2" />
+          <stock id="detonator" qty="1" />
+          <stock id="nitroglycerin" qty="2" />
+          <stock id="railgunshell" qty="4" />
+          <stock id="spear" qty="6" />
+          <stock id="explosivespear" qty="3" />
+          <stock id="harpoongun" qty="2" />
+          <stock id="revolverround" qty="12" />
+          <stock id="revolver" qty="1" />
+          <stock id="smgmagazine" qty="2" />
+          <stock id="smg" qty="1" />
+          <stock id="stungrenade" qty="3" />
+          <stock id="empgrenade" qty="1" />
+          <stock id="fraggrenade" qty="2" />
+          <stock id="stunbaton" qty="2" />
+          <stock id="divingknife" qty="8" />
+          <stock id="shotgun" qty="1" />
+          <stock id="shotgunshell" qty="4" />
+          <stock id="stungun" qty="2" />
+          <stock id="stungundart" qty="3" />
           <stock id="toyhammer" qty="1" />
+          <stock id="peanutegg" qty="1" />
+          <stock id="psilotoadegg" qty="1" />
+          <stock id="orangeboyegg" qty="1" />
           <stock id="food" qty="5" />
           <stock id="petnametag" qty="5" />
-          <stock id="smallplanter" qty="1" />
+          <stock id="creepingorangevineseed" qty="1" />
+          <stock id="saltvineseed" qty="1" />
           <stock id="wateringcan" qty="1" />
           <stock id="fertilizer" qty="1" />
           <stock id="seedbag" qty="1" />
           <dailyspecials>
-            <item id="powcomponent" />
-            <item id="dividecomponent" />
-            <item id="organicfiber" />
+            <item id="oxygendetector" />
+            <item id="ballisticfiber" />
+            <item id="coscomponent" />
           </dailyspecials>
           <requestedgoods>
-            <item id="railgunshell" />
-            <item id="pyromorphite" />
-            <item id="detonator" />
+            <item id="coilgunammobox" />
+            <item id="alarmbuzzer" />
+            <item id="smgmagazinedepletedfuel" />
           </requestedgoods>
         </store>
-      </location>
-      <location type="None" originaltype="None" basename="Yelland Linea" name="Yelland Linea" discovered="false" position="2853.978,236.25139" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" proximitytimer0-0="0" proximitytimer0-1="0" proximitytimer0-2="0" i="39">
-        <Level seed="Yelland Linea" biome="theaphoticplateau" type="Outpost" difficulty="35.674725" size="40000,40000" generationparams="outpostlevel" initialdepth="194656" />
-      </location>
-      <location type="City" originaltype="City" basename="Gangpo" name="Gangpo" discovered="false" position="416.61346,248.48349" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="40">
-        <Level seed="Gangpo" biome="coldcaverns" type="Outpost" difficulty="5.2076683" size="40000,40000" generationparams="outpostlevel" initialdepth="134554" />
+        <missions>
+          <mission prefabid="killmoloch" destinationindex="56" selected="true" />
+          <mission prefabid="crawlernest" destinationindex="8" selected="false" />
+          <mission prefabid="escort1" destinationindex="38" selected="false" />
+        </missions>
       </location>
       <location type="Abandoned" originaltype="Abandoned" basename="Uusi-Turcu" name="Uusi-Turcu Outpost" discovered="false" position="5846.56,239.65907" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="41">
         <Level seed="Uusi-Turcu" biome="hydrothermalwastes" type="Outpost" difficulty="73.082" size="40000,40000" generationparams="outpostlevel" initialdepth="162223" />
@@ -527,9 +1125,9 @@
       <location type="None" originaltype="None" basename="Udaeus Linea" name="Udaeus Linea" discovered="false" position="6370.3623,322.23492" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" proximitytimer0-0="0" proximitytimer0-1="0" proximitytimer0-2="0" i="52">
         <Level seed="Udaeus Linea" biome="hydrothermalwastes" type="Outpost" difficulty="79.62953" size="40000,40000" generationparams="outpostlevel" initialdepth="122652" />
       </location>
-      <location type="City" originaltype="City" basename="Shinkonai" name="Shinkonai City" discovered="true" position="134.28809,336.484" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="14" turnsinradiation="0" i="53">
+      <location type="City" originaltype="City" basename="Shinkonai" name="Shinkonai City" discovered="true" position="134.28809,336.484" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="23" turnsinradiation="0" i="53">
         <Level seed="Shinkonai" biome="coldcaverns" type="Outpost" difficulty="1.6786011" size="40000,40000" generationparams="outpostlevel" initialdepth="104606" eventhistory="givingdirections,healreaperstax,missionevent_cargo,missionevent_salvagewreck,missionevent_tigerthreshernest,missionevent_pirate1" nonrepeatableevents="givingdirections,clownrelations1,goodsamaritan,propaganda,miketheidiot1,separatistrelations,Engineers_are_special,huskcultist,fanclub,atwitsend,shockjock,assassinationofjacovsubra2,infiltration,manandhisraptor1,bombscare,terrorism101,censorship" />
-        <store balance="6035" pricemodifier="0" stepssincespecialsupdated="2">
+        <store balance="6035" pricemodifier="-3" stepssincespecialsupdated="2">
           <stock id="button" qty="10" />
           <stock id="switch" qty="10" />
           <stock id="lever" qty="10" />
@@ -581,55 +1179,55 @@
           <stock id="underwaterscooter" qty="6" />
           <stock id="batterycell" qty="9" />
           <stock id="fulguriumbatterycell" qty="1" />
-          <stock id="wire" qty="19" />
-          <stock id="redwire" qty="19" />
-          <stock id="bluewire" qty="19" />
-          <stock id="orangewire" qty="19" />
-          <stock id="greenwire" qty="19" />
-          <stock id="blackwire" qty="19" />
-          <stock id="brownwire" qty="19" />
-          <stock id="fpgacircuit" qty="19" />
-          <stock id="andcomponent" qty="19" />
-          <stock id="equalscomponent" qty="19" />
-          <stock id="greatercomponent" qty="19" />
-          <stock id="addercomponent" qty="19" />
-          <stock id="colorcomponent" qty="19" />
-          <stock id="subtractcomponent" qty="19" />
-          <stock id="multiplycomponent" qty="19" />
-          <stock id="dividecomponent" qty="19" />
-          <stock id="powcomponent" qty="19" />
-          <stock id="orcomponent" qty="19" />
-          <stock id="xorcomponent" qty="19" />
-          <stock id="notcomponent" qty="19" />
-          <stock id="concatcomponent" qty="19" />
-          <stock id="sincomponent" qty="19" />
-          <stock id="coscomponent" qty="19" />
-          <stock id="tancomponent" qty="19" />
-          <stock id="asincomponent" qty="19" />
-          <stock id="acoscomponent" qty="19" />
-          <stock id="atancomponent" qty="19" />
-          <stock id="roundcomponent" qty="19" />
-          <stock id="ceilcomponent" qty="19" />
-          <stock id="floorcomponent" qty="19" />
-          <stock id="factorialcomponent" qty="19" />
-          <stock id="abscomponent" qty="19" />
-          <stock id="squarerootcomponent" qty="19" />
-          <stock id="modulocomponent" qty="19" />
-          <stock id="relaycomponent" qty="19" />
-          <stock id="delaycomponent" qty="19" />
-          <stock id="memorycomponent" qty="19" />
-          <stock id="lightcomponent" qty="19" />
-          <stock id="lightcomponent90" qty="19" />
-          <stock id="oxygendetector" qty="19" />
-          <stock id="waterdetector" qty="19" />
-          <stock id="smokedetector" qty="19" />
-          <stock id="motiondetector" qty="19" />
-          <stock id="signalcheckcomponent" qty="19" />
-          <stock id="regexcomponent" qty="19" />
-          <stock id="oscillator" qty="19" />
-          <stock id="wificomponent" qty="19" />
-          <stock id="emergencysiren" qty="19" />
-          <stock id="alarmbuzzer" qty="19" />
+          <stock id="wire" qty="28" />
+          <stock id="redwire" qty="28" />
+          <stock id="bluewire" qty="28" />
+          <stock id="orangewire" qty="28" />
+          <stock id="greenwire" qty="28" />
+          <stock id="blackwire" qty="28" />
+          <stock id="brownwire" qty="28" />
+          <stock id="fpgacircuit" qty="28" />
+          <stock id="andcomponent" qty="28" />
+          <stock id="equalscomponent" qty="28" />
+          <stock id="greatercomponent" qty="28" />
+          <stock id="addercomponent" qty="28" />
+          <stock id="colorcomponent" qty="28" />
+          <stock id="subtractcomponent" qty="28" />
+          <stock id="multiplycomponent" qty="28" />
+          <stock id="dividecomponent" qty="28" />
+          <stock id="powcomponent" qty="28" />
+          <stock id="orcomponent" qty="28" />
+          <stock id="xorcomponent" qty="28" />
+          <stock id="notcomponent" qty="28" />
+          <stock id="concatcomponent" qty="28" />
+          <stock id="sincomponent" qty="28" />
+          <stock id="coscomponent" qty="28" />
+          <stock id="tancomponent" qty="28" />
+          <stock id="asincomponent" qty="28" />
+          <stock id="acoscomponent" qty="28" />
+          <stock id="atancomponent" qty="28" />
+          <stock id="roundcomponent" qty="28" />
+          <stock id="ceilcomponent" qty="28" />
+          <stock id="floorcomponent" qty="28" />
+          <stock id="factorialcomponent" qty="28" />
+          <stock id="abscomponent" qty="28" />
+          <stock id="squarerootcomponent" qty="28" />
+          <stock id="modulocomponent" qty="28" />
+          <stock id="relaycomponent" qty="28" />
+          <stock id="delaycomponent" qty="28" />
+          <stock id="memorycomponent" qty="28" />
+          <stock id="lightcomponent" qty="28" />
+          <stock id="lightcomponent90" qty="28" />
+          <stock id="oxygendetector" qty="28" />
+          <stock id="waterdetector" qty="28" />
+          <stock id="smokedetector" qty="28" />
+          <stock id="motiondetector" qty="28" />
+          <stock id="signalcheckcomponent" qty="28" />
+          <stock id="regexcomponent" qty="28" />
+          <stock id="oscillator" qty="28" />
+          <stock id="wificomponent" qty="28" />
+          <stock id="emergencysiren" qty="28" />
+          <stock id="alarmbuzzer" qty="28" />
           <stock id="steel" qty="10" />
           <stock id="titaniumaluminiumalloy" qty="3" />
           <stock id="plastic" qty="10" />
@@ -676,7 +1274,7 @@
           <stock id="meth" qty="2" />
           <stock id="steroids" qty="1" />
           <stock id="ethanol" qty="8" />
-          <stock id="captainspipe" qty="19" />
+          <stock id="captainspipe" qty="28" />
           <stock id="pipetobacco" qty="2" />
           <stock id="toolbelt" qty="6" />
           <stock id="toolbox" qty="6" />
@@ -728,8 +1326,8 @@
           <stock id="peanutegg" qty="1" />
           <stock id="psilotoadegg" qty="1" />
           <stock id="orangeboyegg" qty="1" />
-          <stock id="food" qty="19" />
-          <stock id="petnametag" qty="19" />
+          <stock id="food" qty="28" />
+          <stock id="petnametag" qty="28" />
           <stock id="creepingorangevineseed" qty="1" />
           <stock id="tobaccovineseed" qty="1" />
           <stock id="saltvineseed" qty="1" />
@@ -739,14 +1337,14 @@
           <stock id="fertilizer" qty="1" />
           <stock id="seedbag" qty="1" />
           <dailyspecials>
-            <item id="coscomponent" />
-            <item id="emergencysiren" />
-            <item id="flare" />
+            <item id="bluewire" />
+            <item id="oscillator" />
+            <item id="captainscap2" />
           </dailyspecials>
           <requestedgoods>
-            <item id="boardingaxe" />
-            <item id="raptorbaneextract" />
-            <item id="ic4block" />
+            <item id="delaycomponent" />
+            <item id="notcomponent" />
+            <item id="crowbarhardened" />
           </requestedgoods>
         </store>
         <missions>
@@ -760,8 +1358,244 @@
       <location type="None" originaltype="None" basename="Pelagon Linea" name="Pelagon Linea" discovered="false" position="742.8043,370.93463" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" proximitytimer0-0="0" proximitytimer0-1="0" proximitytimer0-2="0" i="55">
         <Level seed="Pelagon Linea" biome="coldcaverns" type="Outpost" difficulty="9.285054" size="40000,40000" generationparams="outpostlevel" initialdepth="155756" />
       </location>
-      <location type="Military" originaltype="Military" basename="Phoenix Linea" name="Phoenix Linea Facility" discovered="false" position="460.79636,317.9309" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" proximitytimer0-0="0" proximitytimer1-0="0" i="56">
-        <Level seed="Phoenix Linea" biome="coldcaverns" type="Outpost" difficulty="5.7599545" size="40000,40000" generationparams="outpostlevel" initialdepth="114241" />
+      <location type="City" originaltype="City" basename="Phoenix Linea" name="Phoenix Linea" discovered="true" position="460.79636,317.9309" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="56">
+        <Level seed="Phoenix Linea" biome="coldcaverns" type="Outpost" difficulty="5.7599545" size="40000,40000" generationparams="outpostlevel" initialdepth="114241" eventhistory="goodsamaritan,healreaperstax,missionevent_salvage,missionevent_tigerthreshernest,missionevent_collectminerals" nonrepeatableevents="givingdirections,clownrelations1,goodsamaritan,propaganda,miketheidiot1,separatistrelations,Engineers_are_special,huskcultist,fanclub,atwitsend,bigbrother,shockjock,assassinationofjacovsubra2,assassinationofjacovsubra3,infiltration,manandhisraptor1,bombscare,terrorism101,censorship" />
+        <store balance="5727" pricemodifier="-3" stepssincespecialsupdated="1">
+          <stock id="button" qty="10" />
+          <stock id="switch" qty="10" />
+          <stock id="lever" qty="10" />
+          <stock id="coilgunammobox" qty="6" />
+          <stock id="coilgunammoboxexplosive" qty="1" />
+          <stock id="coilgunammoboxpiercing" qty="1" />
+          <stock id="railguncanistershell" qty="1" />
+          <stock id="chaingunammobox" qty="1" />
+          <stock id="artifacttransportcase" qty="6" />
+          <stock id="captainscap1" qty="1" />
+          <stock id="captainscap2" qty="1" />
+          <stock id="captainscap3" qty="1" />
+          <stock id="captainsuniform1" qty="1" />
+          <stock id="captainsuniform2" qty="1" />
+          <stock id="captainsuniform3" qty="1" />
+          <stock id="healthscanner" qty="1" />
+          <stock id="doctorsuniform1" qty="1" />
+          <stock id="doctorsuniform2" qty="1" />
+          <stock id="orangejumpsuit1" qty="1" />
+          <stock id="orangejumpsuit2" qty="1" />
+          <stock id="bluejumpsuit1" qty="1" />
+          <stock id="bluejumpsuit2" qty="1" />
+          <stock id="baseballcap" qty="3" />
+          <stock id="assistantclothes" qty="1" />
+          <stock id="securityuniform1" qty="1" />
+          <stock id="securityuniform2" qty="1" />
+          <stock id="securityuniform3" qty="1" />
+          <stock id="bodyarmor" qty="1" />
+          <stock id="ballistichelmet1" qty="1" />
+          <stock id="ballistichelmet2" qty="1" />
+          <stock id="ballistichelmet3" qty="1" />
+          <stock id="handcuffs" qty="2" />
+          <stock id="commonerclothes1" qty="1" />
+          <stock id="commonerclothes2" qty="1" />
+          <stock id="commonerclothes3" qty="1" />
+          <stock id="commonerclothes4" qty="1" />
+          <stock id="commonerclothes5" qty="1" />
+          <stock id="crewchiefclothes" qty="1" />
+          <stock id="medicalofficerclothes" qty="1" />
+          <stock id="minerclothes" qty="1" />
+          <stock id="quartermasterclothes" qty="1" />
+          <stock id="researcherclothes" qty="1" />
+          <stock id="securitypatrolclothes" qty="1" />
+          <stock id="administratorclothes" qty="1" />
+          <stock id="clownmask" qty="1" />
+          <stock id="clowncostume" qty="1" />
+          <stock id="headset" qty="10" />
+          <stock id="huskeggs" qty="1" />
+          <stock id="swimbladder" qty="2" />
+          <stock id="adrenalinegland" qty="2" />
+          <stock id="divingmask" qty="7" />
+          <stock id="divingsuit" qty="4" />
+          <stock id="underwaterscooter" qty="6" />
+          <stock id="batterycell" qty="9" />
+          <stock id="fulguriumbatterycell" qty="1" />
+          <stock id="wire" qty="9" />
+          <stock id="redwire" qty="9" />
+          <stock id="bluewire" qty="9" />
+          <stock id="orangewire" qty="9" />
+          <stock id="greenwire" qty="9" />
+          <stock id="blackwire" qty="9" />
+          <stock id="brownwire" qty="9" />
+          <stock id="fpgacircuit" qty="9" />
+          <stock id="andcomponent" qty="9" />
+          <stock id="equalscomponent" qty="9" />
+          <stock id="greatercomponent" qty="9" />
+          <stock id="addercomponent" qty="9" />
+          <stock id="colorcomponent" qty="9" />
+          <stock id="subtractcomponent" qty="9" />
+          <stock id="multiplycomponent" qty="9" />
+          <stock id="dividecomponent" qty="9" />
+          <stock id="powcomponent" qty="9" />
+          <stock id="orcomponent" qty="9" />
+          <stock id="xorcomponent" qty="9" />
+          <stock id="notcomponent" qty="9" />
+          <stock id="concatcomponent" qty="9" />
+          <stock id="sincomponent" qty="9" />
+          <stock id="coscomponent" qty="9" />
+          <stock id="tancomponent" qty="9" />
+          <stock id="asincomponent" qty="9" />
+          <stock id="acoscomponent" qty="9" />
+          <stock id="atancomponent" qty="9" />
+          <stock id="roundcomponent" qty="9" />
+          <stock id="ceilcomponent" qty="9" />
+          <stock id="floorcomponent" qty="9" />
+          <stock id="factorialcomponent" qty="9" />
+          <stock id="abscomponent" qty="9" />
+          <stock id="squarerootcomponent" qty="9" />
+          <stock id="modulocomponent" qty="9" />
+          <stock id="relaycomponent" qty="9" />
+          <stock id="delaycomponent" qty="9" />
+          <stock id="memorycomponent" qty="9" />
+          <stock id="lightcomponent" qty="9" />
+          <stock id="lightcomponent90" qty="9" />
+          <stock id="oxygendetector" qty="9" />
+          <stock id="waterdetector" qty="9" />
+          <stock id="smokedetector" qty="9" />
+          <stock id="motiondetector" qty="9" />
+          <stock id="signalcheckcomponent" qty="9" />
+          <stock id="regexcomponent" qty="9" />
+          <stock id="oscillator" qty="9" />
+          <stock id="wificomponent" qty="9" />
+          <stock id="emergencysiren" qty="9" />
+          <stock id="alarmbuzzer" qty="9" />
+          <stock id="genesplicer" qty="6" />
+          <stock id="magnesium" qty="4" />
+          <stock id="steel" qty="10" />
+          <stock id="titaniumaluminiumalloy" qty="3" />
+          <stock id="plastic" qty="10" />
+          <stock id="ballisticfiber" qty="2" />
+          <stock id="organicfiber" qty="8" />
+          <stock id="rubber" qty="13" />
+          <stock id="flashpowder" qty="4" />
+          <stock id="fiberplant" qty="3" />
+          <stock id="elastinplant" qty="3" />
+          <stock id="aquaticpoppy" qty="1" />
+          <stock id="yeastshroom" qty="1" />
+          <stock id="slimebacteria" qty="1" />
+          <stock id="antibleeding1" qty="30" />
+          <stock id="antibleeding2" qty="15" />
+          <stock id="antibleeding3" qty="10" />
+          <stock id="antidama1" qty="16" />
+          <stock id="antidama2" qty="4" />
+          <stock id="pomegrenadeextract" qty="4" />
+          <stock id="antibloodloss1" qty="18" />
+          <stock id="antibloodloss2" qty="6" />
+          <stock id="liquidoxygenite" qty="3" />
+          <stock id="calyxanide" qty="5" />
+          <stock id="antipsychosis" qty="5" />
+          <stock id="antinarc" qty="5" />
+          <stock id="morbusineantidote" qty="2" />
+          <stock id="cyanideantidote" qty="2" />
+          <stock id="sufforinantidote" qty="2" />
+          <stock id="deliriumineantidote" qty="2" />
+          <stock id="antirad" qty="2" />
+          <stock id="elastin" qty="6" />
+          <stock id="opium" qty="6" />
+          <stock id="antibiotics" qty="12" />
+          <stock id="stabilozine" qty="10" />
+          <stock id="antiparalysis" qty="2" />
+          <stock id="morbusine" qty="1" />
+          <stock id="chloralhydrate" qty="1" />
+          <stock id="cyanide" qty="1" />
+          <stock id="radiotoxin" qty="1" />
+          <stock id="sufforin" qty="1" />
+          <stock id="deliriumine" qty="1" />
+          <stock id="paralyzant" qty="1" />
+          <stock id="raptorbaneextract" qty="1" />
+          <stock id="tonicliquid" qty="7" />
+          <stock id="meth" qty="2" />
+          <stock id="steroids" qty="1" />
+          <stock id="ethanol" qty="8" />
+          <stock id="guitar" qty="1" />
+          <stock id="harmonica" qty="1" />
+          <stock id="accordion" qty="1" />
+          <stock id="captainspipe" qty="9" />
+          <stock id="pipetobacco" qty="2" />
+          <stock id="bikehorn" qty="1" />
+          <stock id="toolbelt" qty="6" />
+          <stock id="toolbox" qty="6" />
+          <stock id="weldingtool" qty="5" />
+          <stock id="plasmacutter" qty="5" />
+          <stock id="weldingfueltank" qty="7" />
+          <stock id="extinguisher" qty="4" />
+          <stock id="sprayer" qty="5" />
+          <stock id="screwdriver" qty="15" />
+          <stock id="wrench" qty="15" />
+          <stock id="crowbar" qty="15" />
+          <stock id="handheldsonar" qty="2" />
+          <stock id="sonarbeacon" qty="1" />
+          <stock id="flashlight" qty="3" />
+          <stock id="flare" qty="10" />
+          <stock id="syringegun" qty="1" />
+          <stock id="oxygentank" qty="15" />
+          <stock id="fuelrod" qty="3" />
+          <stock id="thoriumfuelrod" qty="1" />
+          <stock id="redpaint" qty="2" />
+          <stock id="greenpaint" qty="2" />
+          <stock id="bluepaint" qty="2" />
+          <stock id="blackpaint" qty="2" />
+          <stock id="whitepaint" qty="2" />
+          <stock id="glowstick" qty="10" />
+          <stock id="depthchargeshell" qty="2" />
+          <stock id="depthdecoyshell" qty="2" />
+          <stock id="uex" qty="4" />
+          <stock id="c4block" qty="2" />
+          <stock id="compoundn" qty="2" />
+          <stock id="detonator" qty="1" />
+          <stock id="nitroglycerin" qty="2" />
+          <stock id="railgunshell" qty="4" />
+          <stock id="spear" qty="6" />
+          <stock id="explosivespear" qty="3" />
+          <stock id="harpoongun" qty="2" />
+          <stock id="revolverround" qty="12" />
+          <stock id="revolver" qty="1" />
+          <stock id="smgmagazine" qty="2" />
+          <stock id="smg" qty="1" />
+          <stock id="stungrenade" qty="3" />
+          <stock id="empgrenade" qty="1" />
+          <stock id="fraggrenade" qty="2" />
+          <stock id="stunbaton" qty="2" />
+          <stock id="divingknife" qty="8" />
+          <stock id="shotgun" qty="1" />
+          <stock id="shotgunshell" qty="4" />
+          <stock id="stungun" qty="2" />
+          <stock id="stungundart" qty="3" />
+          <stock id="toyhammer" qty="1" />
+          <stock id="peanutegg" qty="1" />
+          <stock id="psilotoadegg" qty="1" />
+          <stock id="orangeboyegg" qty="1" />
+          <stock id="food" qty="9" />
+          <stock id="petnametag" qty="9" />
+          <stock id="creepingorangevineseed" qty="1" />
+          <stock id="tobaccovineseed" qty="1" />
+          <stock id="saltvineseed" qty="1" />
+          <stock id="raptorbaneseed" qty="1" />
+          <stock id="smallplanter" qty="1" />
+          <stock id="wateringcan" qty="1" />
+          <stock id="fertilizer" qty="1" />
+          <stock id="seedbag" qty="1" />
+          <dailyspecials>
+            <item id="whitepaint" />
+            <item id="captainscap3" />
+            <item id="sprayer" />
+          </dailyspecials>
+          <requestedgoods>
+            <item id="revolverround" />
+            <item id="antibleeding3" />
+            <item id="magnesium" />
+          </requestedgoods>
+        </store>
+        <missions>
+          <mission prefabid="tigerthreshernest" destinationindex="19" selected="false" />
+          <mission prefabid="uraniumcollection" destinationindex="71" selected="false" />
+        </missions>
       </location>
       <location type="Abandoned" originaltype="Abandoned" basename="Brunhes" name="Brunhes Outpost" discovered="false" position="3452.3396,393.14935" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="57">
         <Level seed="Brunhes" biome="theaphoticplateau" type="Outpost" difficulty="43.154247" size="40000,40000" generationparams="outpostlevel" initialdepth="186677" />
@@ -1253,8 +2087,240 @@
           </requestedgoods>
         </store>
       </location>
-      <location type="None" originaltype="None" basename="Phoenix Linea" name="Phoenix Linea" discovered="false" position="377.02878,444.86813" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" proximitytimer0-0="0" proximitytimer0-1="0" proximitytimer0-2="0" i="71">
+      <location type="City" originaltype="City" basename="Phoenix Linea" name="Phoenix Linea" discovered="true" position="377.02878,444.86813" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="2" turnsinradiation="0" i="71">
         <Level seed="Phoenix Linea" biome="coldcaverns" type="Outpost" difficulty="4.7128596" size="40000,40000" generationparams="outpostlevel" initialdepth="114241" />
+        <store balance="5000" pricemodifier="3" stepssincespecialsupdated="0">
+          <stock id="button" qty="10" />
+          <stock id="switch" qty="10" />
+          <stock id="lever" qty="10" />
+          <stock id="coilgunammobox" qty="6" />
+          <stock id="coilgunammoboxexplosive" qty="1" />
+          <stock id="coilgunammoboxpiercing" qty="1" />
+          <stock id="railguncanistershell" qty="1" />
+          <stock id="chaingunammobox" qty="1" />
+          <stock id="artifacttransportcase" qty="6" />
+          <stock id="captainscap1" qty="1" />
+          <stock id="captainscap2" qty="1" />
+          <stock id="captainscap3" qty="1" />
+          <stock id="captainsuniform1" qty="1" />
+          <stock id="captainsuniform2" qty="1" />
+          <stock id="captainsuniform3" qty="1" />
+          <stock id="healthscanner" qty="1" />
+          <stock id="doctorsuniform1" qty="1" />
+          <stock id="doctorsuniform2" qty="1" />
+          <stock id="orangejumpsuit1" qty="1" />
+          <stock id="orangejumpsuit2" qty="1" />
+          <stock id="bluejumpsuit1" qty="1" />
+          <stock id="bluejumpsuit2" qty="1" />
+          <stock id="baseballcap" qty="3" />
+          <stock id="assistantclothes" qty="1" />
+          <stock id="securityuniform1" qty="1" />
+          <stock id="securityuniform2" qty="1" />
+          <stock id="securityuniform3" qty="1" />
+          <stock id="bodyarmor" qty="1" />
+          <stock id="ballistichelmet1" qty="1" />
+          <stock id="ballistichelmet2" qty="1" />
+          <stock id="ballistichelmet3" qty="1" />
+          <stock id="handcuffs" qty="2" />
+          <stock id="commonerclothes1" qty="1" />
+          <stock id="commonerclothes2" qty="1" />
+          <stock id="commonerclothes3" qty="1" />
+          <stock id="commonerclothes4" qty="1" />
+          <stock id="commonerclothes5" qty="1" />
+          <stock id="crewchiefclothes" qty="1" />
+          <stock id="medicalofficerclothes" qty="1" />
+          <stock id="minerclothes" qty="1" />
+          <stock id="quartermasterclothes" qty="1" />
+          <stock id="researcherclothes" qty="1" />
+          <stock id="securitypatrolclothes" qty="1" />
+          <stock id="administratorclothes" qty="1" />
+          <stock id="clownmask" qty="1" />
+          <stock id="clowncostume" qty="1" />
+          <stock id="headset" qty="10" />
+          <stock id="huskeggs" qty="1" />
+          <stock id="swimbladder" qty="2" />
+          <stock id="adrenalinegland" qty="2" />
+          <stock id="divingmask" qty="7" />
+          <stock id="divingsuit" qty="4" />
+          <stock id="underwaterscooter" qty="6" />
+          <stock id="batterycell" qty="9" />
+          <stock id="fulguriumbatterycell" qty="1" />
+          <stock id="wire" qty="13" />
+          <stock id="redwire" qty="13" />
+          <stock id="bluewire" qty="13" />
+          <stock id="orangewire" qty="13" />
+          <stock id="greenwire" qty="13" />
+          <stock id="blackwire" qty="13" />
+          <stock id="brownwire" qty="13" />
+          <stock id="fpgacircuit" qty="13" />
+          <stock id="andcomponent" qty="13" />
+          <stock id="equalscomponent" qty="13" />
+          <stock id="greatercomponent" qty="13" />
+          <stock id="addercomponent" qty="13" />
+          <stock id="colorcomponent" qty="13" />
+          <stock id="subtractcomponent" qty="13" />
+          <stock id="multiplycomponent" qty="13" />
+          <stock id="dividecomponent" qty="13" />
+          <stock id="powcomponent" qty="13" />
+          <stock id="orcomponent" qty="13" />
+          <stock id="xorcomponent" qty="13" />
+          <stock id="notcomponent" qty="13" />
+          <stock id="concatcomponent" qty="13" />
+          <stock id="sincomponent" qty="13" />
+          <stock id="coscomponent" qty="13" />
+          <stock id="tancomponent" qty="13" />
+          <stock id="asincomponent" qty="13" />
+          <stock id="acoscomponent" qty="13" />
+          <stock id="atancomponent" qty="13" />
+          <stock id="roundcomponent" qty="13" />
+          <stock id="ceilcomponent" qty="13" />
+          <stock id="floorcomponent" qty="13" />
+          <stock id="factorialcomponent" qty="13" />
+          <stock id="abscomponent" qty="13" />
+          <stock id="squarerootcomponent" qty="13" />
+          <stock id="modulocomponent" qty="13" />
+          <stock id="relaycomponent" qty="13" />
+          <stock id="delaycomponent" qty="13" />
+          <stock id="memorycomponent" qty="13" />
+          <stock id="lightcomponent" qty="13" />
+          <stock id="lightcomponent90" qty="13" />
+          <stock id="oxygendetector" qty="13" />
+          <stock id="waterdetector" qty="13" />
+          <stock id="smokedetector" qty="13" />
+          <stock id="motiondetector" qty="13" />
+          <stock id="signalcheckcomponent" qty="13" />
+          <stock id="regexcomponent" qty="13" />
+          <stock id="oscillator" qty="13" />
+          <stock id="wificomponent" qty="13" />
+          <stock id="emergencysiren" qty="13" />
+          <stock id="alarmbuzzer" qty="13" />
+          <stock id="genesplicer" qty="8" />
+          <stock id="magnesium" qty="4" />
+          <stock id="steel" qty="10" />
+          <stock id="titaniumaluminiumalloy" qty="3" />
+          <stock id="plastic" qty="10" />
+          <stock id="ballisticfiber" qty="2" />
+          <stock id="organicfiber" qty="8" />
+          <stock id="rubber" qty="13" />
+          <stock id="flashpowder" qty="4" />
+          <stock id="fiberplant" qty="3" />
+          <stock id="elastinplant" qty="3" />
+          <stock id="aquaticpoppy" qty="1" />
+          <stock id="yeastshroom" qty="1" />
+          <stock id="slimebacteria" qty="1" />
+          <stock id="antibleeding1" qty="30" />
+          <stock id="antibleeding2" qty="15" />
+          <stock id="antibleeding3" qty="10" />
+          <stock id="antidama1" qty="16" />
+          <stock id="antidama2" qty="4" />
+          <stock id="pomegrenadeextract" qty="4" />
+          <stock id="antibloodloss1" qty="18" />
+          <stock id="antibloodloss2" qty="6" />
+          <stock id="liquidoxygenite" qty="3" />
+          <stock id="calyxanide" qty="5" />
+          <stock id="antipsychosis" qty="5" />
+          <stock id="antinarc" qty="5" />
+          <stock id="morbusineantidote" qty="2" />
+          <stock id="cyanideantidote" qty="2" />
+          <stock id="sufforinantidote" qty="2" />
+          <stock id="deliriumineantidote" qty="2" />
+          <stock id="antirad" qty="2" />
+          <stock id="elastin" qty="6" />
+          <stock id="opium" qty="6" />
+          <stock id="antibiotics" qty="12" />
+          <stock id="stabilozine" qty="10" />
+          <stock id="antiparalysis" qty="2" />
+          <stock id="morbusine" qty="1" />
+          <stock id="chloralhydrate" qty="1" />
+          <stock id="cyanide" qty="1" />
+          <stock id="radiotoxin" qty="1" />
+          <stock id="sufforin" qty="1" />
+          <stock id="deliriumine" qty="1" />
+          <stock id="paralyzant" qty="1" />
+          <stock id="raptorbaneextract" qty="1" />
+          <stock id="tonicliquid" qty="7" />
+          <stock id="meth" qty="2" />
+          <stock id="steroids" qty="1" />
+          <stock id="ethanol" qty="8" />
+          <stock id="guitar" qty="1" />
+          <stock id="harmonica" qty="1" />
+          <stock id="accordion" qty="1" />
+          <stock id="captainspipe" qty="13" />
+          <stock id="pipetobacco" qty="2" />
+          <stock id="bikehorn" qty="1" />
+          <stock id="toolbelt" qty="6" />
+          <stock id="toolbox" qty="6" />
+          <stock id="weldingtool" qty="5" />
+          <stock id="plasmacutter" qty="5" />
+          <stock id="weldingfueltank" qty="7" />
+          <stock id="extinguisher" qty="4" />
+          <stock id="sprayer" qty="5" />
+          <stock id="screwdriver" qty="15" />
+          <stock id="wrench" qty="15" />
+          <stock id="crowbar" qty="15" />
+          <stock id="handheldsonar" qty="2" />
+          <stock id="sonarbeacon" qty="1" />
+          <stock id="flashlight" qty="3" />
+          <stock id="flare" qty="10" />
+          <stock id="syringegun" qty="1" />
+          <stock id="oxygentank" qty="15" />
+          <stock id="fuelrod" qty="3" />
+          <stock id="thoriumfuelrod" qty="1" />
+          <stock id="redpaint" qty="2" />
+          <stock id="greenpaint" qty="2" />
+          <stock id="bluepaint" qty="2" />
+          <stock id="blackpaint" qty="2" />
+          <stock id="whitepaint" qty="2" />
+          <stock id="glowstick" qty="10" />
+          <stock id="depthchargeshell" qty="2" />
+          <stock id="depthdecoyshell" qty="2" />
+          <stock id="uex" qty="4" />
+          <stock id="c4block" qty="2" />
+          <stock id="compoundn" qty="2" />
+          <stock id="detonator" qty="1" />
+          <stock id="nitroglycerin" qty="2" />
+          <stock id="railgunshell" qty="4" />
+          <stock id="spear" qty="6" />
+          <stock id="explosivespear" qty="3" />
+          <stock id="harpoongun" qty="2" />
+          <stock id="revolverround" qty="12" />
+          <stock id="revolver" qty="1" />
+          <stock id="smgmagazine" qty="2" />
+          <stock id="smg" qty="1" />
+          <stock id="stungrenade" qty="3" />
+          <stock id="empgrenade" qty="1" />
+          <stock id="fraggrenade" qty="2" />
+          <stock id="stunbaton" qty="2" />
+          <stock id="divingknife" qty="8" />
+          <stock id="shotgun" qty="1" />
+          <stock id="shotgunshell" qty="4" />
+          <stock id="stungun" qty="2" />
+          <stock id="stungundart" qty="3" />
+          <stock id="toyhammer" qty="1" />
+          <stock id="peanutegg" qty="1" />
+          <stock id="psilotoadegg" qty="1" />
+          <stock id="orangeboyegg" qty="1" />
+          <stock id="food" qty="13" />
+          <stock id="petnametag" qty="13" />
+          <stock id="creepingorangevineseed" qty="1" />
+          <stock id="tobaccovineseed" qty="1" />
+          <stock id="saltvineseed" qty="1" />
+          <stock id="raptorbaneseed" qty="1" />
+          <stock id="smallplanter" qty="1" />
+          <stock id="wateringcan" qty="1" />
+          <stock id="fertilizer" qty="1" />
+          <stock id="seedbag" qty="1" />
+          <dailyspecials>
+            <item id="weldingfueltank" />
+            <item id="flashpowder" />
+            <item id="coilgunammoboxpiercing" />
+          </dailyspecials>
+          <requestedgoods>
+            <item id="addercomponent" />
+            <item id="balloonegg" />
+            <item id="langbeinite" />
+          </requestedgoods>
+        </store>
       </location>
       <location type="None" originaltype="None" basename="Phineus Linea" name="Phineus Linea" discovered="false" position="4409.8833,443.18066" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" proximitytimer0-0="0" proximitytimer0-1="0" proximitytimer0-2="0" i="72">
         <Level seed="Phineus Linea" biome="thegreatsea" type="Outpost" difficulty="55.123543" size="40000,40000" generationparams="outpostlevel" initialdepth="132693" />
@@ -1307,7 +2373,7 @@
       <location type="None" originaltype="None" basename="Tormsdale Linea" name="Tormsdale Linea" discovered="false" position="790.8766,583.0928" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" proximitytimer0-0="0" proximitytimer0-1="0" proximitytimer0-2="0" i="88">
         <Level seed="Tormsdale Linea" biome="coldcaverns" type="Outpost" difficulty="9.885957" size="40000,40000" generationparams="outpostlevel" initialdepth="115921" />
       </location>
-      <location type="City" originaltype="City" basename="Couwola" name="The city of Couwola" discovered="true" position="93.3482,554.0932" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="6" turnsinradiation="0" i="89">
+      <location type="City" originaltype="City" basename="Couwola" name="The city of Couwola" discovered="true" position="93.3482,554.0932" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="15" turnsinradiation="0" i="89">
         <Level seed="Couwola" biome="coldcaverns" type="Outpost" difficulty="1.1668525" size="40000,40000" generationparams="outpostlevel" initialdepth="142026" eventhistory="huskcultist,assassinationofjacovsubra3,healreaperstax,missionevent_killmonster,missionevent_cargo,missionevent_salvage,missionevent_cargoany,missionevent_killswarm,missionevent_killmonstercommon,missionevent_salvageartifact,missionevent_salvagewreck,missionevent_crawlernest,missionevent_mudraptornest,missionevent_tigerthreshernest,missionevent_collectminerals,missionevent_scanruin" nonrepeatableevents="givingdirections,clownrelations1,goodsamaritan,propaganda,miketheidiot1,separatistrelations,Engineers_are_special,huskcultist,fanclub,atwitsend,shockjock,assassinationofjacovsubra2,assassinationofjacovsubra3,infiltration,manandhisraptor1,bombscare,terrorism101,censorship" />
         <store balance="6822" pricemodifier="3" stepssincespecialsupdated="0">
           <stock id="button" qty="10" />
@@ -1361,54 +2427,54 @@
           <stock id="underwaterscooter" qty="6" />
           <stock id="batterycell" qty="9" />
           <stock id="fulguriumbatterycell" qty="1" />
-          <stock id="wire" qty="11" />
-          <stock id="bluewire" qty="11" />
-          <stock id="orangewire" qty="11" />
-          <stock id="greenwire" qty="11" />
-          <stock id="blackwire" qty="11" />
-          <stock id="brownwire" qty="11" />
-          <stock id="fpgacircuit" qty="11" />
-          <stock id="andcomponent" qty="11" />
-          <stock id="equalscomponent" qty="11" />
-          <stock id="greatercomponent" qty="11" />
-          <stock id="addercomponent" qty="11" />
-          <stock id="colorcomponent" qty="11" />
-          <stock id="subtractcomponent" qty="11" />
-          <stock id="multiplycomponent" qty="11" />
-          <stock id="dividecomponent" qty="11" />
-          <stock id="powcomponent" qty="11" />
-          <stock id="orcomponent" qty="11" />
-          <stock id="xorcomponent" qty="11" />
-          <stock id="notcomponent" qty="11" />
-          <stock id="concatcomponent" qty="11" />
-          <stock id="sincomponent" qty="11" />
-          <stock id="coscomponent" qty="11" />
-          <stock id="tancomponent" qty="11" />
-          <stock id="asincomponent" qty="11" />
-          <stock id="acoscomponent" qty="11" />
-          <stock id="atancomponent" qty="11" />
-          <stock id="roundcomponent" qty="11" />
-          <stock id="ceilcomponent" qty="11" />
-          <stock id="floorcomponent" qty="11" />
-          <stock id="factorialcomponent" qty="11" />
-          <stock id="abscomponent" qty="11" />
-          <stock id="squarerootcomponent" qty="11" />
-          <stock id="modulocomponent" qty="11" />
-          <stock id="relaycomponent" qty="11" />
-          <stock id="delaycomponent" qty="11" />
-          <stock id="memorycomponent" qty="11" />
-          <stock id="lightcomponent" qty="11" />
-          <stock id="lightcomponent90" qty="11" />
-          <stock id="oxygendetector" qty="11" />
-          <stock id="waterdetector" qty="11" />
-          <stock id="smokedetector" qty="11" />
-          <stock id="motiondetector" qty="11" />
-          <stock id="signalcheckcomponent" qty="11" />
-          <stock id="regexcomponent" qty="11" />
-          <stock id="oscillator" qty="11" />
-          <stock id="wificomponent" qty="11" />
-          <stock id="emergencysiren" qty="11" />
-          <stock id="alarmbuzzer" qty="11" />
+          <stock id="wire" qty="20" />
+          <stock id="bluewire" qty="20" />
+          <stock id="orangewire" qty="20" />
+          <stock id="greenwire" qty="20" />
+          <stock id="blackwire" qty="20" />
+          <stock id="brownwire" qty="20" />
+          <stock id="fpgacircuit" qty="20" />
+          <stock id="andcomponent" qty="20" />
+          <stock id="equalscomponent" qty="20" />
+          <stock id="greatercomponent" qty="20" />
+          <stock id="addercomponent" qty="20" />
+          <stock id="colorcomponent" qty="20" />
+          <stock id="subtractcomponent" qty="20" />
+          <stock id="multiplycomponent" qty="20" />
+          <stock id="dividecomponent" qty="20" />
+          <stock id="powcomponent" qty="20" />
+          <stock id="orcomponent" qty="20" />
+          <stock id="xorcomponent" qty="20" />
+          <stock id="notcomponent" qty="20" />
+          <stock id="concatcomponent" qty="20" />
+          <stock id="sincomponent" qty="20" />
+          <stock id="coscomponent" qty="20" />
+          <stock id="tancomponent" qty="20" />
+          <stock id="asincomponent" qty="20" />
+          <stock id="acoscomponent" qty="20" />
+          <stock id="atancomponent" qty="20" />
+          <stock id="roundcomponent" qty="20" />
+          <stock id="ceilcomponent" qty="20" />
+          <stock id="floorcomponent" qty="20" />
+          <stock id="factorialcomponent" qty="20" />
+          <stock id="abscomponent" qty="20" />
+          <stock id="squarerootcomponent" qty="20" />
+          <stock id="modulocomponent" qty="20" />
+          <stock id="relaycomponent" qty="20" />
+          <stock id="delaycomponent" qty="20" />
+          <stock id="memorycomponent" qty="20" />
+          <stock id="lightcomponent" qty="20" />
+          <stock id="lightcomponent90" qty="20" />
+          <stock id="oxygendetector" qty="20" />
+          <stock id="waterdetector" qty="20" />
+          <stock id="smokedetector" qty="20" />
+          <stock id="motiondetector" qty="20" />
+          <stock id="signalcheckcomponent" qty="20" />
+          <stock id="regexcomponent" qty="20" />
+          <stock id="oscillator" qty="20" />
+          <stock id="wificomponent" qty="20" />
+          <stock id="emergencysiren" qty="20" />
+          <stock id="alarmbuzzer" qty="20" />
           <stock id="steel" qty="10" />
           <stock id="titaniumaluminiumalloy" qty="3" />
           <stock id="plastic" qty="10" />
@@ -1424,7 +2490,7 @@
           <stock id="antibleeding1" qty="30" />
           <stock id="antibleeding2" qty="15" />
           <stock id="antibleeding3" qty="10" />
-          <stock id="antidama1" qty="11" />
+          <stock id="antidama1" qty="16" />
           <stock id="antidama2" qty="4" />
           <stock id="pomegrenadeextract" qty="4" />
           <stock id="antibloodloss1" qty="18" />
@@ -1455,7 +2521,7 @@
           <stock id="meth" qty="2" />
           <stock id="steroids" qty="1" />
           <stock id="ethanol" qty="8" />
-          <stock id="captainspipe" qty="14" />
+          <stock id="captainspipe" qty="23" />
           <stock id="pipetobacco" qty="2" />
           <stock id="toolbelt" qty="6" />
           <stock id="toolbox" qty="6" />
@@ -1504,21 +2570,21 @@
           <stock id="peanutegg" qty="1" />
           <stock id="psilotoadegg" qty="1" />
           <stock id="orangeboyegg" qty="1" />
-          <stock id="food" qty="11" />
-          <stock id="petnametag" qty="11" />
+          <stock id="food" qty="20" />
+          <stock id="petnametag" qty="20" />
           <stock id="smallplanter" qty="1" />
           <stock id="wateringcan" qty="1" />
           <stock id="fertilizer" qty="1" />
           <stock id="seedbag" qty="1" />
           <dailyspecials>
-            <item id="orangeboyegg" />
-            <item id="liquidoxygenite" />
-            <item id="ballistichelmet3" />
+            <item id="regexcomponent" />
+            <item id="greenwire" />
+            <item id="factorialcomponent" />
           </dailyspecials>
           <requestedgoods>
-            <item id="securityuniform3" />
-            <item id="redpaint" />
-            <item id="plastic" />
+            <item id="pulselaserammoboxtrilaser" />
+            <item id="piratehelmet" />
+            <item id="banditclothes2" />
           </requestedgoods>
         </store>
         <missions>
@@ -1778,90 +2844,60 @@
       <location type="None" originaltype="None" basename="Androgeos Linea" name="Androgeos Linea" discovered="false" position="5296.4546,593.19714" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" proximitytimer0-0="0" proximitytimer0-1="0" proximitytimer0-2="0" i="96">
         <Level seed="Androgeos Linea" biome="thegreatsea" type="Outpost" difficulty="66.20568" size="40000,40000" generationparams="outpostlevel" initialdepth="137984" />
       </location>
-      <location type="None" originaltype="None" basename="New Iapetus" name="New Iapetus" discovered="false" position="453.06064,681.9385" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" proximitytimer0-0="0" proximitytimer0-1="0" proximitytimer0-2="0" i="97">
+      <location type="Research" originaltype="Research" basename="New Iapetus" name="New Iapetus研究設施" discovered="false" position="453.06064,681.9385" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="2" turnsinradiation="0" proximitytimer0-0="0" proximitytimer1-0="0" i="97">
         <Level seed="New Iapetus" biome="coldcaverns" type="Outpost" difficulty="5.6632576" size="40000,40000" generationparams="outpostlevel" initialdepth="146977" />
-      </location>
-      <location type="City" originaltype="City" basename="New Nanhui" name="New Nanhui" discovered="false" position="1070.9305,630.2791" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="98">
-        <Level seed="New Nanhui" biome="coldcaverns" type="Outpost" difficulty="13.386633" size="40000,40000" generationparams="outpostlevel" initialdepth="121394" />
-      </location>
-      <location type="None" originaltype="None" basename="Ana" name="Ana" discovered="false" position="1964.7286,610.2562" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" proximitytimer0-0="0" proximitytimer0-1="0" proximitytimer0-2="0" i="99">
-        <Level seed="Ana" biome="europanridge" type="Outpost" difficulty="24.559107" size="40000,40000" generationparams="outpostlevel" initialdepth="102738" />
-      </location>
-      <location type="None" originaltype="None" basename="Mehen Linea" name="Mehen Linea" discovered="false" position="1334.9465,674.8947" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" proximitytimer0-0="0" proximitytimer0-1="0" proximitytimer0-2="0" i="100">
-        <Level seed="Mehen Linea" biome="europanridge" type="Outpost" difficulty="16.68683" size="40000,40000" generationparams="outpostlevel" initialdepth="169324" />
-      </location>
-      <location type="None" originaltype="None" basename="Set" name="Set" discovered="false" position="4736.838,629.8949" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" proximitytimer0-0="0" proximitytimer0-1="0" proximitytimer0-2="0" i="101">
-        <Level seed="Set" biome="thegreatsea" type="Outpost" difficulty="59.210472" size="40000,40000" generationparams="outpostlevel" initialdepth="130486" />
-      </location>
-      <location type="None" originaltype="None" basename="Moytura" name="Moytura" discovered="false" position="2876.9934,709.4256" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" proximitytimer0-0="0" proximitytimer0-1="0" proximitytimer0-2="0" i="102">
-        <Level seed="Moytura" biome="theaphoticplateau" type="Outpost" difficulty="35.962418" size="40000,40000" generationparams="outpostlevel" initialdepth="101769" />
-      </location>
-      <location type="None" originaltype="None" basename="Ana" name="Ana" discovered="false" position="4318.4956,632.78644" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" proximitytimer0-0="0" proximitytimer0-1="0" proximitytimer0-2="0" i="103">
-        <Level seed="Ana" biome="thegreatsea" type="Outpost" difficulty="53.981197" size="40000,40000" generationparams="outpostlevel" initialdepth="102738" />
-      </location>
-      <location type="Abandoned" originaltype="Abandoned" basename="Versas" name="Versas Outpost" discovered="false" position="6164.467,690.6008" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="104">
-        <Level seed="Versas" biome="hydrothermalwastes" type="Outpost" difficulty="77.05583" size="40000,40000" generationparams="outpostlevel" initialdepth="188058" />
-        <missions>
-          <mission prefabid="abandonedoutpostrescue" destinationindex="104" selected="false" />
-        </missions>
-      </location>
-      <location type="None" originaltype="None" basename="Belus Linea" name="Belus Linea" discovered="false" position="3682.2112,682.1345" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" proximitytimer0-0="0" proximitytimer0-1="0" proximitytimer0-2="0" i="105">
-        <Level seed="Belus Linea" biome="theaphoticplateau" type="Outpost" difficulty="46.02764" size="40000,40000" generationparams="outpostlevel" initialdepth="106358" />
-      </location>
-      <location type="None" originaltype="None" basename="Autonoe Linea" name="Autonoe Linea" discovered="false" position="5907.0166,675.5556" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" proximitytimer0-0="0" proximitytimer0-1="0" proximitytimer0-2="0" i="106">
-        <Level seed="Autonoe Linea" biome="hydrothermalwastes" type="Outpost" difficulty="73.83771" size="40000,40000" generationparams="outpostlevel" initialdepth="191218" />
-      </location>
-      <location type="None" originaltype="None" basename="Thynia Linea" name="Thynia Linea" discovered="false" position="3419.2678,685.8663" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" proximitytimer0-0="0" proximitytimer0-1="0" proximitytimer0-2="0" i="107">
-        <Level seed="Thynia Linea" biome="theaphoticplateau" type="Outpost" difficulty="42.74085" size="40000,40000" generationparams="outpostlevel" initialdepth="167795" />
-      </location>
-      <location type="None" originaltype="None" basename="Alphesiboea Linea" name="Alphesiboea Linea" discovered="true" position="199.56017,652.72595" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" proximitytimer0-0="0" proximitytimer0-1="0" proximitytimer0-2="0" i="108">
-        <Level seed="Alphesiboea Linea" biome="coldcaverns" type="Outpost" difficulty="2.494502" size="40000,40000" generationparams="outpostlevel" initialdepth="160808" />
-        <store balance="5000" pricemodifier="-2" stepssincespecialsupdated="0">
-          <stock id="button" qty="5" />
-          <stock id="switch" qty="5" />
-          <stock id="lever" qty="5" />
-          <stock id="coilgunammobox" qty="5" />
-          <stock id="artifacttransportcase" qty="5" />
-          <stock id="captainscap1" qty="5" />
-          <stock id="captainscap2" qty="5" />
-          <stock id="captainscap3" qty="5" />
-          <stock id="captainsuniform1" qty="5" />
-          <stock id="captainsuniform2" qty="5" />
-          <stock id="captainsuniform3" qty="5" />
-          <stock id="doctorsuniform1" qty="5" />
-          <stock id="doctorsuniform2" qty="5" />
-          <stock id="orangejumpsuit1" qty="5" />
-          <stock id="orangejumpsuit2" qty="5" />
-          <stock id="bluejumpsuit1" qty="5" />
-          <stock id="bluejumpsuit2" qty="5" />
-          <stock id="baseballcap" qty="5" />
-          <stock id="assistantclothes" qty="5" />
-          <stock id="securityuniform1" qty="5" />
-          <stock id="securityuniform2" qty="5" />
-          <stock id="securityuniform3" qty="5" />
-          <stock id="commonerclothes1" qty="5" />
-          <stock id="commonerclothes2" qty="5" />
-          <stock id="commonerclothes3" qty="5" />
-          <stock id="commonerclothes4" qty="5" />
-          <stock id="commonerclothes5" qty="5" />
-          <stock id="crewchiefclothes" qty="5" />
-          <stock id="medicalofficerclothes" qty="5" />
-          <stock id="minerclothes" qty="5" />
-          <stock id="quartermasterclothes" qty="5" />
-          <stock id="researcherclothes" qty="5" />
-          <stock id="securitypatrolclothes" qty="5" />
-          <stock id="administratorclothes" qty="5" />
-          <stock id="banditclothes1" qty="5" />
-          <stock id="banditclothes2" qty="5" />
-          <stock id="vipclothes1" qty="5" />
-          <stock id="vipclothes2" qty="5" />
-          <stock id="vipclothes3" qty="5" />
-          <stock id="prisonerclothes" qty="5" />
-          <stock id="headset" qty="5" />
+        <pendinglocationtypechange timer="3" index="0" />
+        <store balance="5000" pricemodifier="-4" stepssincespecialsupdated="0">
+          <stock id="oxygeniteshard" qty="1" />
+          <stock id="sulphuriteshard" qty="1" />
+          <stock id="button" qty="10" />
+          <stock id="switch" qty="10" />
+          <stock id="lever" qty="10" />
+          <stock id="coilgunammobox" qty="3" />
+          <stock id="pulselaserammobox" qty="1" />
+          <stock id="pulselaserammoboxtrilaser" qty="1" />
+          <stock id="artifacttransportcase" qty="1" />
+          <stock id="captainscap1" qty="1" />
+          <stock id="captainscap2" qty="1" />
+          <stock id="captainscap3" qty="1" />
+          <stock id="captainsuniform1" qty="1" />
+          <stock id="captainsuniform2" qty="1" />
+          <stock id="captainsuniform3" qty="1" />
+          <stock id="healthscanner" qty="8" />
+          <stock id="doctorsuniform1" qty="1" />
+          <stock id="doctorsuniform2" qty="1" />
+          <stock id="orangejumpsuit1" qty="1" />
+          <stock id="orangejumpsuit2" qty="1" />
+          <stock id="bluejumpsuit1" qty="1" />
+          <stock id="bluejumpsuit2" qty="1" />
+          <stock id="baseballcap" qty="2" />
+          <stock id="assistantclothes" qty="1" />
+          <stock id="securityuniform1" qty="1" />
+          <stock id="securityuniform2" qty="1" />
+          <stock id="securityuniform3" qty="1" />
+          <stock id="commonerclothes1" qty="1" />
+          <stock id="commonerclothes2" qty="1" />
+          <stock id="commonerclothes3" qty="1" />
+          <stock id="commonerclothes4" qty="1" />
+          <stock id="commonerclothes5" qty="1" />
+          <stock id="crewchiefclothes" qty="1" />
+          <stock id="medicalofficerclothes" qty="1" />
+          <stock id="minerclothes" qty="1" />
+          <stock id="quartermasterclothes" qty="1" />
+          <stock id="researcherclothes" qty="1" />
+          <stock id="securitypatrolclothes" qty="1" />
+          <stock id="administratorclothes" qty="1" />
+          <stock id="headset" qty="4" />
+          <stock id="alienblood" qty="2" />
+          <stock id="huskeggs" qty="1" />
+          <stock id="swimbladder" qty="3" />
+          <stock id="adrenalinegland" qty="3" />
+          <stock id="smallmudraptoregg" qty="1" />
           <stock id="divingmask" qty="5" />
-          <stock id="divingsuit" qty="5" />
-          <stock id="underwaterscooter" qty="5" />
-          <stock id="batterycell" qty="5" />
+          <stock id="divingsuit" qty="3" />
+          <stock id="underwaterscooter" qty="4" />
+          <stock id="batterycell" qty="7" />
+          <stock id="fulguriumbatterycell" qty="2" />
           <stock id="wire" qty="5" />
           <stock id="redwire" qty="5" />
           <stock id="bluewire" qty="5" />
@@ -1911,91 +2947,384 @@
           <stock id="wificomponent" qty="5" />
           <stock id="emergencysiren" qty="5" />
           <stock id="alarmbuzzer" qty="5" />
-          <stock id="steel" qty="5" />
-          <stock id="plastic" qty="5" />
-          <stock id="organicfiber" qty="5" />
-          <stock id="rubber" qty="5" />
-          <stock id="antibleeding1" qty="5" />
-          <stock id="antibleeding2" qty="5" />
-          <stock id="antibleeding3" qty="5" />
-          <stock id="antidama1" qty="5" />
-          <stock id="antidama2" qty="5" />
-          <stock id="pomegrenadeextract" qty="5" />
-          <stock id="antibloodloss1" qty="5" />
-          <stock id="antibloodloss2" qty="5" />
+          <stock id="genesplicer" qty="5" />
+          <stock id="magnesium" qty="4" />
+          <stock id="steel" qty="7" />
+          <stock id="titaniumaluminiumalloy" qty="2" />
+          <stock id="plastic" qty="12" />
+          <stock id="ballisticfiber" qty="1" />
+          <stock id="organicfiber" qty="7" />
+          <stock id="rubber" qty="9" />
+          <stock id="flashpowder" qty="6" />
+          <stock id="incendium" qty="1" />
+          <stock id="fulgurium" qty="1" />
+          <stock id="physicorium" qty="1" />
+          <stock id="dementonite" qty="1" />
+          <stock id="paralyxis" qty="1" />
+          <stock id="fiberplant" qty="6" />
+          <stock id="elastinplant" qty="6" />
+          <stock id="aquaticpoppy" qty="2" />
+          <stock id="yeastshroom" qty="2" />
+          <stock id="slimebacteria" qty="2" />
+          <stock id="antibleeding1" qty="25" />
+          <stock id="antibleeding2" qty="18" />
+          <stock id="antibleeding3" qty="12" />
+          <stock id="antidama1" qty="18" />
+          <stock id="antidama2" qty="4" />
+          <stock id="pomegrenadeextract" qty="4" />
+          <stock id="antibloodloss1" qty="22" />
+          <stock id="antibloodloss2" qty="10" />
+          <stock id="deusizine" qty="2" />
+          <stock id="liquidoxygenite" qty="4" />
+          <stock id="calyxanide" qty="7" />
+          <stock id="antipsychosis" qty="7" />
+          <stock id="antinarc" qty="7" />
+          <stock id="morbusineantidote" qty="2" />
+          <stock id="cyanideantidote" qty="2" />
+          <stock id="sufforinantidote" qty="2" />
+          <stock id="deliriumineantidote" qty="2" />
+          <stock id="antirad" qty="2" />
+          <stock id="elastin" qty="8" />
+          <stock id="opium" qty="8" />
+          <stock id="antibiotics" qty="10" />
+          <stock id="stabilozine" qty="15" />
+          <stock id="adrenaline" qty="4" />
+          <stock id="sulphuricacid" qty="4" />
+          <stock id="antiparalysis" qty="2" />
+          <stock id="morbusine" qty="1" />
+          <stock id="chloralhydrate" qty="2" />
+          <stock id="cyanide" qty="1" />
+          <stock id="radiotoxin" qty="1" />
+          <stock id="sufforin" qty="1" />
+          <stock id="deliriumine" qty="1" />
+          <stock id="paralyzant" qty="1" />
+          <stock id="raptorbaneextract" qty="1" />
+          <stock id="tonicliquid" qty="10" />
+          <stock id="meth" qty="3" />
+          <stock id="steroids" qty="1" />
+          <stock id="hyperzine" qty="1" />
+          <stock id="ethanol" qty="10" />
+          <stock id="captainspipe" qty="5" />
+          <stock id="toolbelt" qty="4" />
+          <stock id="toolbox" qty="4" />
+          <stock id="weldingtool" qty="3" />
+          <stock id="plasmacutter" qty="3" />
+          <stock id="weldingfueltank" qty="6" />
+          <stock id="extinguisher" qty="3" />
+          <stock id="sprayer" qty="3" />
+          <stock id="screwdriver" qty="10" />
+          <stock id="wrench" qty="10" />
+          <stock id="crowbar" qty="10" />
+          <stock id="handheldsonar" qty="2" />
+          <stock id="sonarbeacon" qty="1" />
+          <stock id="flashlight" qty="2" />
+          <stock id="flare" qty="6" />
+          <stock id="syringegun" qty="1" />
+          <stock id="oxygentank" qty="10" />
+          <stock id="fuelrod" qty="2" />
+          <stock id="redpaint" qty="2" />
+          <stock id="greenpaint" qty="2" />
+          <stock id="bluepaint" qty="2" />
+          <stock id="blackpaint" qty="2" />
+          <stock id="whitepaint" qty="2" />
+          <stock id="glowstick" qty="6" />
+          <stock id="depthchargeshell" qty="1" />
+          <stock id="uex" qty="2" />
+          <stock id="railgunshell" qty="3" />
+          <stock id="harpoongun" qty="1" />
+          <stock id="revolverround" qty="6" />
+          <stock id="empgrenade" qty="2" />
+          <stock id="divingknife" qty="6" />
+          <stock id="peanutegg" qty="1" />
+          <stock id="psilotoadegg" qty="1" />
+          <stock id="orangeboyegg" qty="1" />
+          <stock id="food" qty="5" />
+          <stock id="petnametag" qty="5" />
+          <stock id="creepingorangevineseed" qty="2" />
+          <stock id="tobaccovineseed" qty="2" />
+          <stock id="saltvineseed" qty="2" />
+          <stock id="raptorbaneseed" qty="2" />
+          <stock id="smallplanter" qty="2" />
+          <stock id="wateringcan" qty="2" />
+          <stock id="fertilizer" qty="2" />
+          <stock id="seedbag" qty="2" />
+          <dailyspecials>
+            <item id="bluepaint" />
+            <item id="securityuniform2" />
+            <item id="smallplanter" />
+          </dailyspecials>
+          <requestedgoods>
+            <item id="combatstimulantsyringe" />
+            <item id="cassiterite" />
+            <item id="antipsychosis" />
+          </requestedgoods>
+        </store>
+      </location>
+      <location type="City" originaltype="City" basename="New Nanhui" name="New Nanhui" discovered="false" position="1070.9305,630.2791" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="98">
+        <Level seed="New Nanhui" biome="coldcaverns" type="Outpost" difficulty="13.386633" size="40000,40000" generationparams="outpostlevel" initialdepth="121394" />
+      </location>
+      <location type="None" originaltype="None" basename="Ana" name="Ana" discovered="false" position="1964.7286,610.2562" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" proximitytimer0-0="0" proximitytimer0-1="0" proximitytimer0-2="0" i="99">
+        <Level seed="Ana" biome="europanridge" type="Outpost" difficulty="24.559107" size="40000,40000" generationparams="outpostlevel" initialdepth="102738" />
+      </location>
+      <location type="None" originaltype="None" basename="Mehen Linea" name="Mehen Linea" discovered="false" position="1334.9465,674.8947" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" proximitytimer0-0="0" proximitytimer0-1="0" proximitytimer0-2="0" i="100">
+        <Level seed="Mehen Linea" biome="europanridge" type="Outpost" difficulty="16.68683" size="40000,40000" generationparams="outpostlevel" initialdepth="169324" />
+      </location>
+      <location type="None" originaltype="None" basename="Set" name="Set" discovered="false" position="4736.838,629.8949" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" proximitytimer0-0="0" proximitytimer0-1="0" proximitytimer0-2="0" i="101">
+        <Level seed="Set" biome="thegreatsea" type="Outpost" difficulty="59.210472" size="40000,40000" generationparams="outpostlevel" initialdepth="130486" />
+      </location>
+      <location type="None" originaltype="None" basename="Moytura" name="Moytura" discovered="false" position="2876.9934,709.4256" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" proximitytimer0-0="0" proximitytimer0-1="0" proximitytimer0-2="0" i="102">
+        <Level seed="Moytura" biome="theaphoticplateau" type="Outpost" difficulty="35.962418" size="40000,40000" generationparams="outpostlevel" initialdepth="101769" />
+      </location>
+      <location type="None" originaltype="None" basename="Ana" name="Ana" discovered="false" position="4318.4956,632.78644" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" proximitytimer0-0="0" proximitytimer0-1="0" proximitytimer0-2="0" i="103">
+        <Level seed="Ana" biome="thegreatsea" type="Outpost" difficulty="53.981197" size="40000,40000" generationparams="outpostlevel" initialdepth="102738" />
+      </location>
+      <location type="Abandoned" originaltype="Abandoned" basename="Versas" name="Versas Outpost" discovered="false" position="6164.467,690.6008" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="104">
+        <Level seed="Versas" biome="hydrothermalwastes" type="Outpost" difficulty="77.05583" size="40000,40000" generationparams="outpostlevel" initialdepth="188058" />
+        <missions>
+          <mission prefabid="abandonedoutpostrescue" destinationindex="104" selected="false" />
+        </missions>
+      </location>
+      <location type="None" originaltype="None" basename="Belus Linea" name="Belus Linea" discovered="false" position="3682.2112,682.1345" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" proximitytimer0-0="0" proximitytimer0-1="0" proximitytimer0-2="0" i="105">
+        <Level seed="Belus Linea" biome="theaphoticplateau" type="Outpost" difficulty="46.02764" size="40000,40000" generationparams="outpostlevel" initialdepth="106358" />
+      </location>
+      <location type="None" originaltype="None" basename="Autonoe Linea" name="Autonoe Linea" discovered="false" position="5907.0166,675.5556" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" proximitytimer0-0="0" proximitytimer0-1="0" proximitytimer0-2="0" i="106">
+        <Level seed="Autonoe Linea" biome="hydrothermalwastes" type="Outpost" difficulty="73.83771" size="40000,40000" generationparams="outpostlevel" initialdepth="191218" />
+      </location>
+      <location type="None" originaltype="None" basename="Thynia Linea" name="Thynia Linea" discovered="false" position="3419.2678,685.8663" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" proximitytimer0-0="0" proximitytimer0-1="0" proximitytimer0-2="0" i="107">
+        <Level seed="Thynia Linea" biome="theaphoticplateau" type="Outpost" difficulty="42.74085" size="40000,40000" generationparams="outpostlevel" initialdepth="167795" />
+      </location>
+      <location type="City" originaltype="City" basename="Alphesiboea Linea" name="Alphesiboea Linea" discovered="true" position="199.56017,652.72595" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="1" turnsinradiation="0" i="108">
+        <Level seed="Alphesiboea Linea" biome="coldcaverns" type="Outpost" difficulty="2.494502" size="40000,40000" generationparams="outpostlevel" initialdepth="160808" />
+        <store balance="5000" pricemodifier="2" stepssincespecialsupdated="2">
+          <stock id="button" qty="10" />
+          <stock id="switch" qty="10" />
+          <stock id="lever" qty="10" />
+          <stock id="coilgunammobox" qty="6" />
+          <stock id="coilgunammoboxexplosive" qty="1" />
+          <stock id="coilgunammoboxpiercing" qty="1" />
+          <stock id="railguncanistershell" qty="1" />
+          <stock id="chaingunammobox" qty="1" />
+          <stock id="artifacttransportcase" qty="6" />
+          <stock id="captainscap1" qty="1" />
+          <stock id="captainscap2" qty="1" />
+          <stock id="captainscap3" qty="1" />
+          <stock id="captainsuniform1" qty="1" />
+          <stock id="captainsuniform2" qty="1" />
+          <stock id="captainsuniform3" qty="1" />
+          <stock id="healthscanner" qty="1" />
+          <stock id="doctorsuniform1" qty="1" />
+          <stock id="doctorsuniform2" qty="1" />
+          <stock id="orangejumpsuit1" qty="1" />
+          <stock id="orangejumpsuit2" qty="1" />
+          <stock id="bluejumpsuit1" qty="1" />
+          <stock id="bluejumpsuit2" qty="1" />
+          <stock id="baseballcap" qty="3" />
+          <stock id="assistantclothes" qty="1" />
+          <stock id="securityuniform1" qty="1" />
+          <stock id="securityuniform2" qty="1" />
+          <stock id="securityuniform3" qty="1" />
+          <stock id="bodyarmor" qty="1" />
+          <stock id="ballistichelmet1" qty="1" />
+          <stock id="ballistichelmet2" qty="1" />
+          <stock id="ballistichelmet3" qty="1" />
+          <stock id="handcuffs" qty="2" />
+          <stock id="commonerclothes1" qty="1" />
+          <stock id="commonerclothes2" qty="1" />
+          <stock id="commonerclothes3" qty="1" />
+          <stock id="commonerclothes4" qty="1" />
+          <stock id="commonerclothes5" qty="1" />
+          <stock id="crewchiefclothes" qty="1" />
+          <stock id="medicalofficerclothes" qty="1" />
+          <stock id="minerclothes" qty="1" />
+          <stock id="quartermasterclothes" qty="1" />
+          <stock id="researcherclothes" qty="1" />
+          <stock id="securitypatrolclothes" qty="1" />
+          <stock id="administratorclothes" qty="1" />
+          <stock id="clownmask" qty="1" />
+          <stock id="clowncostume" qty="1" />
+          <stock id="headset" qty="10" />
+          <stock id="huskeggs" qty="1" />
+          <stock id="swimbladder" qty="2" />
+          <stock id="adrenalinegland" qty="2" />
+          <stock id="divingmask" qty="7" />
+          <stock id="divingsuit" qty="4" />
+          <stock id="underwaterscooter" qty="6" />
+          <stock id="batterycell" qty="9" />
+          <stock id="fulguriumbatterycell" qty="1" />
+          <stock id="wire" qty="14" />
+          <stock id="redwire" qty="14" />
+          <stock id="bluewire" qty="14" />
+          <stock id="orangewire" qty="14" />
+          <stock id="greenwire" qty="14" />
+          <stock id="blackwire" qty="14" />
+          <stock id="brownwire" qty="14" />
+          <stock id="fpgacircuit" qty="14" />
+          <stock id="andcomponent" qty="14" />
+          <stock id="equalscomponent" qty="14" />
+          <stock id="greatercomponent" qty="14" />
+          <stock id="addercomponent" qty="14" />
+          <stock id="colorcomponent" qty="14" />
+          <stock id="subtractcomponent" qty="14" />
+          <stock id="multiplycomponent" qty="14" />
+          <stock id="dividecomponent" qty="14" />
+          <stock id="powcomponent" qty="14" />
+          <stock id="orcomponent" qty="14" />
+          <stock id="xorcomponent" qty="14" />
+          <stock id="notcomponent" qty="14" />
+          <stock id="concatcomponent" qty="14" />
+          <stock id="sincomponent" qty="14" />
+          <stock id="coscomponent" qty="14" />
+          <stock id="tancomponent" qty="14" />
+          <stock id="asincomponent" qty="14" />
+          <stock id="acoscomponent" qty="14" />
+          <stock id="atancomponent" qty="14" />
+          <stock id="roundcomponent" qty="14" />
+          <stock id="ceilcomponent" qty="14" />
+          <stock id="floorcomponent" qty="14" />
+          <stock id="factorialcomponent" qty="14" />
+          <stock id="abscomponent" qty="14" />
+          <stock id="squarerootcomponent" qty="14" />
+          <stock id="modulocomponent" qty="14" />
+          <stock id="relaycomponent" qty="14" />
+          <stock id="delaycomponent" qty="14" />
+          <stock id="memorycomponent" qty="14" />
+          <stock id="lightcomponent" qty="14" />
+          <stock id="lightcomponent90" qty="14" />
+          <stock id="oxygendetector" qty="14" />
+          <stock id="waterdetector" qty="14" />
+          <stock id="smokedetector" qty="14" />
+          <stock id="motiondetector" qty="14" />
+          <stock id="signalcheckcomponent" qty="14" />
+          <stock id="regexcomponent" qty="14" />
+          <stock id="oscillator" qty="14" />
+          <stock id="wificomponent" qty="14" />
+          <stock id="emergencysiren" qty="14" />
+          <stock id="alarmbuzzer" qty="14" />
+          <stock id="genesplicer" qty="7" />
+          <stock id="magnesium" qty="4" />
+          <stock id="steel" qty="10" />
+          <stock id="titaniumaluminiumalloy" qty="3" />
+          <stock id="plastic" qty="10" />
+          <stock id="ballisticfiber" qty="2" />
+          <stock id="organicfiber" qty="8" />
+          <stock id="rubber" qty="13" />
+          <stock id="flashpowder" qty="4" />
+          <stock id="fiberplant" qty="3" />
+          <stock id="elastinplant" qty="3" />
+          <stock id="aquaticpoppy" qty="1" />
+          <stock id="yeastshroom" qty="1" />
+          <stock id="slimebacteria" qty="1" />
+          <stock id="antibleeding1" qty="30" />
+          <stock id="antibleeding2" qty="15" />
+          <stock id="antibleeding3" qty="10" />
+          <stock id="antidama1" qty="16" />
+          <stock id="antidama2" qty="4" />
+          <stock id="pomegrenadeextract" qty="4" />
+          <stock id="antibloodloss1" qty="18" />
+          <stock id="antibloodloss2" qty="6" />
+          <stock id="liquidoxygenite" qty="3" />
           <stock id="calyxanide" qty="5" />
           <stock id="antipsychosis" qty="5" />
           <stock id="antinarc" qty="5" />
-          <stock id="morbusineantidote" qty="5" />
-          <stock id="cyanideantidote" qty="5" />
-          <stock id="sufforinantidote" qty="5" />
-          <stock id="deliriumineantidote" qty="5" />
-          <stock id="antirad" qty="5" />
-          <stock id="antiparalysis" qty="5" />
-          <stock id="tonicliquid" qty="5" />
-          <stock id="ethanol" qty="5" />
-          <stock id="captainspipe" qty="5" />
-          <stock id="toolbelt" qty="5" />
-          <stock id="toolbox" qty="5" />
+          <stock id="morbusineantidote" qty="2" />
+          <stock id="cyanideantidote" qty="2" />
+          <stock id="sufforinantidote" qty="2" />
+          <stock id="deliriumineantidote" qty="2" />
+          <stock id="antirad" qty="2" />
+          <stock id="elastin" qty="6" />
+          <stock id="opium" qty="6" />
+          <stock id="antibiotics" qty="12" />
+          <stock id="stabilozine" qty="10" />
+          <stock id="antiparalysis" qty="2" />
+          <stock id="morbusine" qty="1" />
+          <stock id="chloralhydrate" qty="1" />
+          <stock id="cyanide" qty="1" />
+          <stock id="radiotoxin" qty="1" />
+          <stock id="sufforin" qty="1" />
+          <stock id="deliriumine" qty="1" />
+          <stock id="paralyzant" qty="1" />
+          <stock id="raptorbaneextract" qty="1" />
+          <stock id="tonicliquid" qty="7" />
+          <stock id="meth" qty="2" />
+          <stock id="steroids" qty="1" />
+          <stock id="ethanol" qty="8" />
+          <stock id="guitar" qty="1" />
+          <stock id="harmonica" qty="1" />
+          <stock id="accordion" qty="1" />
+          <stock id="captainspipe" qty="14" />
+          <stock id="pipetobacco" qty="2" />
+          <stock id="bikehorn" qty="1" />
+          <stock id="toolbelt" qty="6" />
+          <stock id="toolbox" qty="6" />
           <stock id="weldingtool" qty="5" />
           <stock id="plasmacutter" qty="5" />
-          <stock id="weldingfueltank" qty="5" />
-          <stock id="extinguisher" qty="5" />
+          <stock id="weldingfueltank" qty="7" />
+          <stock id="extinguisher" qty="4" />
           <stock id="sprayer" qty="5" />
-          <stock id="screwdriver" qty="5" />
-          <stock id="wrench" qty="5" />
-          <stock id="crowbar" qty="5" />
-          <stock id="handheldsonar" qty="5" />
-          <stock id="flashlight" qty="5" />
-          <stock id="flare" qty="5" />
-          <stock id="oxygentank" qty="5" />
-          <stock id="fuelrod" qty="5" />
-          <stock id="redpaint" qty="5" />
-          <stock id="greenpaint" qty="5" />
-          <stock id="bluepaint" qty="5" />
-          <stock id="blackpaint" qty="5" />
-          <stock id="whitepaint" qty="5" />
-          <stock id="glowstick" qty="5" />
-          <stock id="depthchargeshell" qty="5" />
-          <stock id="uex" qty="5" />
-          <stock id="railgunshell" qty="5" />
-          <stock id="divingknife" qty="5" />
-          <stock id="food" qty="5" />
-          <stock id="petnametag" qty="5" />
-          <stock id="creepingorangevineseed" qty="5" />
-          <stock id="tobaccovineseed" qty="5" />
-          <stock id="saltvineseed" qty="5" />
-          <stock id="raptorbaneseed" qty="5" />
-          <stock id="smallplanter" qty="5" />
-          <stock id="wateringcan" qty="5" />
-          <stock id="fertilizer" qty="5" />
-          <stock id="seedbag" qty="5" />
-          <stock id="handheldstatusmonitor" qty="5" />
-          <stock id="repairpack" qty="5" />
-          <stock id="wrenchdementonite" qty="5" />
-          <stock id="crowbardementonite" qty="5" />
-          <stock id="screwdriverdementonite" qty="5" />
-          <stock id="divingknifedementonite" qty="5" />
-          <stock id="boardingaxe" qty="5" />
-          <stock id="depletedfuel" qty="5" />
-          <stock id="wrenchhardened" qty="5" />
-          <stock id="crowbarhardened" qty="5" />
-          <stock id="screwdriverhardened" qty="5" />
-          <stock id="divingknifehardened" qty="5" />
-          <stock id="reactorpda" qty="5" />
-          <stock id="cargoscooter" qty="5" />
-          <stock id="handheldelectricalmonitor" qty="5" />
-          <stock id="pucs" qty="5" />
-          <stock id="autoinjectorheadset" qty="5" />
+          <stock id="screwdriver" qty="15" />
+          <stock id="wrench" qty="15" />
+          <stock id="crowbar" qty="15" />
+          <stock id="handheldsonar" qty="2" />
+          <stock id="sonarbeacon" qty="1" />
+          <stock id="flashlight" qty="3" />
+          <stock id="flare" qty="10" />
+          <stock id="syringegun" qty="1" />
+          <stock id="oxygentank" qty="15" />
+          <stock id="fuelrod" qty="3" />
+          <stock id="thoriumfuelrod" qty="1" />
+          <stock id="redpaint" qty="2" />
+          <stock id="greenpaint" qty="2" />
+          <stock id="bluepaint" qty="2" />
+          <stock id="blackpaint" qty="2" />
+          <stock id="whitepaint" qty="2" />
+          <stock id="glowstick" qty="10" />
+          <stock id="depthchargeshell" qty="2" />
+          <stock id="depthdecoyshell" qty="2" />
+          <stock id="uex" qty="4" />
+          <stock id="c4block" qty="2" />
+          <stock id="compoundn" qty="2" />
+          <stock id="detonator" qty="1" />
+          <stock id="nitroglycerin" qty="2" />
+          <stock id="railgunshell" qty="4" />
+          <stock id="spear" qty="6" />
+          <stock id="explosivespear" qty="3" />
+          <stock id="harpoongun" qty="2" />
+          <stock id="revolverround" qty="12" />
+          <stock id="revolver" qty="1" />
+          <stock id="smgmagazine" qty="2" />
+          <stock id="smg" qty="1" />
+          <stock id="stungrenade" qty="3" />
+          <stock id="empgrenade" qty="1" />
+          <stock id="fraggrenade" qty="2" />
+          <stock id="stunbaton" qty="2" />
+          <stock id="divingknife" qty="8" />
+          <stock id="shotgun" qty="1" />
+          <stock id="shotgunshell" qty="4" />
+          <stock id="stungun" qty="2" />
+          <stock id="stungundart" qty="3" />
+          <stock id="toyhammer" qty="1" />
+          <stock id="peanutegg" qty="1" />
+          <stock id="psilotoadegg" qty="1" />
+          <stock id="orangeboyegg" qty="1" />
+          <stock id="food" qty="14" />
+          <stock id="petnametag" qty="14" />
+          <stock id="creepingorangevineseed" qty="1" />
+          <stock id="tobaccovineseed" qty="1" />
+          <stock id="saltvineseed" qty="1" />
+          <stock id="raptorbaneseed" qty="1" />
+          <stock id="smallplanter" qty="1" />
+          <stock id="wateringcan" qty="1" />
+          <stock id="fertilizer" qty="1" />
+          <stock id="seedbag" qty="1" />
           <dailyspecials>
-            <item id="orcomponent" />
-            <item id="handheldelectricalmonitor" />
-            <item id="bluewire" />
+            <item id="acoscomponent" />
+            <item id="ballistichelmet2" />
+            <item id="coscomponent" />
           </dailyspecials>
           <requestedgoods>
-            <item id="potassium" />
-            <item id="incendiumgrenade" />
-            <item id="oxygentank" />
+            <item id="incendiumfueltank" />
+            <item id="factorialcomponent" />
+            <item id="harpoongun" />
           </requestedgoods>
         </store>
       </location>
@@ -2212,7 +3541,7 @@
       <connection passed="false" locked="false" difficulty="59.367744" biome="hydrothermalwastes" locations="33,48">
         <Level seed="Telephassa LineaHuronia" biome="hydrothermalwastes" type="LocationConnection" difficulty="59.367744" size="250000,60000" generationparams="wastesbasic" initialdepth="405010" hasbeaconstation="True" isbeaconactive="False" />
       </connection>
-      <connection passed="false" locked="false" difficulty="1.2" biome="coldcaverns" locations="40,56">
+      <connection passed="true" locked="false" difficulty="1.2" biome="coldcaverns" locations="40,56">
         <Level seed="GangpoPhoenix Linea" biome="coldcaverns" type="LocationConnection" difficulty="1.2" size="120000,100000" generationparams="coldcavernsmaze" initialdepth="187943" />
       </connection>
       <connection passed="false" locked="false" difficulty="2.6310415" biome="coldcaverns" locations="19,56">
@@ -2290,7 +3619,7 @@
       <connection passed="false" locked="false" difficulty="55.931618" biome="thegreatsea" locations="43,70">
         <Level seed="MoulinArgiope Linea" biome="thegreatsea" type="LocationConnection" difficulty="55.931618" size="202000,70000" generationparams="greatseabasic" initialdepth="408461" hashuntinggrounds="true" originallyhadhuntinggrounds="true" />
       </connection>
-      <connection passed="false" locked="false" difficulty="1.2" biome="coldcaverns" locations="56,71">
+      <connection passed="true" locked="false" difficulty="1.2" biome="coldcaverns" locations="56,71">
         <Level seed="Phoenix LineaPhoenix Linea" biome="coldcaverns" type="LocationConnection" difficulty="1.2" size="120000,100000" generationparams="coldcavernsmaze" initialdepth="154616" />
       </connection>
       <connection passed="false" locked="false" difficulty="1.2" biome="coldcaverns" locations="55,71">
@@ -2497,7 +3826,7 @@
       <connection passed="true" locked="false" difficulty="1.2" biome="coldcaverns" locations="89,108">
         <Level seed="CouwolaAlphesiboea Linea" biome="coldcaverns" type="LocationConnection" difficulty="1.2" size="140000,70000" generationparams="coldcavernsbasic" initialdepth="147317" hasbeaconstation="True" isbeaconactive="False" />
       </connection>
-      <connection passed="false" locked="false" difficulty="1.2" biome="coldcaverns" locations="71,108">
+      <connection passed="true" locked="false" difficulty="1.2" biome="coldcaverns" locations="71,108">
         <Level seed="Phoenix LineaAlphesiboea Linea" biome="coldcaverns" type="LocationConnection" difficulty="1.2" size="122000,100000" generationparams="coldcavernsmaze" initialdepth="151097" />
       </connection>
       <connection passed="false" locked="false" difficulty="41.89572" biome="theaphoticplateau" locations="105,109">
@@ -2580,77 +3909,100 @@
       </connection>
       <Radiation amount="-200" enabled="False" />
     </map>
-    <cargo />
+    <cargo>
+      <item id="smallplanter" qty="1" />
+      <item id="slimebacteria" qty="1" />
+      <item id="raptorbaneseed" qty="1" />
+      <item id="tobaccovineseed" qty="1" />
+      <item id="antibiotics" qty="8" />
+      <item id="stabilozine" qty="10" />
+      <item id="titaniumaluminiumalloy" qty="3" />
+      <item id="ballisticfiber" qty="2" />
+    </cargo>
     <upgrademanager>
       <PendingUpgrades />
     </upgrademanager>
-    <pets />
+    <pets>
+      <pet speciesname="Psilotoad" ownerhash="1145667878" seed="OKG2Kctq">
+        <petbehavior hunger="19.843908" happiness="38.99147" />
+        <health>
+          <LimbHealth i="0" />
+        </health>
+        <inventory />
+      </pet>
+    </pets>
     <bots hasbots="true">
-      <Character name="Dorthy Blackwell" originalname="Dorthy Blackwell" speciesname="human" gender="Female" race="None" salary="2681" experiencepoints="0" unlockedtalents="" additionaltalentpoints="0" headspriteid="5" hairindex="3" beardindex="0" moustacheindex="0" faceattachmentindex="0" skincolor="74,50,25,255" haircolor="71,54,55,255" facialhaircolor="187,169,129,255" startitemsgiven="true" ragdoll="" personality="Laid-back" missionscompletedsincedeath="0" hull="697">
+      <Character name="Dorthy Blackwell" originalname="Dorthy Blackwell" speciesname="human" gender="Female" race="None" salary="2681" experiencepoints="0" unlockedtalents="" additionaltalentpoints="0" headspriteid="5" hairindex="3" beardindex="0" moustacheindex="0" faceattachmentindex="0" skincolor="74,50,25,255" haircolor="71,54,55,255" facialhaircolor="187,169,129,255" startitemsgiven="true" ragdoll="" personality="Laid-back" missionscompletedsincedeath="0">
         <job name="工程師" identifier="engineer">
-          <skill identifier="electrical" level="43.551506" />
-          <skill identifier="mechanical" level="27.277678" />
+          <skill identifier="electrical" level="51.84213" />
+          <skill identifier="mechanical" level="31.698978" />
           <skill identifier="weapons" level="18.868647" />
           <skill identifier="medical" level="15.871333" />
-          <skill identifier="helm" level="6.3704596" />
+          <skill identifier="helm" level="6.5523267" />
         </job>
         <savedstatvalues />
         <inventory>
-          <Item name="" identifier="idcard" ID="6940" rect="-1206,5,16,16" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="1" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,idcard,id_engineer,name:Dorthy Blackwell,job:工程師,jobid:engineer,gender:female,headspriteid:5,hairindex:3,beardindex:0,moustacheindex:0,faceattachmentindex:0,haircolor:#473637,facialhaircolor:#BBA981,skincolor:#4A3219,sheetindex:0;1" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.8" hiddeningame="False" i="0">
+          <Item name="" identifier="idcard" ID="3151" rect="-1145,-194,16,16" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="1" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,idcard,id_engineer,name:Dorthy Blackwell,job:工程師,jobid:engineer,gender:female,headspriteid:5,hairindex:3,beardindex:0,moustacheindex:0,faceattachmentindex:0,haircolor:#473637,facialhaircolor:#BBA981,skincolor:#4A3219,sheetindex:0;1" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.8" hiddeningame="False" i="0">
             <IdCard teamid="Team1" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
           </Item>
-          <Item name="" identifier="headset" ID="6941" rect="-1210,12,24,31" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,mobileradio" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="1">
+          <Item name="" identifier="headset" ID="3152" rect="-1149,-187,24,31" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,mobileradio" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="1">
             <WifiComponent teamid="Team1" range="35000" channel="0" allowcrossteamcommunication="False" linktochat="True" minchatmessageinterval="0" discardduplicatechatmessages="False" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" channelmemory="0,1,2,3,4,5,6,7,8,9">
               <requireditem items="mobilebattery" type="Contained" optional="false" ignoreineditor="false" excludebroken="true" targetslot="-1" allowvariants="true" />
             </WifiComponent>
-            <ItemContainer containablerestrictions="" autofill="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" contained="6942" />
+            <ItemContainer containablerestrictions="" autofill="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" contained="3153" />
             <Wearable pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" variant="1" />
             <inventory>
-              <Item name="" identifier="batterycell" ID="6942" rect="-1206,2,17,10" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,loadable,mobilebattery" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.8" hiddeningame="False" i="0">
+              <Item name="" identifier="batterycell" ID="3153" rect="-1145,-197,17,10" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,loadable,mobilebattery" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.8" hiddeningame="False" i="0">
                 <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
                 <Quality pickingtime="0" canbepicked="False" allowingameediting="True" msg="" />
               </Item>
             </inventory>
           </Item>
-          <Item name="" identifier="orangejumpsuit1" ID="6943" rect="-1250,14,104,35" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,clothing" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="3">
+          <Item name="" identifier="orangejumpsuit1" ID="3154" rect="-1189,-185,104,35" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,clothing" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="3">
             <Wearable pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" variant="1" />
           </Item>
-          <Item name="" identifier="toolbelt" ID="6944" rect="-1226,10,56,27" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,mobilecontainer,tool" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="7">
+          <Item name="" identifier="toolbelt" ID="3155" rect="-1165,-189,56,27" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,mobilecontainer,tool" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="7">
             <Wearable pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgEquipSelect" variant="1" />
             <Holdable holdpos="0,-70" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpUse" />
             <ItemContainer containablerestrictions="" autofill="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" contained=",,,,," />
             <inventory />
           </Item>
-          <Item name="" identifier="wrench" ID="6945" flippedx="true" rect="-1214,2,32,10" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="-0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,tool,simpletool,mechanicalrepairtool,wrenchitem" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="8">
+          <Item name="" identifier="wrench" ID="3156" flippedx="true" rect="-1153,-197,32,10" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="-0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,tool,simpletool,mechanicalrepairtool,wrenchitem" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="8">
             <MeleeWeapon swing="True" swingpos="2,0" swingforce="3,-1" holdpos="0,0" holdangle="60" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
             <Quality pickingtime="0" canbepicked="False" allowingameediting="True" msg="" />
           </Item>
-          <Item name="" identifier="screwdriver" ID="6946" flippedx="true" rect="-1214,0,32,7" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="-0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,simpletool,tool,electricalrepairtool" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="9">
+          <Item name="" identifier="screwdriver" ID="3157" flippedx="true" rect="-1153,-199,32,7" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="-0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,simpletool,tool,electricalrepairtool" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="9">
             <MeleeWeapon swing="True" swingpos="2,0" swingforce="3,-1" holdpos="0,0" holdangle="60" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
             <Quality pickingtime="0" canbepicked="False" allowingameediting="True" msg="" />
+          </Item>
+          <Item name="" identifier="divingmask" ID="3158" rect="-1155,-183,37,38" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,diving,lightdiving,divingmask" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="10">
+            <Wearable pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" variant="1" />
+            <ItemContainer containablerestrictions="" autofill="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" contained="3159" />
+            <inventory>
+              <Item name="" identifier="oxygentank" ID="3159" condition="80.37979" rect="-1143,-186,13,33" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" invulnerabletodamage="False" tags="smallitem,oxygensource,refillableoxygensource,oxygentank" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="0">
+                <Holdable holdpos="29.999998,-14.999999" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+                <Quality pickingtime="0" canbepicked="False" allowingameediting="True" msg="" />
+              </Item>
+            </inventory>
           </Item>
         </inventory>
         <health>
           <LimbHealth i="0">
-            <Affliction identifier="burn" strength="2.069189" />
+            <Affliction identifier="blunttrauma" strength="0.97499996" />
           </LimbHealth>
-          <LimbHealth i="1">
-            <Affliction identifier="burn" strength="2.8968627" />
+          <LimbHealth i="1" />
+          <LimbHealth i="2">
+            <Affliction identifier="lacerations" strength="20.75" />
           </LimbHealth>
-          <LimbHealth i="2" />
           <LimbHealth i="3">
-            <Affliction identifier="burn" strength="3.8204842" />
+            <Affliction identifier="lacerations" strength="20.75" />
           </LimbHealth>
-          <LimbHealth i="4">
-            <Affliction identifier="burn" strength="4.345296" />
-          </LimbHealth>
-          <LimbHealth i="5">
-            <Affliction identifier="burn" strength="4.345296" />
-          </LimbHealth>
+          <LimbHealth i="4" />
+          <LimbHealth i="5" />
         </health>
         <orders>
-          <order id="repairsystems" priority="3" targettype="0" ordergiverinfoid="3" />
-          <order id="operatereactor" priority="2" targettype="0" option="powerup" ordergiverinfoid="1" onmainsub="true" targetid="840" />
+          <order id="repairsystems" priority="3" targettype="0" />
+          <order id="operatereactor" priority="2" targettype="0" option="powerup" onmainsub="true" targetid="830" />
           <order id="fixleaks" priority="1" targettype="0" />
         </orders>
       </Character>
