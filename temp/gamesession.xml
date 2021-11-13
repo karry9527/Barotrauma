@@ -1,0 +1,1757 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Gamesession savetime="1635018622" version="0.14.9.1" submarine="Dugong" mapseed="QAW8QNlB" selectedcontentpackages="Data/ContentPackages/Vanilla 0.9.xml">
+  <ownedsubmarines>
+    <sub name="Dugong" />
+  </ownedsubmarines>
+  <SinglePlayerCampaign money="2500" purchasedlostshuttles="false" purchasedhullrepairs="false" purchaseditemrepairs="false" cheatsenabled="false">
+    <CampaignSettings radiationenabled="false" maxmissioncount="2" />
+    <pets />
+    <crew>
+      <Character name="Rene Ashley" originalname="Rene Ashley" speciesname="human" gender="male" race="White" salary="4265" headspriteid="1" hairindex="2" beardindex="1" moustacheindex="2" faceattachmentindex="0" startitemsgiven="true" ragdoll="" personality="Laid-back" hull="1071">
+        <job name="艦長" identifier="captain">
+          <skill identifier="helm" level="42.31545" />
+          <skill identifier="weapons" level="34.281128" />
+          <skill identifier="mechanical" level="22.115742" />
+          <skill identifier="electrical" level="22.873669" />
+          <skill identifier="medical" level="9.799439" />
+        </job>
+        <inventory>
+          <Item name="" identifier="idcard" ID="1366" rect="-368,-61,16,16" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="1" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,idcard,id_captain,name:Rene Ashley,job:艦長,jobid:captain,gender:male,race:White,headspriteid:1,hairindex:2,beardindex:1,moustacheindex:2,faceattachmentindex:0,sheetindex:0;0" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.8" hiddeningame="False" i="0">
+            <IdCard pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+          </Item>
+          <Item name="" identifier="headset" ID="1387" rect="-372,-54,24,31" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,mobileradio" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="1">
+            <WifiComponent teamid="Team1" range="35000" channel="0" allowcrossteamcommunication="False" linktochat="True" minchatmessageinterval="0" discardduplicatechatmessages="False" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" channelmemory="0,1,2,3,4,5,6,7,8,9">
+              <requireditem items="mobilebattery" type="Contained" optional="false" ignoreineditor="false" excludebroken="true" />
+            </WifiComponent>
+            <ItemContainer containablerestrictions="" autofill="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" contained="1389" />
+            <Wearable pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" variant="1" />
+            <inventory>
+              <Item name="" identifier="batterycell" ID="1389" rect="-368,-64,17,10" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,loadable,mobilebattery" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.8" hiddeningame="False" i="0">
+                <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+              </Item>
+            </inventory>
+          </Item>
+          <Item name="" identifier="captainscap1" ID="1372" rect="-375,-59,30,20" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.4" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,clothing" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="2">
+            <Wearable pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" variant="1" />
+          </Item>
+          <Item name="" identifier="captainsuniform1" ID="1375" rect="-411,-50,103,39" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,clothing" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="3">
+            <Wearable pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" variant="1" />
+          </Item>
+          <Item name="" identifier="revolver" ID="1399" rect="-379,-59,38,20" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,weapon,gun" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="8">
+            <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+            <RangedWeapon pickingtime="0" canbepicked="False" allowingameediting="True" msg="">
+              <requireditem items="revolverammo" type="Contained" optional="false" ignoreineditor="false" excludebroken="true" msg="ItemMsgAmmoRequired" />
+            </RangedWeapon>
+            <ItemContainer containablerestrictions="" autofill="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" contained="1429;1433;1465;1481;1501;1518" />
+            <inventory>
+              <Item name="" identifier="revolverround" ID="1429" rect="-365,-68,10,3" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,revolverammo" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="0">
+                <Pickable pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+                <Projectile pickingtime="0" canbepicked="False" allowingameediting="True" msg="" />
+              </Item>
+              <Item name="" identifier="revolverround" ID="1433" rect="-365,-68,10,3" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,revolverammo" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="0">
+                <Pickable pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+                <Projectile pickingtime="0" canbepicked="False" allowingameediting="True" msg="" />
+              </Item>
+              <Item name="" identifier="revolverround" ID="1465" rect="-365,-68,10,3" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,revolverammo" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="0">
+                <Pickable pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+                <Projectile pickingtime="0" canbepicked="False" allowingameediting="True" msg="" />
+              </Item>
+              <Item name="" identifier="revolverround" ID="1481" rect="-365,-68,10,3" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,revolverammo" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="0">
+                <Pickable pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+                <Projectile pickingtime="0" canbepicked="False" allowingameediting="True" msg="" />
+              </Item>
+              <Item name="" identifier="revolverround" ID="1501" rect="-365,-68,10,3" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,revolverammo" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="0">
+                <Pickable pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+                <Projectile pickingtime="0" canbepicked="False" allowingameediting="True" msg="" />
+              </Item>
+              <Item name="" identifier="revolverround" ID="1518" rect="-365,-68,10,3" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,revolverammo" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="0">
+                <Pickable pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+                <Projectile pickingtime="0" canbepicked="False" allowingameediting="True" msg="" />
+              </Item>
+            </inventory>
+          </Item>
+          <Item name="" identifier="captainspipe" ID="1551" rect="-372,-62,25,15" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="9">
+            <Holdable aimable="False" holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0.5" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="True" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+            <ItemContainer containablerestrictions="" autofill="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" contained="" />
+            <inventory />
+          </Item>
+        </inventory>
+        <health>
+          <LimbHealth i="0" />
+          <LimbHealth i="1" />
+          <LimbHealth i="2" />
+          <LimbHealth i="3" />
+          <LimbHealth i="4" />
+          <LimbHealth i="5" />
+        </health>
+        <orders />
+      </Character>
+      <Character name="Irwin Kramer" originalname="Irwin Kramer" speciesname="human" gender="male" race="Black" salary="3088" headspriteid="3" hairindex="1" beardindex="0" moustacheindex="0" faceattachmentindex="0" startitemsgiven="true" ragdoll="" personality="Tough" hull="1183">
+        <job name="工程師" identifier="engineer">
+          <skill identifier="electrical" level="44.069946" />
+          <skill identifier="mechanical" level="28.668907" />
+          <skill identifier="weapons" level="22.556856" />
+          <skill identifier="medical" level="22.909714" />
+          <skill identifier="helm" level="5.4731426" />
+        </job>
+        <inventory>
+          <Item name="" identifier="idcard" ID="1558" rect="-835,-61,16,16" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="1" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,idcard,id_engineer,name:Irwin Kramer,job:工程師,jobid:engineer,gender:male,race:Black,headspriteid:3,hairindex:1,beardindex:0,moustacheindex:0,faceattachmentindex:0,sheetindex:2;0" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.8" hiddeningame="False" i="0">
+            <IdCard pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+          </Item>
+          <Item name="" identifier="headset" ID="1607" rect="-839,-54,24,31" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,mobileradio" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="1">
+            <WifiComponent teamid="Team1" range="35000" channel="0" allowcrossteamcommunication="False" linktochat="True" minchatmessageinterval="0" discardduplicatechatmessages="False" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" channelmemory="0,1,2,3,4,5,6,7,8,9">
+              <requireditem items="mobilebattery" type="Contained" optional="false" ignoreineditor="false" excludebroken="true" />
+            </WifiComponent>
+            <ItemContainer containablerestrictions="" autofill="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" contained="1608" />
+            <Wearable pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" variant="1" />
+            <inventory>
+              <Item name="" identifier="batterycell" ID="1608" rect="-835,-64,17,10" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,loadable,mobilebattery" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.8" hiddeningame="False" i="0">
+                <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+              </Item>
+            </inventory>
+          </Item>
+          <Item name="" identifier="orangejumpsuit1" ID="1606" rect="-879,-52,104,35" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,clothing" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="3">
+            <Wearable pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" variant="1" />
+          </Item>
+          <Item name="" identifier="toolbelt" ID="1563" rect="-855,-56,56,27" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,mobilecontainer,tool" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="7">
+            <Wearable pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgEquipSelect" variant="1" />
+            <Holdable holdpos="0,-70" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpUse" />
+            <ItemContainer containablerestrictions="" autofill="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" contained="1578,1581,1605,,," />
+            <inventory>
+              <Item name="" identifier="wrench" ID="1578" rect="-843,-64,32,10" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,tool" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="0">
+                <MeleeWeapon holdpos="0,0" holdangle="60" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+              </Item>
+              <Item name="" identifier="screwdriver" ID="1581" rect="-843,-66,32,7" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,tool" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="1">
+                <MeleeWeapon holdpos="0,0" holdangle="60" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+              </Item>
+              <Item name="" identifier="fuelrod" ID="1605" rect="-831,-52,9,34" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,reactorfuel" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="2">
+                <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+              </Item>
+            </inventory>
+          </Item>
+        </inventory>
+        <health>
+          <LimbHealth i="0" />
+          <LimbHealth i="1" />
+          <LimbHealth i="2" />
+          <LimbHealth i="3" />
+          <LimbHealth i="4" />
+          <LimbHealth i="5" />
+        </health>
+        <orders />
+      </Character>
+      <Character name="Hector Proctor" originalname="Hector Proctor" speciesname="human" gender="male" race="White" salary="3160" headspriteid="1" hairindex="0" beardindex="1" moustacheindex="1" faceattachmentindex="0" startitemsgiven="true" ragdoll="" personality="Laid-back" hull="1656">
+        <job name="機修工" identifier="mechanic">
+          <skill identifier="mechanical" level="43.8242" />
+          <skill identifier="electrical" level="34.54827" />
+          <skill identifier="weapons" level="17.58815" />
+          <skill identifier="medical" level="24.514343" />
+          <skill identifier="helm" level="6.065512" />
+        </job>
+        <inventory>
+          <Item name="" identifier="idcard" ID="1611" rect="-1365,195,16,16" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="1" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,idcard,id_mechanic,name:Hector Proctor,job:機修工,jobid:mechanic,gender:male,race:White,headspriteid:1,hairindex:0,beardindex:1,moustacheindex:1,faceattachmentindex:0,sheetindex:0;0" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.8" hiddeningame="False" i="0">
+            <IdCard pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+          </Item>
+          <Item name="" identifier="headset" ID="1743" rect="-1369,202,24,31" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,mobileradio" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="1">
+            <WifiComponent teamid="Team1" range="35000" channel="0" allowcrossteamcommunication="False" linktochat="True" minchatmessageinterval="0" discardduplicatechatmessages="False" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" channelmemory="0,1,2,3,4,5,6,7,8,9">
+              <requireditem items="mobilebattery" type="Contained" optional="false" ignoreineditor="false" excludebroken="true" />
+            </WifiComponent>
+            <ItemContainer containablerestrictions="" autofill="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" contained="1748" />
+            <Wearable pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" variant="1" />
+            <inventory>
+              <Item name="" identifier="batterycell" ID="1748" rect="-1365,192,17,10" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,loadable,mobilebattery" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.8" hiddeningame="False" i="0">
+                <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+              </Item>
+            </inventory>
+          </Item>
+          <Item name="" identifier="baseballcap" ID="1678" rect="-1374,196,34,18" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.4" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,clothing" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="2">
+            <Wearable pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" variant="1" />
+          </Item>
+          <Item name="" identifier="bluejumpsuit2" ID="1707" rect="-1408,204,103,35" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,clothing" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="3">
+            <Wearable pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" variant="1" />
+          </Item>
+          <Item name="" identifier="toolbelt" ID="1612" rect="-1385,200,56,27" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,mobilecontainer,tool" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.6" hiddeningame="False" i="7">
+            <Wearable pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgEquipSelect" variant="1" />
+            <Holdable holdpos="0,-70" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpUse" />
+            <ItemContainer containablerestrictions="" autofill="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" contained="1613,1614,1639,1670,1672,1673" />
+            <inventory>
+              <Item name="" identifier="wrench" ID="1613" rect="-1373,192,32,10" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,tool" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="0">
+                <MeleeWeapon holdpos="0,0" holdangle="60" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+              </Item>
+              <Item name="" identifier="screwdriver" ID="1614" rect="-1373,190,32,7" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,tool" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="1">
+                <MeleeWeapon holdpos="0,0" holdangle="60" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+              </Item>
+              <Item name="" identifier="weldingtool" ID="1639" rect="-1395,209,76,44" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,weldingequipment,tool,light" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="2">
+                <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+                <LightComponent range="100" castshadows="True" drawbehindsubs="False" ison="False" flicker="0.5" flickerspeed="1" pulsefrequency="0" pulseamount="0" blinkfrequency="0" lightcolor="255,229,178,255" minvoltage="0" powerconsumption="0" voltage="1" vulnerabletoemp="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" />
+                <RepairTool barrelrotation="0" pickingtime="0" canbepicked="False" allowingameediting="True" msg="">
+                  <requireditem items="weldingtoolfuel,oxygensource" type="Contained" optional="false" ignoreineditor="false" excludebroken="true" msg="ItemMsgWeldingFuelRequired" />
+                </RepairTool>
+                <ItemContainer containablerestrictions="" autofill="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" contained="1669" />
+                <inventory>
+                  <Item name="" identifier="weldingfueltank" ID="1669" rect="-1358,186,11,33" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,weldingtoolfuel,weldingfuel" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="0">
+                    <Holdable holdpos="29.999998,-14.999999" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+                  </Item>
+                </inventory>
+              </Item>
+              <Item name="" identifier="plastic" ID="1670" rect="-1365,193,17,12" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.4" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="3">
+                <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+              </Item>
+              <Item name="" identifier="steel" ID="1672" rect="-1367,192,21,10" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.4" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,petfood3" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="4">
+                <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+              </Item>
+              <Item name="" identifier="aluminium" ID="1673" rect="-1368,196,23,19" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,petfood3" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="5">
+                <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+              </Item>
+            </inventory>
+          </Item>
+          <Item name="" identifier="crowbar" ID="1675" rect="-1389,194,65,15" noninteractable="False" nonplayerteaminteractable="False" allowswapping="True" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" invulnerabletodamage="False" tags="smallitem,tool" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False" i="8">
+            <MeleeWeapon holdpos="0,0" holdangle="60" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
+          </Item>
+        </inventory>
+        <health>
+          <LimbHealth i="0" />
+          <LimbHealth i="1" />
+          <LimbHealth i="2" />
+          <LimbHealth i="3" />
+          <LimbHealth i="4" />
+          <LimbHealth i="5" />
+        </health>
+        <orders />
+      </Character>
+      <activeorders />
+    </crew>
+    <Metadata>
+      <Data key="reputation.location.39" value="-9" type="System.Single" />
+      <Data key="reputation.faction.coalition" value="15" type="System.Single" />
+      <Data key="reputation.faction.separatists" value="-10" type="System.Single" />
+      <Data key="reputation.faction.huskcult" value="-5" type="System.Single" />
+      <Data key="reputation.faction.clowns" value="-5" type="System.Single" />
+    </Metadata>
+    <map version="0.14.9.1" currentlocation="39" width="8000" height="800" selectedlocation="-1" startlocation="39" endlocation="49" seed="QAW8QNlB">
+      <location type="None" originaltype="None" basename="Thynia Linea" name="Thynia Linea" discovered="false" position="5227.327,18.595184" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="0">
+        <Level seed="Thynia Linea" biome="thegreatsea" type="Outpost" difficulty="65.34159" size="40000,40000" generationparams="outpostlevel" initialdepth="167795" />
+      </location>
+      <location type="None" originaltype="None" basename="Corick Linea" name="Corick Linea" discovered="false" position="6123.894,38.03085" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="1">
+        <Level seed="Corick Linea" biome="hydrothermalwastes" type="Outpost" difficulty="76.548676" size="40000,40000" generationparams="outpostlevel" initialdepth="155109" />
+      </location>
+      <location type="Military" originaltype="Military" basename="New Iapetus" name="New Iapetus" discovered="false" position="1115.2697,37.436546" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="2">
+        <Level seed="New Iapetus" biome="coldcaverns" type="Outpost" difficulty="13.94087" size="40000,40000" generationparams="outpostlevel" initialdepth="146977" />
+      </location>
+      <location type="None" originaltype="None" basename="Nome" name="Nome" discovered="false" position="1318.7483,111.93699" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="3">
+        <Level seed="Nome" biome="coldcaverns" type="Outpost" difficulty="16.484352" size="40000,40000" generationparams="outpostlevel" initialdepth="199386" />
+      </location>
+      <location type="Mine" originaltype="Mine" basename="Topol" name="Topol採礦公司" discovered="false" position="1383.6636,47.846363" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="4">
+        <Level seed="Topol" biome="europanridge" type="Outpost" difficulty="17.295794" size="40000,40000" generationparams="outpostlevel" initialdepth="191344" />
+      </location>
+      <location type="None" originaltype="None" basename="Ana" name="Ana" discovered="false" position="5852.0435,86.86585" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="5">
+        <Level seed="Ana" biome="hydrothermalwastes" type="Outpost" difficulty="73.15054" size="40000,40000" generationparams="outpostlevel" initialdepth="102738" />
+      </location>
+      <location type="Outpost" originaltype="Outpost" basename="St. May" name="St. May前哨站" discovered="false" position="3706.1711,16.03924" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="6">
+        <Level seed="St. May" biome="theaphoticplateau" type="Outpost" difficulty="46.327137" size="40000,40000" generationparams="outpostlevel" initialdepth="175410" />
+      </location>
+      <location type="Abandoned" originaltype="Abandoned" basename="Serac" name="Serac前哨站" discovered="false" position="3815.4915,128.19997" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="7">
+        <Level seed="Serac" biome="theaphoticplateau" type="Outpost" difficulty="47.69364" size="40000,40000" generationparams="outpostlevel" initialdepth="111340" />
+        <missions>
+          <mission prefabid="abandonedoutpostmudraptor" destinationindex="7" selected="false" />
+        </missions>
+      </location>
+      <location type="None" originaltype="None" basename="Attis" name="Attis" discovered="false" position="5570.141,78.818726" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="8">
+        <Level seed="Attis" biome="hydrothermalwastes" type="Outpost" difficulty="69.62677" size="40000,40000" generationparams="outpostlevel" initialdepth="124520" />
+      </location>
+      <location type="None" originaltype="None" basename="Phineus Linea" name="Phineus Linea" discovered="false" position="4682.579,69.81598" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="9">
+        <Level seed="Phineus Linea" biome="thegreatsea" type="Outpost" difficulty="58.532238" size="40000,40000" generationparams="outpostlevel" initialdepth="132693" />
+      </location>
+      <location type="None" originaltype="None" basename="Astypalaea Linea" name="Astypalaea Linea" discovered="false" position="4921.3613,103.68992" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="10">
+        <Level seed="Astypalaea Linea" biome="thegreatsea" type="Outpost" difficulty="61.517017" size="40000,40000" generationparams="outpostlevel" initialdepth="112645" />
+      </location>
+      <location type="Abandoned" originaltype="Abandoned" basename="Gangpo" name="Gangpo前哨站" discovered="false" position="2609.5657,90.21556" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="11">
+        <Level seed="Gangpo" biome="europanridge" type="Outpost" difficulty="32.61957" size="40000,40000" generationparams="outpostlevel" initialdepth="134554" />
+        <missions>
+          <mission prefabid="abandonedoutpostmudraptor" destinationindex="11" selected="false" />
+        </missions>
+      </location>
+      <location type="None" originaltype="None" basename="Mehen Linea" name="Mehen Linea" discovered="false" position="2880.2517,85.40315" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="12">
+        <Level seed="Mehen Linea" biome="theaphoticplateau" type="Outpost" difficulty="36.003147" size="40000,40000" generationparams="outpostlevel" initialdepth="169324" />
+      </location>
+      <location type="None" originaltype="None" basename="Glaukos Linea" name="Glaukos Linea" discovered="false" position="4114.3135,77.908646" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="13">
+        <Level seed="Glaukos Linea" biome="thegreatsea" type="Outpost" difficulty="51.42892" size="40000,40000" generationparams="outpostlevel" initialdepth="129464" />
+      </location>
+      <location type="Abandoned" originaltype="Abandoned" basename="Erlangshen" name="Erlangshen前哨站" discovered="false" position="4375.7524,90.91809" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="14">
+        <Level seed="Erlangshen" biome="thegreatsea" type="Outpost" difficulty="54.696907" size="40000,40000" generationparams="outpostlevel" initialdepth="149712" />
+        <missions>
+          <mission prefabid="abandonedoutpostrescue" destinationindex="14" selected="false" />
+        </missions>
+      </location>
+      <location type="None" originaltype="None" basename="Berith" name="Berith" discovered="false" position="3191.9426,27.168005" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="15">
+        <Level seed="Berith" biome="theaphoticplateau" type="Outpost" difficulty="39.899284" size="40000,40000" generationparams="outpostlevel" initialdepth="159745" />
+      </location>
+      <location type="None" originaltype="None" basename="Yelland Linea" name="Yelland Linea" discovered="false" position="6366.5215,132.89304" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="16">
+        <Level seed="Yelland Linea" biome="hydrothermalwastes" type="Outpost" difficulty="79.58152" size="40000,40000" generationparams="outpostlevel" initialdepth="194656" />
+      </location>
+      <location type="None" originaltype="None" basename="Tara" name="Tara" discovered="false" position="101.66571,21.665369" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="17">
+        <Level seed="Tara" biome="coldcaverns" type="Outpost" difficulty="1.2708215" size="40000,40000" generationparams="outpostlevel" initialdepth="120183" />
+      </location>
+      <location type="City" originaltype="City" basename="Kury" name="Kury" discovered="false" position="190.81956,142.17847" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="18">
+        <Level seed="Kury" biome="coldcaverns" type="Outpost" difficulty="2.3852446" size="40000,40000" generationparams="outpostlevel" initialdepth="162449" />
+      </location>
+      <location type="City" originaltype="City" basename="Kimju" name="Kimju站" discovered="false" position="388.80225,35.81448" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="19">
+        <Level seed="Kimju" biome="coldcaverns" type="Outpost" difficulty="4.8600283" size="40000,40000" generationparams="outpostlevel" initialdepth="117976" />
+      </location>
+      <location type="Military" originaltype="Military" basename="Echion Linea" name="Echion Linea設施" discovered="false" position="483.46854,153.02419" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="20">
+        <Level seed="Echion Linea" biome="coldcaverns" type="Outpost" difficulty="6.043357" size="40000,40000" generationparams="outpostlevel" initialdepth="133788" />
+      </location>
+      <location type="None" originaltype="None" basename="Agave Linea" name="Agave Linea" discovered="false" position="4442.544,155.80493" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="21">
+        <Level seed="Agave Linea" biome="thegreatsea" type="Outpost" difficulty="55.5318" size="40000,40000" generationparams="outpostlevel" initialdepth="146394" />
+      </location>
+      <location type="Research" originaltype="Research" basename="Argadnel" name="Argadnel生物醫學研究中心" discovered="false" position="3547.0012,158.92566" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="22">
+        <Level seed="Argadnel" biome="theaphoticplateau" type="Outpost" difficulty="44.337513" size="40000,40000" generationparams="outpostlevel" initialdepth="137256" />
+      </location>
+      <location type="None" originaltype="None" basename="Drumskinny Linea" name="Drumskinny Linea" discovered="false" position="6100.5605,194.92978" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="23">
+        <Level seed="Drumskinny Linea" biome="hydrothermalwastes" type="Outpost" difficulty="76.25701" size="40000,40000" generationparams="outpostlevel" initialdepth="199492" />
+      </location>
+      <location type="None" originaltype="None" basename="Adonis Linea" name="Adonis Linea" discovered="false" position="5858.4014,187.902" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="24">
+        <Level seed="Adonis Linea" biome="hydrothermalwastes" type="Outpost" difficulty="73.23002" size="40000,40000" generationparams="outpostlevel" initialdepth="125351" />
+      </location>
+      <location type="None" originaltype="None" basename="Sarpedon Linea" name="Sarpedon Linea" discovered="false" position="2253.1672,147.52596" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="25">
+        <Level seed="Sarpedon Linea" biome="europanridge" type="Outpost" difficulty="28.164589" size="40000,40000" generationparams="outpostlevel" initialdepth="147043" />
+      </location>
+      <location type="None" originaltype="None" basename="Telephassa Linea" name="Telephassa Linea" discovered="false" position="3191.881,198.88998" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="26">
+        <Level seed="Telephassa Linea" biome="theaphoticplateau" type="Outpost" difficulty="39.898514" size="40000,40000" generationparams="outpostlevel" initialdepth="190670" />
+      </location>
+      <location type="None" originaltype="None" basename="Butterdon Linea" name="Butterdon Linea" discovered="false" position="1323.5582,216.63477" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="27">
+        <Level seed="Butterdon Linea" biome="coldcaverns" type="Outpost" difficulty="16.544477" size="40000,40000" generationparams="outpostlevel" initialdepth="191684" />
+      </location>
+      <location type="Abandoned" originaltype="Abandoned" basename="Zamoroska" name="Zamoroska前哨站" discovered="false" position="1628.1915,144.8673" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="28">
+        <Level seed="Zamoroska" biome="europanridge" type="Outpost" difficulty="20.352394" size="40000,40000" generationparams="outpostlevel" initialdepth="149989" />
+        <missions>
+          <mission prefabid="abandonedoutposthumans" destinationindex="28" selected="false" />
+        </missions>
+      </location>
+      <location type="None" originaltype="None" basename="Arid Troma" name="Arid Troma" discovered="false" position="4682.539,224.53477" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="29">
+        <Level seed="Arid Troma" biome="thegreatsea" type="Outpost" difficulty="58.53174" size="40000,40000" generationparams="outpostlevel" initialdepth="133744" />
+      </location>
+      <location type="Abandoned" originaltype="Abandoned" basename="Randkluft" name="Randkluft前哨站" discovered="false" position="5224.0957,217.54196" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="30">
+        <Level seed="Randkluft" biome="thegreatsea" type="Outpost" difficulty="65.3012" size="40000,40000" generationparams="outpostlevel" initialdepth="174927" />
+        <missions>
+          <mission prefabid="abandonedoutpostmudraptor" destinationindex="30" selected="false" />
+        </missions>
+      </location>
+      <location type="Outpost" originaltype="Outpost" basename="Dank" name="Dank居住區" discovered="false" position="2608.0952,183.67938" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="31">
+        <Level seed="Dank" biome="europanridge" type="Outpost" difficulty="32.60119" size="40000,40000" generationparams="outpostlevel" initialdepth="122388" />
+      </location>
+      <location type="None" originaltype="None" basename="Thasus Linea" name="Thasus Linea" discovered="false" position="5534.368,160.94281" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="32">
+        <Level seed="Thasus Linea" biome="hydrothermalwastes" type="Outpost" difficulty="69.1796" size="40000,40000" generationparams="outpostlevel" initialdepth="150616" />
+      </location>
+      <location type="City" originaltype="City" basename="Xinzou" name="Xinzou之城" discovered="false" position="1036.5522,174.63367" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="33">
+        <Level seed="Xinzou" biome="coldcaverns" type="Outpost" difficulty="12.9569025" size="40000,40000" generationparams="outpostlevel" initialdepth="134165" />
+      </location>
+      <location type="None" originaltype="None" basename="Noctae" name="Noctae" discovered="false" position="6450.6226,265.6578" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="34">
+        <Level seed="Noctae" biome="hydrothermalwastes" type="Outpost" difficulty="80.63278" size="40000,40000" generationparams="outpostlevel" initialdepth="138980" />
+      </location>
+      <location type="City" originaltype="City" basename="Sontu" name="Sontu之城" discovered="false" position="743.245,251.69716" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="35">
+        <Level seed="Sontu" biome="coldcaverns" type="Outpost" difficulty="9.290563" size="40000,40000" generationparams="outpostlevel" initialdepth="170584" />
+      </location>
+      <location type="Outpost" originaltype="Outpost" basename="Set" name="Set居住區" discovered="false" position="1571.2711,237.42305" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="36">
+        <Level seed="Set" biome="europanridge" type="Outpost" difficulty="19.640888" size="40000,40000" generationparams="outpostlevel" initialdepth="130486" />
+      </location>
+      <location type="None" originaltype="None" basename="Minos Linea" name="Minos Linea" discovered="false" position="6211.524,286.14896" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="37">
+        <Level seed="Minos Linea" biome="hydrothermalwastes" type="Outpost" difficulty="77.64405" size="40000,40000" generationparams="outpostlevel" initialdepth="136838" />
+      </location>
+      <location type="Outpost" originaltype="Outpost" basename="Worm Cave" name="Worm Cave居住區" discovered="false" position="3702.9138,293.12766" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="38">
+        <Level seed="Worm Cave" biome="theaphoticplateau" type="Outpost" difficulty="46.286423" size="40000,40000" generationparams="outpostlevel" initialdepth="109319" />
+      </location>
+      <location type="City" originaltype="City" basename="Meltwater" name="Meltwater城" discovered="true" position="190.54648,253.84853" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="39">
+        <Level seed="Meltwater" biome="coldcaverns" type="Outpost" difficulty="2.381831" size="40000,40000" generationparams="outpostlevel" initialdepth="103841" eventhistory="givingdirections,missionevent_cargoany,missionevent_salvageartifact,missionevent_killswarm,missionevent_salvage,healreaperstax" nonrepeatableevents="givingdirections,clownrelations1,goodsamaritan,propaganda,miketheidiot1,separatistrelations,Engineers_are_special,huskcultist,fanclub,atwitsend,shockjock,infiltration,manandhisraptor1,bombscare,terrorism101,censorship,assassinationofjacovsubra2" />
+        <store balance="5000" pricemodifier="0" stepssincespecialsupdated="0">
+          <stock id="button" qty="10" />
+          <stock id="switch" qty="10" />
+          <stock id="lever" qty="10" />
+          <stock id="coilgunammobox" qty="6" />
+          <stock id="coilgunammoboxexplosive" qty="1" />
+          <stock id="coilgunammoboxpiercing" qty="1" />
+          <stock id="railguncanistershell" qty="1" />
+          <stock id="chaingunammobox" qty="1" />
+          <stock id="captainscap1" qty="1" />
+          <stock id="captainscap2" qty="1" />
+          <stock id="captainscap3" qty="1" />
+          <stock id="captainsuniform1" qty="1" />
+          <stock id="captainsuniform2" qty="1" />
+          <stock id="captainsuniform3" qty="1" />
+          <stock id="healthscanner" qty="1" />
+          <stock id="doctorsuniform1" qty="1" />
+          <stock id="doctorsuniform2" qty="1" />
+          <stock id="orangejumpsuit1" qty="1" />
+          <stock id="orangejumpsuit2" qty="1" />
+          <stock id="bluejumpsuit1" qty="1" />
+          <stock id="bluejumpsuit2" qty="1" />
+          <stock id="baseballcap" qty="3" />
+          <stock id="assistantclothes" qty="1" />
+          <stock id="securityuniform1" qty="1" />
+          <stock id="securityuniform2" qty="1" />
+          <stock id="securityuniform3" qty="1" />
+          <stock id="bodyarmor" qty="1" />
+          <stock id="ballistichelmet1" qty="1" />
+          <stock id="ballistichelmet2" qty="1" />
+          <stock id="ballistichelmet3" qty="1" />
+          <stock id="handcuffs" qty="2" />
+          <stock id="commonerclothes1" qty="1" />
+          <stock id="commonerclothes2" qty="1" />
+          <stock id="commonerclothes3" qty="1" />
+          <stock id="commonerclothes4" qty="1" />
+          <stock id="crewchiefclothes" qty="1" />
+          <stock id="medicalofficerclothes" qty="1" />
+          <stock id="minerclothes" qty="1" />
+          <stock id="quartermasterclothes" qty="1" />
+          <stock id="researcherclothes" qty="1" />
+          <stock id="securitypatrolclothes" qty="1" />
+          <stock id="administratorclothes" qty="1" />
+          <stock id="headset" qty="10" />
+          <stock id="huskeggs" qty="1" />
+          <stock id="swimbladder" qty="2" />
+          <stock id="adrenalinegland" qty="2" />
+          <stock id="divingmask" qty="7" />
+          <stock id="divingsuit" qty="4" />
+          <stock id="underwaterscooter" qty="6" />
+          <stock id="batterycell" qty="9" />
+          <stock id="fulguriumbatterycell" qty="1" />
+          <stock id="wire" qty="5" />
+          <stock id="redwire" qty="5" />
+          <stock id="bluewire" qty="5" />
+          <stock id="orangewire" qty="5" />
+          <stock id="greenwire" qty="5" />
+          <stock id="blackwire" qty="5" />
+          <stock id="brownwire" qty="5" />
+          <stock id="fpgacircuit" qty="5" />
+          <stock id="andcomponent" qty="5" />
+          <stock id="equalscomponent" qty="5" />
+          <stock id="greatercomponent" qty="5" />
+          <stock id="addercomponent" qty="5" />
+          <stock id="colorcomponent" qty="5" />
+          <stock id="subtractcomponent" qty="5" />
+          <stock id="multiplycomponent" qty="5" />
+          <stock id="dividecomponent" qty="5" />
+          <stock id="powcomponent" qty="5" />
+          <stock id="orcomponent" qty="5" />
+          <stock id="xorcomponent" qty="5" />
+          <stock id="notcomponent" qty="5" />
+          <stock id="concatcomponent" qty="5" />
+          <stock id="sincomponent" qty="5" />
+          <stock id="coscomponent" qty="5" />
+          <stock id="tancomponent" qty="5" />
+          <stock id="asincomponent" qty="5" />
+          <stock id="acoscomponent" qty="5" />
+          <stock id="atancomponent" qty="5" />
+          <stock id="roundcomponent" qty="5" />
+          <stock id="ceilcomponent" qty="5" />
+          <stock id="floorcomponent" qty="5" />
+          <stock id="factorialcomponent" qty="5" />
+          <stock id="abscomponent" qty="5" />
+          <stock id="squarerootcomponent" qty="5" />
+          <stock id="modulocomponent" qty="5" />
+          <stock id="relaycomponent" qty="5" />
+          <stock id="delaycomponent" qty="5" />
+          <stock id="memorycomponent" qty="5" />
+          <stock id="lightcomponent" qty="5" />
+          <stock id="lightcomponent90" qty="5" />
+          <stock id="oxygendetector" qty="5" />
+          <stock id="waterdetector" qty="5" />
+          <stock id="smokedetector" qty="5" />
+          <stock id="motiondetector" qty="5" />
+          <stock id="signalcheckcomponent" qty="5" />
+          <stock id="regexcomponent" qty="5" />
+          <stock id="oscillator" qty="5" />
+          <stock id="wificomponent" qty="5" />
+          <stock id="emergencysiren" qty="5" />
+          <stock id="alarmbuzzer" qty="5" />
+          <stock id="steel" qty="10" />
+          <stock id="titaniumaluminiumalloy" qty="3" />
+          <stock id="plastic" qty="10" />
+          <stock id="ballisticfiber" qty="2" />
+          <stock id="organicfiber" qty="8" />
+          <stock id="rubber" qty="13" />
+          <stock id="flashpowder" qty="4" />
+          <stock id="fiberplant" qty="3" />
+          <stock id="elastinplant" qty="3" />
+          <stock id="aquaticpoppy" qty="1" />
+          <stock id="yeastshroom" qty="1" />
+          <stock id="slimebacteria" qty="1" />
+          <stock id="antibleeding1" qty="30" />
+          <stock id="antibleeding2" qty="15" />
+          <stock id="antibleeding3" qty="10" />
+          <stock id="antidama1" qty="16" />
+          <stock id="antidama2" qty="4" />
+          <stock id="pomegrenadeextract" qty="4" />
+          <stock id="antibloodloss1" qty="18" />
+          <stock id="antibloodloss2" qty="6" />
+          <stock id="liquidoxygenite" qty="3" />
+          <stock id="calyxanide" qty="5" />
+          <stock id="antipsychosis" qty="5" />
+          <stock id="antinarc" qty="5" />
+          <stock id="morbusineantidote" qty="2" />
+          <stock id="cyanideantidote" qty="2" />
+          <stock id="sufforinantidote" qty="2" />
+          <stock id="deliriumineantidote" qty="2" />
+          <stock id="antirad" qty="2" />
+          <stock id="elastin" qty="6" />
+          <stock id="opium" qty="6" />
+          <stock id="antibiotics" qty="12" />
+          <stock id="stabilozine" qty="10" />
+          <stock id="antiparalysis" qty="2" />
+          <stock id="morbusine" qty="1" />
+          <stock id="chloralhydrate" qty="1" />
+          <stock id="cyanide" qty="1" />
+          <stock id="radiotoxin" qty="1" />
+          <stock id="sufforin" qty="1" />
+          <stock id="deliriumine" qty="1" />
+          <stock id="paralyzant" qty="1" />
+          <stock id="raptorbaneextract" qty="1" />
+          <stock id="tonicliquid" qty="7" />
+          <stock id="meth" qty="2" />
+          <stock id="steroids" qty="1" />
+          <stock id="ethanol" qty="8" />
+          <stock id="captainspipe" qty="5" />
+          <stock id="pipetobacco" qty="2" />
+          <stock id="toolbelt" qty="6" />
+          <stock id="toolbox" qty="6" />
+          <stock id="weldingtool" qty="5" />
+          <stock id="plasmacutter" qty="5" />
+          <stock id="weldingfueltank" qty="7" />
+          <stock id="extinguisher" qty="4" />
+          <stock id="sprayer" qty="5" />
+          <stock id="screwdriver" qty="15" />
+          <stock id="wrench" qty="15" />
+          <stock id="crowbar" qty="15" />
+          <stock id="handheldsonar" qty="2" />
+          <stock id="sonarbeacon" qty="1" />
+          <stock id="flashlight" qty="3" />
+          <stock id="flare" qty="10" />
+          <stock id="syringegun" qty="1" />
+          <stock id="oxygentank" qty="15" />
+          <stock id="fuelrod" qty="3" />
+          <stock id="thoriumfuelrod" qty="1" />
+          <stock id="redpaint" qty="2" />
+          <stock id="greenpaint" qty="2" />
+          <stock id="bluepaint" qty="2" />
+          <stock id="blackpaint" qty="2" />
+          <stock id="whitepaint" qty="2" />
+          <stock id="glowstick" qty="10" />
+          <stock id="depthchargeshell" qty="2" />
+          <stock id="depthdecoyshell" qty="2" />
+          <stock id="uex" qty="4" />
+          <stock id="c4block" qty="2" />
+          <stock id="compoundn" qty="2" />
+          <stock id="detonator" qty="1" />
+          <stock id="nitroglycerin" qty="2" />
+          <stock id="railgunshell" qty="4" />
+          <stock id="spear" qty="6" />
+          <stock id="explosivespear" qty="3" />
+          <stock id="harpoongun" qty="2" />
+          <stock id="revolverround" qty="12" />
+          <stock id="revolver" qty="1" />
+          <stock id="smgmagazine" qty="2" />
+          <stock id="smg" qty="1" />
+          <stock id="stungrenade" qty="3" />
+          <stock id="empgrenade" qty="1" />
+          <stock id="fraggrenade" qty="2" />
+          <stock id="stunbaton" qty="2" />
+          <stock id="divingknife" qty="8" />
+          <stock id="shotgun" qty="1" />
+          <stock id="shotgunshell" qty="4" />
+          <stock id="stungun" qty="2" />
+          <stock id="stungundart" qty="3" />
+          <stock id="peanutegg" qty="1" />
+          <stock id="psilotoadegg" qty="1" />
+          <stock id="orangeboyegg" qty="1" />
+          <stock id="food" qty="5" />
+          <stock id="petnametag" qty="5" />
+          <stock id="creepingorangevineseed" qty="1" />
+          <stock id="tobaccovineseed" qty="1" />
+          <stock id="saltvineseed" qty="1" />
+          <stock id="raptorbaneseed" qty="1" />
+          <stock id="smallplanter" qty="1" />
+          <stock id="wateringcan" qty="1" />
+          <stock id="fertilizer" qty="1" />
+          <stock id="seedbag" qty="1" />
+          <dailyspecials>
+            <item id="motiondetector" />
+            <item id="whitepaint" />
+            <item id="fuelrod" />
+          </dailyspecials>
+          <requestedgoods>
+            <item id="copper" />
+            <item id="handcuffs" />
+            <item id="toolbelt" />
+          </requestedgoods>
+        </store>
+      </location>
+      <location type="None" originaltype="None" basename="Alphesiboea Linea" name="Alphesiboea Linea" discovered="false" position="5948.658,301.43103" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="40">
+        <Level seed="Alphesiboea Linea" biome="hydrothermalwastes" type="Outpost" difficulty="74.35822" size="40000,40000" generationparams="outpostlevel" initialdepth="160808" />
+      </location>
+      <location type="None" originaltype="None" basename="Pelorus Linea" name="Pelorus Linea" discovered="false" position="3408.9358,285.26718" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="41">
+        <Level seed="Pelorus Linea" biome="theaphoticplateau" type="Outpost" difficulty="42.6117" size="40000,40000" generationparams="outpostlevel" initialdepth="156074" />
+      </location>
+      <location type="City" originaltype="City" basename="Onga Linea" name="Onga Linea" discovered="false" position="3985.4014,300.15424" pricemultiplier="1" isgatebetweenbiomes="true" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="42">
+        <Level seed="Onga Linea" biome="theaphoticplateau" type="Outpost" difficulty="49.817516" size="40000,40000" generationparams="outpostlevel" initialdepth="176579" />
+        <store balance="5000" pricemodifier="-4" stepssincespecialsupdated="0">
+          <stock id="button" qty="10" />
+          <stock id="switch" qty="10" />
+          <stock id="lever" qty="10" />
+          <stock id="coilgunammobox" qty="6" />
+          <stock id="coilgunammoboxexplosive" qty="1" />
+          <stock id="coilgunammoboxpiercing" qty="1" />
+          <stock id="railguncanistershell" qty="1" />
+          <stock id="chaingunammobox" qty="1" />
+          <stock id="captainscap1" qty="1" />
+          <stock id="captainscap2" qty="1" />
+          <stock id="captainscap3" qty="1" />
+          <stock id="captainsuniform1" qty="1" />
+          <stock id="captainsuniform2" qty="1" />
+          <stock id="captainsuniform3" qty="1" />
+          <stock id="healthscanner" qty="1" />
+          <stock id="doctorsuniform1" qty="1" />
+          <stock id="doctorsuniform2" qty="1" />
+          <stock id="orangejumpsuit1" qty="1" />
+          <stock id="orangejumpsuit2" qty="1" />
+          <stock id="bluejumpsuit1" qty="1" />
+          <stock id="bluejumpsuit2" qty="1" />
+          <stock id="baseballcap" qty="3" />
+          <stock id="assistantclothes" qty="1" />
+          <stock id="securityuniform1" qty="1" />
+          <stock id="securityuniform2" qty="1" />
+          <stock id="securityuniform3" qty="1" />
+          <stock id="bodyarmor" qty="1" />
+          <stock id="ballistichelmet1" qty="1" />
+          <stock id="ballistichelmet2" qty="1" />
+          <stock id="ballistichelmet3" qty="1" />
+          <stock id="handcuffs" qty="2" />
+          <stock id="commonerclothes1" qty="1" />
+          <stock id="commonerclothes2" qty="1" />
+          <stock id="commonerclothes3" qty="1" />
+          <stock id="commonerclothes4" qty="1" />
+          <stock id="crewchiefclothes" qty="1" />
+          <stock id="medicalofficerclothes" qty="1" />
+          <stock id="minerclothes" qty="1" />
+          <stock id="quartermasterclothes" qty="1" />
+          <stock id="researcherclothes" qty="1" />
+          <stock id="securitypatrolclothes" qty="1" />
+          <stock id="administratorclothes" qty="1" />
+          <stock id="headset" qty="10" />
+          <stock id="huskeggs" qty="1" />
+          <stock id="swimbladder" qty="2" />
+          <stock id="adrenalinegland" qty="2" />
+          <stock id="divingmask" qty="7" />
+          <stock id="divingsuit" qty="4" />
+          <stock id="underwaterscooter" qty="6" />
+          <stock id="batterycell" qty="9" />
+          <stock id="fulguriumbatterycell" qty="1" />
+          <stock id="wire" qty="5" />
+          <stock id="redwire" qty="5" />
+          <stock id="bluewire" qty="5" />
+          <stock id="orangewire" qty="5" />
+          <stock id="greenwire" qty="5" />
+          <stock id="blackwire" qty="5" />
+          <stock id="brownwire" qty="5" />
+          <stock id="fpgacircuit" qty="5" />
+          <stock id="andcomponent" qty="5" />
+          <stock id="equalscomponent" qty="5" />
+          <stock id="greatercomponent" qty="5" />
+          <stock id="addercomponent" qty="5" />
+          <stock id="colorcomponent" qty="5" />
+          <stock id="subtractcomponent" qty="5" />
+          <stock id="multiplycomponent" qty="5" />
+          <stock id="dividecomponent" qty="5" />
+          <stock id="powcomponent" qty="5" />
+          <stock id="orcomponent" qty="5" />
+          <stock id="xorcomponent" qty="5" />
+          <stock id="notcomponent" qty="5" />
+          <stock id="concatcomponent" qty="5" />
+          <stock id="sincomponent" qty="5" />
+          <stock id="coscomponent" qty="5" />
+          <stock id="tancomponent" qty="5" />
+          <stock id="asincomponent" qty="5" />
+          <stock id="acoscomponent" qty="5" />
+          <stock id="atancomponent" qty="5" />
+          <stock id="roundcomponent" qty="5" />
+          <stock id="ceilcomponent" qty="5" />
+          <stock id="floorcomponent" qty="5" />
+          <stock id="factorialcomponent" qty="5" />
+          <stock id="abscomponent" qty="5" />
+          <stock id="squarerootcomponent" qty="5" />
+          <stock id="modulocomponent" qty="5" />
+          <stock id="relaycomponent" qty="5" />
+          <stock id="delaycomponent" qty="5" />
+          <stock id="memorycomponent" qty="5" />
+          <stock id="lightcomponent" qty="5" />
+          <stock id="lightcomponent90" qty="5" />
+          <stock id="oxygendetector" qty="5" />
+          <stock id="waterdetector" qty="5" />
+          <stock id="smokedetector" qty="5" />
+          <stock id="motiondetector" qty="5" />
+          <stock id="signalcheckcomponent" qty="5" />
+          <stock id="regexcomponent" qty="5" />
+          <stock id="oscillator" qty="5" />
+          <stock id="wificomponent" qty="5" />
+          <stock id="emergencysiren" qty="5" />
+          <stock id="alarmbuzzer" qty="5" />
+          <stock id="steel" qty="10" />
+          <stock id="titaniumaluminiumalloy" qty="3" />
+          <stock id="plastic" qty="10" />
+          <stock id="ballisticfiber" qty="2" />
+          <stock id="organicfiber" qty="8" />
+          <stock id="rubber" qty="13" />
+          <stock id="flashpowder" qty="4" />
+          <stock id="fiberplant" qty="3" />
+          <stock id="elastinplant" qty="3" />
+          <stock id="aquaticpoppy" qty="1" />
+          <stock id="yeastshroom" qty="1" />
+          <stock id="slimebacteria" qty="1" />
+          <stock id="antibleeding1" qty="30" />
+          <stock id="antibleeding2" qty="15" />
+          <stock id="antibleeding3" qty="10" />
+          <stock id="antidama1" qty="16" />
+          <stock id="antidama2" qty="4" />
+          <stock id="pomegrenadeextract" qty="4" />
+          <stock id="antibloodloss1" qty="18" />
+          <stock id="antibloodloss2" qty="6" />
+          <stock id="liquidoxygenite" qty="3" />
+          <stock id="calyxanide" qty="5" />
+          <stock id="antipsychosis" qty="5" />
+          <stock id="antinarc" qty="5" />
+          <stock id="morbusineantidote" qty="2" />
+          <stock id="cyanideantidote" qty="2" />
+          <stock id="sufforinantidote" qty="2" />
+          <stock id="deliriumineantidote" qty="2" />
+          <stock id="antirad" qty="2" />
+          <stock id="elastin" qty="6" />
+          <stock id="opium" qty="6" />
+          <stock id="antibiotics" qty="12" />
+          <stock id="stabilozine" qty="10" />
+          <stock id="antiparalysis" qty="2" />
+          <stock id="morbusine" qty="1" />
+          <stock id="chloralhydrate" qty="1" />
+          <stock id="cyanide" qty="1" />
+          <stock id="radiotoxin" qty="1" />
+          <stock id="sufforin" qty="1" />
+          <stock id="deliriumine" qty="1" />
+          <stock id="paralyzant" qty="1" />
+          <stock id="raptorbaneextract" qty="1" />
+          <stock id="tonicliquid" qty="7" />
+          <stock id="meth" qty="2" />
+          <stock id="steroids" qty="1" />
+          <stock id="ethanol" qty="8" />
+          <stock id="captainspipe" qty="5" />
+          <stock id="pipetobacco" qty="2" />
+          <stock id="toolbelt" qty="6" />
+          <stock id="toolbox" qty="6" />
+          <stock id="weldingtool" qty="5" />
+          <stock id="plasmacutter" qty="5" />
+          <stock id="weldingfueltank" qty="7" />
+          <stock id="extinguisher" qty="4" />
+          <stock id="sprayer" qty="5" />
+          <stock id="screwdriver" qty="15" />
+          <stock id="wrench" qty="15" />
+          <stock id="crowbar" qty="15" />
+          <stock id="handheldsonar" qty="2" />
+          <stock id="sonarbeacon" qty="1" />
+          <stock id="flashlight" qty="3" />
+          <stock id="flare" qty="10" />
+          <stock id="syringegun" qty="1" />
+          <stock id="oxygentank" qty="15" />
+          <stock id="fuelrod" qty="3" />
+          <stock id="thoriumfuelrod" qty="1" />
+          <stock id="redpaint" qty="2" />
+          <stock id="greenpaint" qty="2" />
+          <stock id="bluepaint" qty="2" />
+          <stock id="blackpaint" qty="2" />
+          <stock id="whitepaint" qty="2" />
+          <stock id="glowstick" qty="10" />
+          <stock id="depthchargeshell" qty="2" />
+          <stock id="depthdecoyshell" qty="2" />
+          <stock id="uex" qty="4" />
+          <stock id="c4block" qty="2" />
+          <stock id="compoundn" qty="2" />
+          <stock id="detonator" qty="1" />
+          <stock id="nitroglycerin" qty="2" />
+          <stock id="railgunshell" qty="4" />
+          <stock id="spear" qty="6" />
+          <stock id="explosivespear" qty="3" />
+          <stock id="harpoongun" qty="2" />
+          <stock id="revolverround" qty="12" />
+          <stock id="revolver" qty="1" />
+          <stock id="smgmagazine" qty="2" />
+          <stock id="smg" qty="1" />
+          <stock id="stungrenade" qty="3" />
+          <stock id="empgrenade" qty="1" />
+          <stock id="fraggrenade" qty="2" />
+          <stock id="stunbaton" qty="2" />
+          <stock id="divingknife" qty="8" />
+          <stock id="shotgun" qty="1" />
+          <stock id="shotgunshell" qty="4" />
+          <stock id="stungun" qty="2" />
+          <stock id="stungundart" qty="3" />
+          <stock id="peanutegg" qty="1" />
+          <stock id="psilotoadegg" qty="1" />
+          <stock id="orangeboyegg" qty="1" />
+          <stock id="food" qty="5" />
+          <stock id="petnametag" qty="5" />
+          <stock id="creepingorangevineseed" qty="1" />
+          <stock id="tobaccovineseed" qty="1" />
+          <stock id="saltvineseed" qty="1" />
+          <stock id="raptorbaneseed" qty="1" />
+          <stock id="smallplanter" qty="1" />
+          <stock id="wateringcan" qty="1" />
+          <stock id="fertilizer" qty="1" />
+          <stock id="seedbag" qty="1" />
+          <dailyspecials>
+            <item id="smokedetector" />
+            <item id="morbusineantidote" />
+            <item id="securityuniform2" />
+          </dailyspecials>
+          <requestedgoods>
+            <item id="raptorbane" />
+            <item id="lazulite" />
+            <item id="asincomponent" />
+          </requestedgoods>
+        </store>
+      </location>
+      <location type="Outpost" originaltype="Outpost" basename="Milda" name="Milda居住區" discovered="false" position="2929.101,269.89737" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="43">
+        <Level seed="Milda" biome="theaphoticplateau" type="Outpost" difficulty="36.61376" size="40000,40000" generationparams="outpostlevel" initialdepth="170660" />
+      </location>
+      <location type="Research" originaltype="Research" basename="Tectamus Linea" name="Tectamus Linea生物醫學研究中心" discovered="false" position="2018.9764,307.69257" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="44">
+        <Level seed="Tectamus Linea" biome="europanridge" type="Outpost" difficulty="25.237206" size="40000,40000" generationparams="outpostlevel" initialdepth="107070" />
+      </location>
+      <location type="None" originaltype="None" basename="Drizzlecomb Linea" name="Drizzlecomb Linea" discovered="false" position="4938.486,262.28714" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="45">
+        <Level seed="Drizzlecomb Linea" biome="thegreatsea" type="Outpost" difficulty="61.73107" size="40000,40000" generationparams="outpostlevel" initialdepth="112311" />
+      </location>
+      <location type="None" originaltype="None" basename="Phocis Flexus" name="Phocis Flexus" discovered="false" position="5641.089,295.77548" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="46">
+        <Level seed="Phocis Flexus" biome="hydrothermalwastes" type="Outpost" difficulty="70.51361" size="40000,40000" generationparams="outpostlevel" initialdepth="192432" />
+      </location>
+      <location type="Mine" originaltype="Mine" basename="Tormsdale Linea" name="Tormsdale Linea礦" discovered="false" position="1879.2261,310.14645" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="47">
+        <Level seed="Tormsdale Linea" biome="europanridge" type="Outpost" difficulty="23.490326" size="40000,40000" generationparams="outpostlevel" initialdepth="115921" />
+      </location>
+      <location type="None" originaltype="None" basename="Delphi Flexus" name="Delphi Flexus" discovered="false" position="5514.5474,262.58356" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="48">
+        <Level seed="Delphi Flexus" biome="hydrothermalwastes" type="Outpost" difficulty="68.93184" size="40000,40000" generationparams="outpostlevel" initialdepth="130085" />
+      </location>
+      <location type="EndLocation" originaltype="EndLocation" basename="Malcam's Cauldron" name="Malcam's Cauldron" discovered="false" position="7374.588,349.5844" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="49">
+        <Level seed="Malcam's Cauldron" biome="endzone" type="Outpost" difficulty="92.18235" size="40000,40000" generationparams="outpostlevel" initialdepth="135623" />
+      </location>
+      <location type="City" originaltype="City" basename="Novaya Moskva" name="Novaya Moskva之城" discovered="false" position="1330.652,370.9694" pricemultiplier="1" isgatebetweenbiomes="true" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="50">
+        <Level seed="Novaya Moskva" biome="coldcaverns" type="Outpost" difficulty="16.63315" size="40000,40000" generationparams="outpostlevel" initialdepth="177473" />
+      </location>
+      <location type="None" originaltype="None" basename="Androgeos Linea" name="Androgeos Linea" discovered="false" position="6448.845,356.86023" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="51">
+        <Level seed="Androgeos Linea" biome="hydrothermalwastes" type="Outpost" difficulty="80.610565" size="40000,40000" generationparams="outpostlevel" initialdepth="137984" />
+      </location>
+      <location type="Outpost" originaltype="Outpost" basename="New Nanhui" name="New Nanhui前哨站" discovered="false" position="2248.2222,378.2022" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="52">
+        <Level seed="New Nanhui" biome="europanridge" type="Outpost" difficulty="28.102776" size="40000,40000" generationparams="outpostlevel" initialdepth="121394" />
+      </location>
+      <location type="City" originaltype="City" basename="Shinkonai" name="Shinkonai之城" discovered="false" position="466.91733,369.6051" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="53">
+        <Level seed="Shinkonai" biome="coldcaverns" type="Outpost" difficulty="5.836467" size="40000,40000" generationparams="outpostlevel" initialdepth="104606" />
+      </location>
+      <location type="None" originaltype="None" basename="Powys" name="Powys" discovered="false" position="3177.2737,387.6698" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="54">
+        <Level seed="Powys" biome="theaphoticplateau" type="Outpost" difficulty="39.715923" size="40000,40000" generationparams="outpostlevel" initialdepth="130427" />
+      </location>
+      <location type="None" originaltype="None" basename="Annwn" name="Annwn" discovered="false" position="3780.383,394.6606" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="55">
+        <Level seed="Annwn" biome="theaphoticplateau" type="Outpost" difficulty="47.254787" size="40000,40000" generationparams="outpostlevel" initialdepth="112273" />
+      </location>
+      <location type="None" originaltype="None" basename="Kennet Linea" name="Kennet Linea" discovered="false" position="4666.589,392.08664" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="56">
+        <Level seed="Kennet Linea" biome="thegreatsea" type="Outpost" difficulty="58.33236" size="40000,40000" generationparams="outpostlevel" initialdepth="163088" />
+      </location>
+      <location type="None" originaltype="None" basename="Agenor Linea" name="Agenor Linea" discovered="false" position="2536.599,322.1992" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="57">
+        <Level seed="Agenor Linea" biome="europanridge" type="Outpost" difficulty="31.707489" size="40000,40000" generationparams="outpostlevel" initialdepth="130615" />
+      </location>
+      <location type="None" originaltype="None" basename="Alkonost" name="Alkonost" discovered="false" position="6124.339,412.74603" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="58">
+        <Level seed="Alkonost" biome="hydrothermalwastes" type="Outpost" difficulty="76.55424" size="40000,40000" generationparams="outpostlevel" initialdepth="156964" />
+      </location>
+      <location type="None" originaltype="None" basename="Yelland Linea" name="Yelland Linea" discovered="false" position="192.54068,370.99405" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="59">
+        <Level seed="Yelland Linea" biome="coldcaverns" type="Outpost" difficulty="2.4067585" size="40000,40000" generationparams="outpostlevel" initialdepth="194656" />
+      </location>
+      <location type="Research" originaltype="Research" basename="Cadmus Linea" name="Cadmus Linea研究中心" discovered="false" position="1703.3175,436.58542" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="60">
+        <Level seed="Cadmus Linea" biome="europanridge" type="Outpost" difficulty="21.29147" size="40000,40000" generationparams="outpostlevel" initialdepth="185862" />
+      </location>
+      <location type="Abandoned" originaltype="Abandoned" basename="Versas" name="Versas前哨站" discovered="false" position="4375.9243,369.74313" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="61">
+        <Level seed="Versas" biome="thegreatsea" type="Outpost" difficulty="54.69905" size="40000,40000" generationparams="outpostlevel" initialdepth="188058" />
+        <missions>
+          <mission prefabid="abandonedoutpostcrawler" destinationindex="61" selected="false" />
+        </missions>
+      </location>
+      <location type="Abandoned" originaltype="Abandoned" basename="Uusi-Turcu" name="Uusi-Turcu前哨站" discovered="false" position="2175.8977,451.443" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="62">
+        <Level seed="Uusi-Turcu" biome="europanridge" type="Outpost" difficulty="27.198719" size="40000,40000" generationparams="outpostlevel" initialdepth="162223" />
+        <missions>
+          <mission prefabid="abandonedoutpostcrawler" destinationindex="62" selected="false" />
+        </missions>
+      </location>
+      <location type="None" originaltype="None" basename="Tara" name="Tara" discovered="false" position="6373.7583,453.1769" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="63">
+        <Level seed="Tara" biome="hydrothermalwastes" type="Outpost" difficulty="79.67198" size="40000,40000" generationparams="outpostlevel" initialdepth="120183" />
+      </location>
+      <location type="City" originaltype="City" basename="Mehen Linea" name="Mehen Linea" discovered="false" position="5301.259,461.17093" pricemultiplier="1" isgatebetweenbiomes="true" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="64">
+        <Level seed="Mehen Linea" biome="thegreatsea" type="Outpost" difficulty="66.26573" size="40000,40000" generationparams="outpostlevel" initialdepth="169324" />
+        <store balance="5000" pricemodifier="2" stepssincespecialsupdated="0">
+          <stock id="button" qty="10" />
+          <stock id="switch" qty="10" />
+          <stock id="lever" qty="10" />
+          <stock id="coilgunammobox" qty="6" />
+          <stock id="coilgunammoboxexplosive" qty="1" />
+          <stock id="coilgunammoboxpiercing" qty="1" />
+          <stock id="railguncanistershell" qty="1" />
+          <stock id="chaingunammobox" qty="1" />
+          <stock id="captainscap1" qty="1" />
+          <stock id="captainscap2" qty="1" />
+          <stock id="captainscap3" qty="1" />
+          <stock id="captainsuniform1" qty="1" />
+          <stock id="captainsuniform2" qty="1" />
+          <stock id="captainsuniform3" qty="1" />
+          <stock id="healthscanner" qty="1" />
+          <stock id="doctorsuniform1" qty="1" />
+          <stock id="doctorsuniform2" qty="1" />
+          <stock id="orangejumpsuit1" qty="1" />
+          <stock id="orangejumpsuit2" qty="1" />
+          <stock id="bluejumpsuit1" qty="1" />
+          <stock id="bluejumpsuit2" qty="1" />
+          <stock id="baseballcap" qty="3" />
+          <stock id="assistantclothes" qty="1" />
+          <stock id="securityuniform1" qty="1" />
+          <stock id="securityuniform2" qty="1" />
+          <stock id="securityuniform3" qty="1" />
+          <stock id="bodyarmor" qty="1" />
+          <stock id="ballistichelmet1" qty="1" />
+          <stock id="ballistichelmet2" qty="1" />
+          <stock id="ballistichelmet3" qty="1" />
+          <stock id="handcuffs" qty="2" />
+          <stock id="commonerclothes1" qty="1" />
+          <stock id="commonerclothes2" qty="1" />
+          <stock id="commonerclothes3" qty="1" />
+          <stock id="commonerclothes4" qty="1" />
+          <stock id="crewchiefclothes" qty="1" />
+          <stock id="medicalofficerclothes" qty="1" />
+          <stock id="minerclothes" qty="1" />
+          <stock id="quartermasterclothes" qty="1" />
+          <stock id="researcherclothes" qty="1" />
+          <stock id="securitypatrolclothes" qty="1" />
+          <stock id="administratorclothes" qty="1" />
+          <stock id="headset" qty="10" />
+          <stock id="huskeggs" qty="1" />
+          <stock id="swimbladder" qty="2" />
+          <stock id="adrenalinegland" qty="2" />
+          <stock id="divingmask" qty="7" />
+          <stock id="divingsuit" qty="4" />
+          <stock id="underwaterscooter" qty="6" />
+          <stock id="batterycell" qty="9" />
+          <stock id="fulguriumbatterycell" qty="1" />
+          <stock id="wire" qty="5" />
+          <stock id="redwire" qty="5" />
+          <stock id="bluewire" qty="5" />
+          <stock id="orangewire" qty="5" />
+          <stock id="greenwire" qty="5" />
+          <stock id="blackwire" qty="5" />
+          <stock id="brownwire" qty="5" />
+          <stock id="fpgacircuit" qty="5" />
+          <stock id="andcomponent" qty="5" />
+          <stock id="equalscomponent" qty="5" />
+          <stock id="greatercomponent" qty="5" />
+          <stock id="addercomponent" qty="5" />
+          <stock id="colorcomponent" qty="5" />
+          <stock id="subtractcomponent" qty="5" />
+          <stock id="multiplycomponent" qty="5" />
+          <stock id="dividecomponent" qty="5" />
+          <stock id="powcomponent" qty="5" />
+          <stock id="orcomponent" qty="5" />
+          <stock id="xorcomponent" qty="5" />
+          <stock id="notcomponent" qty="5" />
+          <stock id="concatcomponent" qty="5" />
+          <stock id="sincomponent" qty="5" />
+          <stock id="coscomponent" qty="5" />
+          <stock id="tancomponent" qty="5" />
+          <stock id="asincomponent" qty="5" />
+          <stock id="acoscomponent" qty="5" />
+          <stock id="atancomponent" qty="5" />
+          <stock id="roundcomponent" qty="5" />
+          <stock id="ceilcomponent" qty="5" />
+          <stock id="floorcomponent" qty="5" />
+          <stock id="factorialcomponent" qty="5" />
+          <stock id="abscomponent" qty="5" />
+          <stock id="squarerootcomponent" qty="5" />
+          <stock id="modulocomponent" qty="5" />
+          <stock id="relaycomponent" qty="5" />
+          <stock id="delaycomponent" qty="5" />
+          <stock id="memorycomponent" qty="5" />
+          <stock id="lightcomponent" qty="5" />
+          <stock id="lightcomponent90" qty="5" />
+          <stock id="oxygendetector" qty="5" />
+          <stock id="waterdetector" qty="5" />
+          <stock id="smokedetector" qty="5" />
+          <stock id="motiondetector" qty="5" />
+          <stock id="signalcheckcomponent" qty="5" />
+          <stock id="regexcomponent" qty="5" />
+          <stock id="oscillator" qty="5" />
+          <stock id="wificomponent" qty="5" />
+          <stock id="emergencysiren" qty="5" />
+          <stock id="alarmbuzzer" qty="5" />
+          <stock id="steel" qty="10" />
+          <stock id="titaniumaluminiumalloy" qty="3" />
+          <stock id="plastic" qty="10" />
+          <stock id="ballisticfiber" qty="2" />
+          <stock id="organicfiber" qty="8" />
+          <stock id="rubber" qty="13" />
+          <stock id="flashpowder" qty="4" />
+          <stock id="fiberplant" qty="3" />
+          <stock id="elastinplant" qty="3" />
+          <stock id="aquaticpoppy" qty="1" />
+          <stock id="yeastshroom" qty="1" />
+          <stock id="slimebacteria" qty="1" />
+          <stock id="antibleeding1" qty="30" />
+          <stock id="antibleeding2" qty="15" />
+          <stock id="antibleeding3" qty="10" />
+          <stock id="antidama1" qty="16" />
+          <stock id="antidama2" qty="4" />
+          <stock id="pomegrenadeextract" qty="4" />
+          <stock id="antibloodloss1" qty="18" />
+          <stock id="antibloodloss2" qty="6" />
+          <stock id="liquidoxygenite" qty="3" />
+          <stock id="calyxanide" qty="5" />
+          <stock id="antipsychosis" qty="5" />
+          <stock id="antinarc" qty="5" />
+          <stock id="morbusineantidote" qty="2" />
+          <stock id="cyanideantidote" qty="2" />
+          <stock id="sufforinantidote" qty="2" />
+          <stock id="deliriumineantidote" qty="2" />
+          <stock id="antirad" qty="2" />
+          <stock id="elastin" qty="6" />
+          <stock id="opium" qty="6" />
+          <stock id="antibiotics" qty="12" />
+          <stock id="stabilozine" qty="10" />
+          <stock id="antiparalysis" qty="2" />
+          <stock id="morbusine" qty="1" />
+          <stock id="chloralhydrate" qty="1" />
+          <stock id="cyanide" qty="1" />
+          <stock id="radiotoxin" qty="1" />
+          <stock id="sufforin" qty="1" />
+          <stock id="deliriumine" qty="1" />
+          <stock id="paralyzant" qty="1" />
+          <stock id="raptorbaneextract" qty="1" />
+          <stock id="tonicliquid" qty="7" />
+          <stock id="meth" qty="2" />
+          <stock id="steroids" qty="1" />
+          <stock id="ethanol" qty="8" />
+          <stock id="captainspipe" qty="5" />
+          <stock id="pipetobacco" qty="2" />
+          <stock id="toolbelt" qty="6" />
+          <stock id="toolbox" qty="6" />
+          <stock id="weldingtool" qty="5" />
+          <stock id="plasmacutter" qty="5" />
+          <stock id="weldingfueltank" qty="7" />
+          <stock id="extinguisher" qty="4" />
+          <stock id="sprayer" qty="5" />
+          <stock id="screwdriver" qty="15" />
+          <stock id="wrench" qty="15" />
+          <stock id="crowbar" qty="15" />
+          <stock id="handheldsonar" qty="2" />
+          <stock id="sonarbeacon" qty="1" />
+          <stock id="flashlight" qty="3" />
+          <stock id="flare" qty="10" />
+          <stock id="syringegun" qty="1" />
+          <stock id="oxygentank" qty="15" />
+          <stock id="fuelrod" qty="3" />
+          <stock id="thoriumfuelrod" qty="1" />
+          <stock id="redpaint" qty="2" />
+          <stock id="greenpaint" qty="2" />
+          <stock id="bluepaint" qty="2" />
+          <stock id="blackpaint" qty="2" />
+          <stock id="whitepaint" qty="2" />
+          <stock id="glowstick" qty="10" />
+          <stock id="depthchargeshell" qty="2" />
+          <stock id="depthdecoyshell" qty="2" />
+          <stock id="uex" qty="4" />
+          <stock id="c4block" qty="2" />
+          <stock id="compoundn" qty="2" />
+          <stock id="detonator" qty="1" />
+          <stock id="nitroglycerin" qty="2" />
+          <stock id="railgunshell" qty="4" />
+          <stock id="spear" qty="6" />
+          <stock id="explosivespear" qty="3" />
+          <stock id="harpoongun" qty="2" />
+          <stock id="revolverround" qty="12" />
+          <stock id="revolver" qty="1" />
+          <stock id="smgmagazine" qty="2" />
+          <stock id="smg" qty="1" />
+          <stock id="stungrenade" qty="3" />
+          <stock id="empgrenade" qty="1" />
+          <stock id="fraggrenade" qty="2" />
+          <stock id="stunbaton" qty="2" />
+          <stock id="divingknife" qty="8" />
+          <stock id="shotgun" qty="1" />
+          <stock id="shotgunshell" qty="4" />
+          <stock id="stungun" qty="2" />
+          <stock id="stungundart" qty="3" />
+          <stock id="peanutegg" qty="1" />
+          <stock id="psilotoadegg" qty="1" />
+          <stock id="orangeboyegg" qty="1" />
+          <stock id="food" qty="5" />
+          <stock id="petnametag" qty="5" />
+          <stock id="creepingorangevineseed" qty="1" />
+          <stock id="tobaccovineseed" qty="1" />
+          <stock id="saltvineseed" qty="1" />
+          <stock id="raptorbaneseed" qty="1" />
+          <stock id="smallplanter" qty="1" />
+          <stock id="wateringcan" qty="1" />
+          <stock id="fertilizer" qty="1" />
+          <stock id="seedbag" qty="1" />
+          <dailyspecials>
+            <item id="radiotoxin" />
+            <item id="steroids" />
+            <item id="wificomponent" />
+          </dailyspecials>
+          <requestedgoods>
+            <item id="physicoriumammobox" />
+            <item id="whitepaint" />
+            <item id="wificomponent" />
+          </requestedgoods>
+        </store>
+      </location>
+      <location type="None" originaltype="None" basename="Gortyna Flexus" name="Gortyna Flexus" discovered="false" position="5767.7,457.10184" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="65">
+        <Level seed="Gortyna Flexus" biome="hydrothermalwastes" type="Outpost" difficulty="72.09625" size="40000,40000" generationparams="outpostlevel" initialdepth="175135" />
+      </location>
+      <location type="Outpost" originaltype="Outpost" basename="Seosu" name="Seosu前哨站" discovered="false" position="1424.1935,462.5615" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="66">
+        <Level seed="Seosu" biome="europanridge" type="Outpost" difficulty="17.80242" size="40000,40000" generationparams="outpostlevel" initialdepth="168971" />
+      </location>
+      <location type="Mine" originaltype="Mine" basename="Berith" name="Berith採礦公司" discovered="false" position="3544.2136,464.65228" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="67">
+        <Level seed="Berith" biome="theaphoticplateau" type="Outpost" difficulty="44.30267" size="40000,40000" generationparams="outpostlevel" initialdepth="159745" />
+      </location>
+      <location type="None" originaltype="None" basename="Apep" name="Apep" discovered="false" position="5866.6436,460.6162" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="68">
+        <Level seed="Apep" biome="hydrothermalwastes" type="Outpost" difficulty="73.333046" size="40000,40000" generationparams="outpostlevel" initialdepth="179171" />
+      </location>
+      <location type="City" originaltype="City" basename="Riville" name="Riville城" discovered="false" position="1069.8202,416.4227" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="69">
+        <Level seed="Riville" biome="coldcaverns" type="Outpost" difficulty="13.372752" size="40000,40000" generationparams="outpostlevel" initialdepth="117472" />
+      </location>
+      <location type="None" originaltype="None" basename="Argadnel" name="Argadnel" discovered="false" position="488.5828,515.50653" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="70">
+        <Level seed="Argadnel" biome="coldcaverns" type="Outpost" difficulty="6.107285" size="40000,40000" generationparams="outpostlevel" initialdepth="137256" />
+      </location>
+      <location type="None" originaltype="None" basename="Thynia Linea" name="Thynia Linea" discovered="false" position="3990.0967,496.37204" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="71">
+        <Level seed="Thynia Linea" biome="theaphoticplateau" type="Outpost" difficulty="49.876205" size="40000,40000" generationparams="outpostlevel" initialdepth="167795" />
+      </location>
+      <location type="Research" originaltype="Research" basename="Bast" name="Bast研究中心" discovered="false" position="2255.1426,534.27734" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="72">
+        <Level seed="Bast" biome="europanridge" type="Outpost" difficulty="28.189283" size="40000,40000" generationparams="outpostlevel" initialdepth="189121" />
+      </location>
+      <location type="None" originaltype="None" basename="Androgeos Linea" name="Androgeos Linea" discovered="false" position="5215.7334,463.5894" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="73">
+        <Level seed="Androgeos Linea" biome="thegreatsea" type="Outpost" difficulty="65.19667" size="40000,40000" generationparams="outpostlevel" initialdepth="137984" />
+      </location>
+      <location type="None" originaltype="None" basename="Agave Linea" name="Agave Linea" discovered="false" position="4903.51,514.30554" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="74">
+        <Level seed="Agave Linea" biome="thegreatsea" type="Outpost" difficulty="61.29387" size="40000,40000" generationparams="outpostlevel" initialdepth="146394" />
+      </location>
+      <location type="None" originaltype="None" basename="Sparti Linea" name="Sparti Linea" discovered="false" position="708.5629,522.4893" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="75">
+        <Level seed="Sparti Linea" biome="coldcaverns" type="Outpost" difficulty="8.857037" size="40000,40000" generationparams="outpostlevel" initialdepth="195523" />
+      </location>
+      <location type="None" originaltype="None" basename="Butterdon Linea" name="Butterdon Linea" discovered="false" position="126.56754,541.0933" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="76">
+        <Level seed="Butterdon Linea" biome="coldcaverns" type="Outpost" difficulty="1.5820943" size="40000,40000" generationparams="outpostlevel" initialdepth="191684" />
+      </location>
+      <location type="None" originaltype="None" basename="Annwn" name="Annwn" discovered="false" position="4681.1626,547.4733" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="77">
+        <Level seed="Annwn" biome="thegreatsea" type="Outpost" difficulty="58.514534" size="40000,40000" generationparams="outpostlevel" initialdepth="112273" />
+      </location>
+      <location type="Research" originaltype="Research" basename="Sidon Flexus" name="Sidon Flexus研究中心" discovered="false" position="1612.9265,570.8078" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="78">
+        <Level seed="Sidon Flexus" biome="europanridge" type="Outpost" difficulty="20.161581" size="40000,40000" generationparams="outpostlevel" initialdepth="176798" />
+      </location>
+      <location type="None" originaltype="None" basename="Rhadamanthys Linea" name="Rhadamanthys Linea" discovered="false" position="4401.622,519.4109" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="79">
+        <Level seed="Rhadamanthys Linea" biome="thegreatsea" type="Outpost" difficulty="55.02028" size="40000,40000" generationparams="outpostlevel" initialdepth="119670" />
+      </location>
+      <location type="None" originaltype="None" basename="Nome" name="Nome" discovered="false" position="6486.259,580.77344" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="80">
+        <Level seed="Nome" biome="hydrothermalwastes" type="Outpost" difficulty="81.07824" size="40000,40000" generationparams="outpostlevel" initialdepth="199386" />
+      </location>
+      <location type="Abandoned" originaltype="Abandoned" basename="Dolgovskoy" name="Dolgovskoy前哨站" discovered="false" position="3115.71,583.2411" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="81">
+        <Level seed="Dolgovskoy" biome="theaphoticplateau" type="Outpost" difficulty="38.946377" size="40000,40000" generationparams="outpostlevel" initialdepth="108847" />
+        <missions>
+          <mission prefabid="abandonedoutpostcrawler" destinationindex="81" selected="false" />
+        </missions>
+      </location>
+      <location type="None" originaltype="None" basename="Mehen Linea" name="Mehen Linea" discovered="false" position="3787.0557,575.05646" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="82">
+        <Level seed="Mehen Linea" biome="theaphoticplateau" type="Outpost" difficulty="47.338196" size="40000,40000" generationparams="outpostlevel" initialdepth="169324" />
+      </location>
+      <location type="None" originaltype="None" basename="Hyperenor Linea" name="Hyperenor Linea" discovered="false" position="980.65283,550.3712" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="83">
+        <Level seed="Hyperenor Linea" biome="coldcaverns" type="Outpost" difficulty="12.25816" size="40000,40000" generationparams="outpostlevel" initialdepth="122621" />
+      </location>
+      <location type="Outpost" originaltype="Outpost" basename="Huronia" name="Huronia前哨站" discovered="false" position="2492.531,543.1266" pricemultiplier="1" isgatebetweenbiomes="true" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="84">
+        <Level seed="Huronia" biome="europanridge" type="Outpost" difficulty="31.15664" size="40000,40000" generationparams="outpostlevel" initialdepth="102078" />
+      </location>
+      <location type="None" originaltype="None" basename="Nome" name="Nome" discovered="false" position="401.532,608.0833" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="85">
+        <Level seed="Nome" biome="coldcaverns" type="Outpost" difficulty="5.0191503" size="40000,40000" generationparams="outpostlevel" initialdepth="199386" />
+      </location>
+      <location type="Research" originaltype="Research" basename="Onga Linea" name="Onga Linea異星生物研究中心" discovered="false" position="2037.1243,608.91895" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="86">
+        <Level seed="Onga Linea" biome="europanridge" type="Outpost" difficulty="25.464052" size="40000,40000" generationparams="outpostlevel" initialdepth="176579" />
+      </location>
+      <location type="None" originaltype="None" basename="Echion Linea" name="Echion Linea" discovered="false" position="5477.343,609.45764" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="87">
+        <Level seed="Echion Linea" biome="hydrothermalwastes" type="Outpost" difficulty="68.46678" size="40000,40000" generationparams="outpostlevel" initialdepth="133788" />
+      </location>
+      <location type="None" originaltype="None" basename="Falga" name="Falga" discovered="false" position="4079.7622,613.7408" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="88">
+        <Level seed="Falga" biome="thegreatsea" type="Outpost" difficulty="50.997025" size="40000,40000" generationparams="outpostlevel" initialdepth="195966" />
+      </location>
+      <location type="None" originaltype="None" basename="Agenor Linea" name="Agenor Linea" discovered="false" position="6198.6816,615.2281" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="89">
+        <Level seed="Agenor Linea" biome="hydrothermalwastes" type="Outpost" difficulty="77.48352" size="40000,40000" generationparams="outpostlevel" initialdepth="130615" />
+      </location>
+      <location type="None" originaltype="None" basename="Belus Linea" name="Belus Linea" discovered="false" position="5634.3755,618.67615" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="90">
+        <Level seed="Belus Linea" biome="hydrothermalwastes" type="Outpost" difficulty="70.429695" size="40000,40000" generationparams="outpostlevel" initialdepth="106358" />
+      </location>
+      <location type="None" originaltype="None" basename="Telephassa Linea" name="Telephassa Linea" discovered="false" position="1054.9727,677.06274" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="91">
+        <Level seed="Telephassa Linea" biome="coldcaverns" type="Outpost" difficulty="13.187159" size="40000,40000" generationparams="outpostlevel" initialdepth="190670" />
+      </location>
+      <location type="Outpost" originaltype="Outpost" basename="Dunwice" name="Dunwice前哨站" discovered="false" position="3428.4766,614.60443" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="92">
+        <Level seed="Dunwice" biome="theaphoticplateau" type="Outpost" difficulty="42.855957" size="40000,40000" generationparams="outpostlevel" initialdepth="155459" />
+      </location>
+      <location type="Research" originaltype="Research" basename="Adonis Linea" name="Adonis Linea研究中心" discovered="false" position="1934.6665,614.1556" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="93">
+        <Level seed="Adonis Linea" biome="europanridge" type="Outpost" difficulty="24.18333" size="40000,40000" generationparams="outpostlevel" initialdepth="125351" />
+      </location>
+      <location type="None" originaltype="None" basename="Balagtan" name="Balagtan" discovered="false" position="486.6062,697.7046" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="94">
+        <Level seed="Balagtan" biome="coldcaverns" type="Outpost" difficulty="6.0825777" size="40000,40000" generationparams="outpostlevel" initialdepth="152384" />
+      </location>
+      <location type="None" originaltype="None" basename="Drumskinny Linea" name="Drumskinny Linea" discovered="false" position="5875.6313,692.4269" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="95">
+        <Level seed="Drumskinny Linea" biome="hydrothermalwastes" type="Outpost" difficulty="73.44539" size="40000,40000" generationparams="outpostlevel" initialdepth="199492" />
+      </location>
+      <location type="City" originaltype="City" basename="Uusi-Turcu" name="Uusi-Turcu城" discovered="false" position="683.4574,666.474" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="96">
+        <Level seed="Uusi-Turcu" biome="coldcaverns" type="Outpost" difficulty="8.543217" size="40000,40000" generationparams="outpostlevel" initialdepth="162223" />
+      </location>
+      <location type="Outpost" originaltype="Outpost" basename="Sermilik" name="Sermilik前哨站" discovered="false" position="1612.2721,681.7087" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="97">
+        <Level seed="Sermilik" biome="europanridge" type="Outpost" difficulty="20.153402" size="40000,40000" generationparams="outpostlevel" initialdepth="127641" />
+      </location>
+      <location type="None" originaltype="None" basename="Corick Linea" name="Corick Linea" discovered="false" position="2849.4026,662.1646" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="98">
+        <Level seed="Corick Linea" biome="theaphoticplateau" type="Outpost" difficulty="35.617535" size="40000,40000" generationparams="outpostlevel" initialdepth="155109" />
+      </location>
+      <location type="None" originaltype="None" basename="Delphi Flexus" name="Delphi Flexus" discovered="false" position="1324.189,634.5237" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="99">
+        <Level seed="Delphi Flexus" biome="coldcaverns" type="Outpost" difficulty="16.552362" size="40000,40000" generationparams="outpostlevel" initialdepth="130085" />
+      </location>
+      <location type="None" originaltype="None" basename="Topol" name="Topol" discovered="false" position="4400.2754,648.52136" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="100">
+        <Level seed="Topol" biome="thegreatsea" type="Outpost" difficulty="55.00344" size="40000,40000" generationparams="outpostlevel" initialdepth="191344" />
+      </location>
+      <location type="None" originaltype="None" basename="Phoenix Linea" name="Phoenix Linea" discovered="false" position="5180.4004,664.95935" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="101">
+        <Level seed="Phoenix Linea" biome="thegreatsea" type="Outpost" difficulty="64.755005" size="40000,40000" generationparams="outpostlevel" initialdepth="114241" />
+      </location>
+      <location type="None" originaltype="None" basename="Euphemus Linea" name="Euphemus Linea" discovered="false" position="3191.248,718.80566" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="102">
+        <Level seed="Euphemus Linea" biome="theaphoticplateau" type="Outpost" difficulty="39.8906" size="40000,40000" generationparams="outpostlevel" initialdepth="133139" />
+      </location>
+      <location type="None" originaltype="None" basename="Attis" name="Attis" discovered="false" position="4930.094,700.05206" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="103">
+        <Level seed="Attis" biome="thegreatsea" type="Outpost" difficulty="61.62618" size="40000,40000" generationparams="outpostlevel" initialdepth="124520" />
+      </location>
+      <location type="None" originaltype="None" basename="Argadnel" name="Argadnel" discovered="false" position="6485.87,691.8784" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="104">
+        <Level seed="Argadnel" biome="hydrothermalwastes" type="Outpost" difficulty="81.07337" size="40000,40000" generationparams="outpostlevel" initialdepth="137256" />
+      </location>
+      <location type="Mine" originaltype="Mine" basename="Tormsdale Linea" name="Tormsdale Linea礦" discovered="false" position="2591.5251,716.49347" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="105">
+        <Level seed="Tormsdale Linea" biome="europanridge" type="Outpost" difficulty="32.394062" size="40000,40000" generationparams="outpostlevel" initialdepth="115921" />
+      </location>
+      <location type="None" originaltype="None" basename="Mehen Linea" name="Mehen Linea" discovered="false" position="4081.4556,726.539" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="106">
+        <Level seed="Mehen Linea" biome="thegreatsea" type="Outpost" difficulty="51.018196" size="40000,40000" generationparams="outpostlevel" initialdepth="169324" />
+      </location>
+      <location type="None" originaltype="None" basename="Tormsdale Linea" name="Tormsdale Linea" discovered="false" position="2908.02,762.24866" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="107">
+        <Level seed="Tormsdale Linea" biome="theaphoticplateau" type="Outpost" difficulty="36.35025" size="40000,40000" generationparams="outpostlevel" initialdepth="115921" />
+      </location>
+      <location type="Abandoned" originaltype="Abandoned" basename="Uusi-Turcu" name="Uusi-Turcu前哨站" discovered="false" position="6443.9253,762.2059" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="108">
+        <Level seed="Uusi-Turcu" biome="hydrothermalwastes" type="Outpost" difficulty="80.549065" size="40000,40000" generationparams="outpostlevel" initialdepth="162223" />
+        <missions>
+          <mission prefabid="abandonedoutpostmudraptor" destinationindex="108" selected="false" />
+        </missions>
+      </location>
+      <location type="None" originaltype="None" basename="Set" name="Set" discovered="false" position="5247.381,780.7798" pricemultiplier="1" isgatebetweenbiomes="false" mechanicalpricemultipler="1" timesincelasttypechange="0" turnsinradiation="0" i="109">
+        <Level seed="Set" biome="thegreatsea" type="Outpost" difficulty="65.59226" size="40000,40000" generationparams="outpostlevel" initialdepth="130486" />
+      </location>
+      <connection passed="false" locked="false" difficulty="5.4951267" biome="coldcaverns" locations="2,3">
+        <Level seed="New IapetusNome" biome="coldcaverns" type="LocationConnection" difficulty="5.4951267" size="122000,100000" generationparams="coldcavernsmaze" initialdepth="183656" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="66.60981" biome="hydrothermalwastes" locations="1,5">
+        <Level seed="Corick LineaAna" biome="hydrothermalwastes" type="LocationConnection" difficulty="66.60981" size="256000,60000" generationparams="wastesbasic" initialdepth="431059" hashuntinggrounds="true" originallyhadhuntinggrounds="true" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="41.168682" biome="theaphoticplateau" locations="6,7">
+        <Level seed="St. MaySerac" biome="theaphoticplateau" type="LocationConnection" difficulty="41.168682" size="184000,60000" generationparams="plateaubasic" initialdepth="327825" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="70.62451" biome="hydrothermalwastes" locations="5,8">
+        <Level seed="AnaAttis" biome="hydrothermalwastes" type="LocationConnection" difficulty="70.62451" size="260000,60000" generationparams="wastesbasic" initialdepth="485974" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="55.7375" biome="thegreatsea" locations="9,10">
+        <Level seed="Phineus LineaAstypalaea Linea" biome="thegreatsea" type="LocationConnection" difficulty="55.7375" size="214000,70000" generationparams="greatseabasic" initialdepth="449504" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="45.009087" biome="thegreatsea" locations="13,14">
+        <Level seed="Glaukos LineaErlangshen" biome="thegreatsea" type="LocationConnection" difficulty="45.009087" size="216000,70000" generationparams="greatseabasic" initialdepth="472429" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="40.81665" biome="theaphoticplateau" locations="15,22">
+        <Level seed="BerithArgadnel" biome="theaphoticplateau" type="LocationConnection" difficulty="40.81665" size="194000,60000" generationparams="plateaubasic" initialdepth="329998" hashuntinggrounds="true" originallyhadhuntinggrounds="true" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="72.42717" biome="hydrothermalwastes" locations="1,16">
+        <Level seed="Corick LineaYelland Linea" biome="hydrothermalwastes" type="LocationConnection" difficulty="72.42717" size="258000,60000" generationparams="wastesbasic" initialdepth="440785" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="1.2" biome="coldcaverns" locations="17,18">
+        <Level seed="TaraKury" biome="coldcaverns" type="LocationConnection" difficulty="1.2" size="120000,100000" generationparams="coldcavernsmaze" initialdepth="167593" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="1.2" biome="coldcaverns" locations="18,19">
+        <Level seed="KuryKimju" biome="coldcaverns" type="LocationConnection" difficulty="1.2" size="122000,100000" generationparams="coldcavernsmaze" initialdepth="190795" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="1.2" biome="coldcaverns" locations="19,20">
+        <Level seed="KimjuEchion Linea" biome="coldcaverns" type="LocationConnection" difficulty="1.2" size="140000,70000" generationparams="coldcavernsbasic" initialdepth="130172" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="51.938263" biome="thegreatsea" locations="14,21">
+        <Level seed="ErlangshenAgave Linea" biome="thegreatsea" type="LocationConnection" difficulty="51.938263" size="200000,70000" generationparams="greatseabasic" initialdepth="421921" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="61.358532" biome="thegreatsea" locations="0,10">
+        <Level seed="Thynia LineaAstypalaea Linea" biome="thegreatsea" type="LocationConnection" difficulty="61.358532" size="220000,70000" generationparams="greatseabasic" initialdepth="445636" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="38.5301" biome="theaphoticplateau" locations="6,22">
+        <Level seed="St. MayArgadnel" biome="theaphoticplateau" type="LocationConnection" difficulty="38.5301" size="188000,60000" generationparams="plateaubasic" initialdepth="307549" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="68.956795" biome="hydrothermalwastes" locations="1,23">
+        <Level seed="Corick LineaDrumskinny Linea" biome="hydrothermalwastes" type="LocationConnection" difficulty="68.956795" size="250000,60000" generationparams="wastesbasic" initialdepth="416256" hashuntinggrounds="true" originallyhadhuntinggrounds="true" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="69.174614" biome="hydrothermalwastes" locations="5,24">
+        <Level seed="AnaAdonis Linea" biome="hydrothermalwastes" type="LocationConnection" difficulty="69.174614" size="250000,60000" generationparams="wastesbasic" initialdepth="499331" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="37.92469" biome="theaphoticplateau" locations="15,26">
+        <Level seed="BerithTelephassa Linea" biome="theaphoticplateau" type="LocationConnection" difficulty="37.92469" size="184000,60000" generationparams="plateaubasic" initialdepth="312238" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="15.735179" biome="coldcaverns" locations="3,27">
+        <Level seed="NomeButterdon Linea" biome="coldcaverns" type="LocationConnection" difficulty="15.735179" size="120000,100000" generationparams="coldcavernsmaze" initialdepth="177626" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="57.02813" biome="thegreatsea" locations="9,29">
+        <Level seed="Phineus LineaArid Troma" biome="thegreatsea" type="LocationConnection" difficulty="57.02813" size="206000,70000" generationparams="greatseabasic" initialdepth="462052" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="18.403225" biome="europanridge" locations="4,28">
+        <Level seed="TopolZamoroska" biome="europanridge" type="LocationConnection" difficulty="18.403225" size="122000,60000" generationparams="ridgebasic" initialdepth="272427" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="55.81139" biome="thegreatsea" locations="0,30">
+        <Level seed="Thynia LineaRandkluft" biome="thegreatsea" type="LocationConnection" difficulty="55.81139" size="208000,70000" generationparams="greatseabasic" initialdepth="460019" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="28.249157" biome="europanridge" locations="11,31">
+        <Level seed="GangpoDank" biome="europanridge" type="LocationConnection" difficulty="28.249157" size="120000,60000" generationparams="ridgebasic" initialdepth="251873" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="60.104084" biome="hydrothermalwastes" locations="8,32">
+        <Level seed="AttisThasus Linea" biome="hydrothermalwastes" type="LocationConnection" difficulty="60.104084" size="250000,60000" generationparams="wastesbasic" initialdepth="437814" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="5.018651" biome="coldcaverns" locations="2,33">
+        <Level seed="New IapetusXinzou" biome="coldcaverns" type="LocationConnection" difficulty="5.018651" size="140000,70000" generationparams="coldcavernsbasic" initialdepth="100400" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="73.79159" biome="hydrothermalwastes" locations="16,34">
+        <Level seed="Yelland LineaNoctae" biome="hydrothermalwastes" type="LocationConnection" difficulty="73.79159" size="252000,60000" generationparams="wastesbasic" initialdepth="485553" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="52.754635" biome="thegreatsea" locations="29,21">
+        <Level seed="Arid TromaAgave Linea" biome="thegreatsea" type="LocationConnection" difficulty="52.754635" size="214000,70000" generationparams="greatseabasic" initialdepth="469415" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="5.930473" biome="coldcaverns" locations="33,35">
+        <Level seed="XinzouSontu" biome="coldcaverns" type="LocationConnection" difficulty="5.930473" size="144000,70000" generationparams="coldcavernsbasic" initialdepth="149647" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="10.083488" biome="europanridge" locations="28,36">
+        <Level seed="ZamoroskaSet" biome="europanridge" type="LocationConnection" difficulty="10.083488" size="120000,60000" generationparams="ridgebasic" initialdepth="225462" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="76.79881" biome="hydrothermalwastes" locations="23,37">
+        <Level seed="Drumskinny LineaMinos Linea" biome="hydrothermalwastes" type="LocationConnection" difficulty="76.79881" size="252000,60000" generationparams="wastesbasic" initialdepth="450421" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="69.28952" biome="hydrothermalwastes" locations="16,37">
+        <Level seed="Yelland LineaMinos Linea" biome="hydrothermalwastes" type="LocationConnection" difficulty="69.28952" size="254000,60000" generationparams="wastesbasic" initialdepth="433402" hashuntinggrounds="true" originallyhadhuntinggrounds="true" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="42.210567" biome="theaphoticplateau" locations="22,38">
+        <Level seed="ArgadnelWorm Cave" biome="theaphoticplateau" type="LocationConnection" difficulty="42.210567" size="188000,60000" generationparams="plateaubasic" initialdepth="383451" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="45.928688" biome="theaphoticplateau" locations="7,38">
+        <Level seed="SeracWorm Cave" biome="theaphoticplateau" type="LocationConnection" difficulty="45.928688" size="184000,60000" generationparams="plateaubasic" initialdepth="350733" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="1.2" biome="coldcaverns" locations="18,39">
+        <Level seed="KuryMeltwater" biome="coldcaverns" type="LocationConnection" difficulty="1.2" size="140000,70000" generationparams="coldcavernsbasic" initialdepth="113867" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="2.0377698" biome="coldcaverns" locations="20,39">
+        <Level seed="Echion LineaMeltwater" biome="coldcaverns" type="LocationConnection" difficulty="2.0377698" size="142000,70000" generationparams="coldcavernsbasic" initialdepth="115014" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="5.983961" biome="coldcaverns" locations="20,35">
+        <Level seed="Echion LineaSontu" biome="coldcaverns" type="LocationConnection" difficulty="5.983961" size="122000,100000" generationparams="coldcavernsmaze" initialdepth="184881" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="67.648224" biome="hydrothermalwastes" locations="24,40">
+        <Level seed="Adonis LineaAlphesiboea Linea" biome="hydrothermalwastes" type="LocationConnection" difficulty="67.648224" size="252000,60000" generationparams="wastesbasic" initialdepth="467951" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="67.60253" biome="hydrothermalwastes" locations="23,40">
+        <Level seed="Drumskinny LineaAlphesiboea Linea" biome="hydrothermalwastes" type="LocationConnection" difficulty="67.60253" size="254000,60000" generationparams="wastesbasic" initialdepth="494043" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="33.855034" biome="theaphoticplateau" locations="26,41">
+        <Level seed="Telephassa LineaPelorus Linea" biome="theaphoticplateau" type="LocationConnection" difficulty="33.855034" size="190000,60000" generationparams="plateaubasic" initialdepth="345445" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="34.732826" biome="theaphoticplateau" locations="22,41">
+        <Level seed="ArgadnelPelorus Linea" biome="theaphoticplateau" type="LocationConnection" difficulty="34.732826" size="182000,60000" generationparams="plateaubasic" initialdepth="372819" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="44.427776" biome="theaphoticplateau" locations="7,42">
+        <Level seed="SeracOnga Linea" biome="theaphoticplateau" type="LocationConnection" difficulty="44.427776" size="188000,60000" generationparams="plateaubasic" initialdepth="391137" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="33.21973" biome="theaphoticplateau" locations="12,43">
+        <Level seed="Mehen LineaMilda" biome="theaphoticplateau" type="LocationConnection" difficulty="33.21973" size="180000,60000" generationparams="plateaubasic" initialdepth="378259" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="30.434483" biome="theaphoticplateau" locations="26,43">
+        <Level seed="Telephassa LineaMilda" biome="theaphoticplateau" type="LocationConnection" difficulty="30.434483" size="192000,60000" generationparams="plateaubasic" initialdepth="322230" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="18.661266" biome="europanridge" locations="25,44">
+        <Level seed="Sarpedon LineaTectamus Linea" biome="europanridge" type="LocationConnection" difficulty="18.661266" size="122000,60000" generationparams="ridgebasic" initialdepth="254433" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="53.896755" biome="thegreatsea" locations="10,45">
+        <Level seed="Astypalaea LineaDrizzlecomb Linea" biome="thegreatsea" type="LocationConnection" difficulty="53.896755" size="202000,70000" generationparams="greatseabasic" initialdepth="429972" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="60.66854" biome="thegreatsea" locations="30,45">
+        <Level seed="RandkluftDrizzlecomb Linea" biome="thegreatsea" type="LocationConnection" difficulty="60.66854" size="220000,70000" generationparams="greatseabasic" initialdepth="411160" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="4.951993" biome="coldcaverns" locations="27,33">
+        <Level seed="Butterdon LineaXinzou" biome="coldcaverns" type="LocationConnection" difficulty="4.951993" size="142000,70000" generationparams="coldcavernsbasic" initialdepth="122592" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="52.2805" biome="thegreatsea" locations="29,45">
+        <Level seed="Arid TromaDrizzlecomb Linea" biome="thegreatsea" type="LocationConnection" difficulty="52.2805" size="216000,70000" generationparams="greatseabasic" initialdepth="447099" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="70.97787" biome="hydrothermalwastes" locations="24,46">
+        <Level seed="Adonis LineaPhocis Flexus" biome="hydrothermalwastes" type="LocationConnection" difficulty="70.97787" size="256000,60000" generationparams="wastesbasic" initialdepth="436429" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="19.269814" biome="europanridge" locations="28,47">
+        <Level seed="ZamoroskaTormsdale Linea" biome="europanridge" type="LocationConnection" difficulty="19.269814" size="122000,60000" generationparams="ridgebasic" initialdepth="214111" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="62.870277" biome="hydrothermalwastes" locations="32,48">
+        <Level seed="Thasus LineaDelphi Flexus" biome="hydrothermalwastes" type="LocationConnection" difficulty="62.870277" size="250000,60000" generationparams="wastesbasic" initialdepth="418442" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="63.640007" biome="hydrothermalwastes" locations="46,48">
+        <Level seed="Phocis FlexusDelphi Flexus" biome="hydrothermalwastes" type="LocationConnection" difficulty="63.640007" size="250000,60000" generationparams="wastesbasic" initialdepth="428587" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="12.911965" biome="coldcaverns" locations="27,50">
+        <Level seed="Butterdon LineaNovaya Moskva" biome="coldcaverns" type="LocationConnection" difficulty="12.911965" size="120000,100000" generationparams="coldcavernsmaze" initialdepth="173891" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="22.793453" biome="europanridge" locations="44,47">
+        <Level seed="Tectamus LineaTormsdale Linea" biome="europanridge" type="LocationConnection" difficulty="22.793453" size="120000,60000" generationparams="ridgebasic" initialdepth="283290" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="76.374916" biome="hydrothermalwastes" locations="34,51">
+        <Level seed="NoctaeAndrogeos Linea" biome="hydrothermalwastes" type="LocationConnection" difficulty="76.374916" size="250000,60000" generationparams="wastesbasic" initialdepth="473281" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="24.422363" biome="europanridge" locations="25,52">
+        <Level seed="Sarpedon LineaNew Nanhui" biome="europanridge" type="LocationConnection" difficulty="24.422363" size="122000,60000" generationparams="ridgebasic" initialdepth="209829" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="2.541885" biome="coldcaverns" locations="20,53">
+        <Level seed="Echion LineaShinkonai" biome="coldcaverns" type="LocationConnection" difficulty="2.541885" size="120000,100000" generationparams="coldcavernsmaze" initialdepth="169104" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="35.152645" biome="theaphoticplateau" locations="26,54">
+        <Level seed="Telephassa LineaPowys" biome="theaphoticplateau" type="LocationConnection" difficulty="35.152645" size="184000,60000" generationparams="plateaubasic" initialdepth="312547" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="39.79869" biome="theaphoticplateau" locations="38,55">
+        <Level seed="Worm CaveAnnwn" biome="theaphoticplateau" type="LocationConnection" difficulty="39.79869" size="180000,60000" generationparams="plateaubasic" initialdepth="301898" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="53.8846" biome="thegreatsea" locations="29,56">
+        <Level seed="Arid TromaKennet Linea" biome="thegreatsea" type="LocationConnection" difficulty="53.8846" size="206000,70000" generationparams="greatseabasic" initialdepth="454566" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="29.7278" biome="europanridge" locations="31,57">
+        <Level seed="DankAgenor Linea" biome="europanridge" type="LocationConnection" difficulty="29.7278" size="120000,60000" generationparams="ridgebasic" initialdepth="218303" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="46.334908" biome="theaphoticplateau" locations="55,42">
+        <Level seed="AnnwnOnga Linea" biome="theaphoticplateau" type="LocationConnection" difficulty="46.334908" size="188000,60000" generationparams="plateaubasic" initialdepth="313551" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="69.372475" biome="hydrothermalwastes" locations="40,58">
+        <Level seed="Alphesiboea LineaAlkonost" biome="hydrothermalwastes" type="LocationConnection" difficulty="69.372475" size="254000,60000" generationparams="wastesbasic" initialdepth="445790" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="75.75015" biome="hydrothermalwastes" locations="37,58">
+        <Level seed="Minos LineaAlkonost" biome="hydrothermalwastes" type="LocationConnection" difficulty="75.75015" size="250000,60000" generationparams="wastesbasic" initialdepth="482079" hashuntinggrounds="true" originallyhadhuntinggrounds="true" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="1.2" biome="coldcaverns" locations="53,35">
+        <Level seed="ShinkonaiSontu" biome="coldcaverns" type="LocationConnection" difficulty="1.2" size="122000,100000" generationparams="coldcavernsmaze" initialdepth="154775" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="59.02079" biome="thegreatsea" locations="45,56">
+        <Level seed="Drizzlecomb LineaKennet Linea" biome="thegreatsea" type="LocationConnection" difficulty="59.02079" size="214000,70000" generationparams="greatseabasic" initialdepth="479480" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="20.671246" biome="europanridge" locations="25,57">
+        <Level seed="Sarpedon LineaAgenor Linea" biome="europanridge" type="LocationConnection" difficulty="20.671246" size="124000,60000" generationparams="ridgebasic" initialdepth="268270" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="38.1332" biome="theaphoticplateau" locations="41,54">
+        <Level seed="Pelorus LineaPowys" biome="theaphoticplateau" type="LocationConnection" difficulty="38.1332" size="188000,60000" generationparams="plateaubasic" initialdepth="317047" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="1.2" biome="coldcaverns" locations="39,59">
+        <Level seed="MeltwaterYelland Linea" biome="coldcaverns" type="LocationConnection" difficulty="1.2" size="120000,100000" generationparams="coldcavernsmaze" initialdepth="196696" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="19.346241" biome="europanridge" locations="36,60">
+        <Level seed="SetCadmus Linea" biome="europanridge" type="LocationConnection" difficulty="19.346241" size="120000,60000" generationparams="ridgebasic" initialdepth="277798" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="13.252416" biome="europanridge" locations="47,60">
+        <Level seed="Tormsdale LineaCadmus Linea" biome="europanridge" type="LocationConnection" difficulty="13.252416" size="122000,60000" generationparams="ridgebasic" initialdepth="223813" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="31.639465" biome="theaphoticplateau" locations="54,43">
+        <Level seed="PowysMilda" biome="theaphoticplateau" type="LocationConnection" difficulty="31.639465" size="192000,60000" generationparams="plateaubasic" initialdepth="337407" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="23.410053" biome="europanridge" locations="52,57">
+        <Level seed="New NanhuiAgenor Linea" biome="europanridge" type="LocationConnection" difficulty="23.410053" size="122000,60000" generationparams="ridgebasic" initialdepth="201574" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="52.252884" biome="thegreatsea" locations="21,61">
+        <Level seed="Agave LineaVersas" biome="thegreatsea" type="LocationConnection" difficulty="52.252884" size="204000,70000" generationparams="greatseabasic" initialdepth="494950" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="46.901928" biome="thegreatsea" locations="56,61">
+        <Level seed="Kennet LineaVersas" biome="thegreatsea" type="LocationConnection" difficulty="46.901928" size="220000,70000" generationparams="greatseabasic" initialdepth="486715" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="23.835255" biome="europanridge" locations="44,62">
+        <Level seed="Tectamus LineaUusi-Turcu" biome="europanridge" type="LocationConnection" difficulty="23.835255" size="122000,60000" generationparams="ridgebasic" initialdepth="289832" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="21.46389" biome="europanridge" locations="52,62">
+        <Level seed="New NanhuiUusi-Turcu" biome="europanridge" type="LocationConnection" difficulty="21.46389" size="120000,60000" generationparams="ridgebasic" initialdepth="270127" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="1.2" biome="coldcaverns" locations="53,59">
+        <Level seed="ShinkonaiYelland Linea" biome="coldcaverns" type="LocationConnection" difficulty="1.2" size="122000,100000" generationparams="coldcavernsmaze" initialdepth="161961" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="70.029335" biome="hydrothermalwastes" locations="37,63">
+        <Level seed="Minos LineaTara" biome="hydrothermalwastes" type="LocationConnection" difficulty="70.029335" size="254000,60000" generationparams="wastesbasic" initialdepth="451289" hashuntinggrounds="true" originallyhadhuntinggrounds="true" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="74.228325" biome="hydrothermalwastes" locations="51,63">
+        <Level seed="Androgeos LineaTara" biome="hydrothermalwastes" type="LocationConnection" difficulty="74.228325" size="250000,60000" generationparams="wastesbasic" initialdepth="493011" hashuntinggrounds="true" originallyhadhuntinggrounds="true" />
+      </connection>
+      <connection passed="false" locked="true" difficulty="58.655403" biome="hydrothermalwastes" locations="48,64">
+        <Level seed="Delphi FlexusMehen Linea" biome="hydrothermalwastes" type="LocationConnection" difficulty="58.655403" size="260000,60000" generationparams="wastesbasic" initialdepth="448385" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="66.89285" biome="hydrothermalwastes" locations="46,65">
+        <Level seed="Phocis FlexusGortyna Flexus" biome="hydrothermalwastes" type="LocationConnection" difficulty="66.89285" size="254000,60000" generationparams="wastesbasic" initialdepth="469695" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="true" difficulty="10.113869" biome="europanridge" locations="50,66">
+        <Level seed="Novaya MoskvaSeosu" biome="europanridge" type="LocationConnection" difficulty="10.113869" size="120000,60000" generationparams="ridgebasic" initialdepth="289500" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="10.976772" biome="europanridge" locations="36,66">
+        <Level seed="SetSeosu" biome="europanridge" type="LocationConnection" difficulty="10.976772" size="122000,60000" generationparams="ridgebasic" initialdepth="283330" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="46.105015" biome="thegreatsea" locations="13,61">
+        <Level seed="Glaukos LineaVersas" biome="thegreatsea" type="LocationConnection" difficulty="46.105015" size="228000,70000" generationparams="greatseabasic" initialdepth="408351" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="44.769432" biome="theaphoticplateau" locations="38,67">
+        <Level seed="Worm CaveBerith" biome="theaphoticplateau" type="LocationConnection" difficulty="44.769432" size="188000,60000" generationparams="plateaubasic" initialdepth="364371" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="63.134167" biome="hydrothermalwastes" locations="65,68">
+        <Level seed="Gortyna FlexusApep" biome="hydrothermalwastes" type="LocationConnection" difficulty="63.134167" size="250000,60000" generationparams="wastesbasic" initialdepth="466008" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="64.46372" biome="hydrothermalwastes" locations="40,68">
+        <Level seed="Alphesiboea LineaApep" biome="hydrothermalwastes" type="LocationConnection" difficulty="64.46372" size="252000,60000" generationparams="wastesbasic" initialdepth="493617" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="13.336084" biome="coldcaverns" locations="50,69">
+        <Level seed="Novaya MoskvaRiville" biome="coldcaverns" type="LocationConnection" difficulty="13.336084" size="142000,70000" generationparams="coldcavernsbasic" initialdepth="130193" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="7.8852324" biome="coldcaverns" locations="33,69">
+        <Level seed="XinzouRiville" biome="coldcaverns" type="LocationConnection" difficulty="7.8852324" size="140000,70000" generationparams="coldcavernsbasic" initialdepth="132815" />
+      </connection>
+      <connection passed="false" locked="true" difficulty="48.865887" biome="thegreatsea" locations="42,61">
+        <Level seed="Onga LineaVersas" biome="thegreatsea" type="LocationConnection" difficulty="48.865887" size="226000,70000" generationparams="greatseabasic" initialdepth="472687" hashuntinggrounds="true" originallyhadhuntinggrounds="true" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="1.2" biome="coldcaverns" locations="53,70">
+        <Level seed="ShinkonaiArgadnel" biome="coldcaverns" type="LocationConnection" difficulty="1.2" size="120000,100000" generationparams="coldcavernsmaze" initialdepth="197981" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="45.374054" biome="theaphoticplateau" locations="42,71">
+        <Level seed="Onga LineaThynia Linea" biome="theaphoticplateau" type="LocationConnection" difficulty="45.374054" size="182000,60000" generationparams="plateaubasic" initialdepth="319627" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="18.599697" biome="europanridge" locations="62,72">
+        <Level seed="Uusi-TurcuBast" biome="europanridge" type="LocationConnection" difficulty="18.599697" size="120000,60000" generationparams="ridgebasic" initialdepth="277971" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="58.8437" biome="thegreatsea" locations="30,73">
+        <Level seed="RandkluftAndrogeos Linea" biome="thegreatsea" type="LocationConnection" difficulty="58.8437" size="216000,70000" generationparams="greatseabasic" initialdepth="479211" hashuntinggrounds="true" originallyhadhuntinggrounds="true" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="58.0103" biome="thegreatsea" locations="64,73">
+        <Level seed="Mehen LineaAndrogeos Linea" biome="thegreatsea" type="LocationConnection" difficulty="58.0103" size="200000,70000" generationparams="greatseabasic" initialdepth="490877" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="60.804604" biome="thegreatsea" locations="45,74">
+        <Level seed="Drizzlecomb LineaAgave Linea" biome="thegreatsea" type="LocationConnection" difficulty="60.804604" size="206000,70000" generationparams="greatseabasic" initialdepth="435699" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="8.345777" biome="coldcaverns" locations="35,69">
+        <Level seed="SontuRiville" biome="coldcaverns" type="LocationConnection" difficulty="8.345777" size="144000,70000" generationparams="coldcavernsbasic" initialdepth="133152" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="41.706047" biome="theaphoticplateau" locations="41,67">
+        <Level seed="Pelorus LineaBerith" biome="theaphoticplateau" type="LocationConnection" difficulty="41.706047" size="186000,60000" generationparams="plateaubasic" initialdepth="398747" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="56.273636" biome="thegreatsea" locations="45,73">
+        <Level seed="Drizzlecomb LineaAndrogeos Linea" biome="thegreatsea" type="LocationConnection" difficulty="56.273636" size="224000,70000" generationparams="greatseabasic" initialdepth="423705" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="1.808578" biome="coldcaverns" locations="35,75">
+        <Level seed="SontuSparti Linea" biome="coldcaverns" type="LocationConnection" difficulty="1.808578" size="140000,70000" generationparams="coldcavernsbasic" initialdepth="118935" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="1.2" biome="coldcaverns" locations="59,76">
+        <Level seed="Yelland LineaButterdon Linea" biome="coldcaverns" type="LocationConnection" difficulty="1.2" size="140000,70000" generationparams="coldcavernsbasic" initialdepth="118729" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="50.186558" biome="thegreatsea" locations="56,77">
+        <Level seed="Kennet LineaAnnwn" biome="thegreatsea" type="LocationConnection" difficulty="50.186558" size="204000,70000" generationparams="greatseabasic" initialdepth="484414" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="54.352657" biome="thegreatsea" locations="74,73">
+        <Level seed="Agave LineaAndrogeos Linea" biome="thegreatsea" type="LocationConnection" difficulty="54.352657" size="216000,70000" generationparams="greatseabasic" initialdepth="479225" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="12.506731" biome="europanridge" locations="66,78">
+        <Level seed="SeosuSidon Flexus" biome="europanridge" type="LocationConnection" difficulty="12.506731" size="122000,60000" generationparams="ridgebasic" initialdepth="290586" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="13.589563" biome="europanridge" locations="60,78">
+        <Level seed="Cadmus LineaSidon Flexus" biome="europanridge" type="LocationConnection" difficulty="13.589563" size="120000,60000" generationparams="ridgebasic" initialdepth="297027" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="57.35058" biome="thegreatsea" locations="74,77">
+        <Level seed="Agave LineaAnnwn" biome="thegreatsea" type="LocationConnection" difficulty="57.35058" size="212000,70000" generationparams="greatseabasic" initialdepth="400149" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="2.1553187" biome="coldcaverns" locations="70,75">
+        <Level seed="ArgadnelSparti Linea" biome="coldcaverns" type="LocationConnection" difficulty="2.1553187" size="142000,70000" generationparams="coldcavernsbasic" initialdepth="119919" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="47.02546" biome="thegreatsea" locations="61,79">
+        <Level seed="VersasRhadamanthys Linea" biome="thegreatsea" type="LocationConnection" difficulty="47.02546" size="202000,70000" generationparams="greatseabasic" initialdepth="405404" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="51.690723" biome="thegreatsea" locations="77,79">
+        <Level seed="AnnwnRhadamanthys Linea" biome="thegreatsea" type="LocationConnection" difficulty="51.690723" size="220000,70000" generationparams="greatseabasic" initialdepth="420703" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="72.22418" biome="hydrothermalwastes" locations="63,80">
+        <Level seed="TaraNome" biome="hydrothermalwastes" type="LocationConnection" difficulty="72.22418" size="252000,60000" generationparams="wastesbasic" initialdepth="478877" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="35.382256" biome="theaphoticplateau" locations="43,81">
+        <Level seed="MildaDolgovskoy" biome="theaphoticplateau" type="LocationConnection" difficulty="35.382256" size="192000,60000" generationparams="plateaubasic" initialdepth="357572" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="35.422062" biome="theaphoticplateau" locations="54,81">
+        <Level seed="PowysDolgovskoy" biome="theaphoticplateau" type="LocationConnection" difficulty="35.422062" size="182000,60000" generationparams="plateaubasic" initialdepth="369321" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="43.574303" biome="theaphoticplateau" locations="55,82">
+        <Level seed="AnnwnMehen Linea" biome="theaphoticplateau" type="LocationConnection" difficulty="43.574303" size="186000,60000" generationparams="plateaubasic" initialdepth="321920" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="40.973164" biome="theaphoticplateau" locations="71,82">
+        <Level seed="Thynia LineaMehen Linea" biome="theaphoticplateau" type="LocationConnection" difficulty="40.973164" size="188000,60000" generationparams="plateaubasic" initialdepth="361349" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="1.2" biome="coldcaverns" locations="75,83">
+        <Level seed="Sparti LineaHyperenor Linea" biome="coldcaverns" type="LocationConnection" difficulty="1.2" size="122000,100000" generationparams="coldcavernsmaze" initialdepth="155251" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="6.399564" biome="coldcaverns" locations="69,83">
+        <Level seed="RivilleHyperenor Linea" biome="coldcaverns" type="LocationConnection" difficulty="6.399564" size="140000,70000" generationparams="coldcavernsbasic" initialdepth="147902" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="23.37041" biome="europanridge" locations="72,84">
+        <Level seed="BastHuronia" biome="europanridge" type="LocationConnection" difficulty="23.37041" size="122000,60000" generationparams="ridgebasic" initialdepth="255926" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="31.343075" biome="europanridge" locations="57,84">
+        <Level seed="Agenor LineaHuronia" biome="europanridge" type="LocationConnection" difficulty="31.343075" size="120000,60000" generationparams="ridgebasic" initialdepth="218014" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="45.242332" biome="theaphoticplateau" locations="67,82">
+        <Level seed="BerithMehen Linea" biome="theaphoticplateau" type="LocationConnection" difficulty="45.242332" size="192000,60000" generationparams="plateaubasic" initialdepth="332033" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="1.2" biome="coldcaverns" locations="70,85">
+        <Level seed="ArgadnelNome" biome="coldcaverns" type="LocationConnection" difficulty="1.2" size="120000,100000" generationparams="coldcavernsmaze" initialdepth="169714" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="1.2" biome="coldcaverns" locations="59,85">
+        <Level seed="Yelland LineaNome" biome="coldcaverns" type="LocationConnection" difficulty="1.2" size="122000,100000" generationparams="coldcavernsmaze" initialdepth="164380" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="20.85685" biome="europanridge" locations="62,86">
+        <Level seed="Uusi-TurcuOnga Linea" biome="europanridge" type="LocationConnection" difficulty="20.85685" size="122000,60000" generationparams="ridgebasic" initialdepth="270193" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="50.64971" biome="thegreatsea" locations="61,88">
+        <Level seed="VersasFalga" biome="thegreatsea" type="LocationConnection" difficulty="50.64971" size="224000,70000" generationparams="greatseabasic" initialdepth="459380" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="74.725914" biome="hydrothermalwastes" locations="63,89">
+        <Level seed="TaraAgenor Linea" biome="hydrothermalwastes" type="LocationConnection" difficulty="74.725914" size="256000,60000" generationparams="wastesbasic" initialdepth="492447" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="true" difficulty="32.340828" biome="theaphoticplateau" locations="43,84">
+        <Level seed="MildaHuronia" biome="theaphoticplateau" type="LocationConnection" difficulty="32.340828" size="198000,60000" generationparams="plateaubasic" initialdepth="374993" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="63.779633" biome="hydrothermalwastes" locations="65,90">
+        <Level seed="Gortyna FlexusBelus Linea" biome="hydrothermalwastes" type="LocationConnection" difficulty="63.779633" size="256000,60000" generationparams="wastesbasic" initialdepth="480659" hashuntinggrounds="true" originallyhadhuntinggrounds="true" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="68.10225" biome="hydrothermalwastes" locations="68,89">
+        <Level seed="ApepAgenor Linea" biome="hydrothermalwastes" type="LocationConnection" difficulty="68.10225" size="260000,60000" generationparams="wastesbasic" initialdepth="483890" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="70.33561" biome="hydrothermalwastes" locations="58,89">
+        <Level seed="AlkonostAgenor Linea" biome="hydrothermalwastes" type="LocationConnection" difficulty="70.33561" size="254000,60000" generationparams="wastesbasic" initialdepth="456272" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="60.484177" biome="hydrothermalwastes" locations="48,87">
+        <Level seed="Delphi FlexusEchion Linea" biome="hydrothermalwastes" type="LocationConnection" difficulty="60.484177" size="264000,60000" generationparams="wastesbasic" initialdepth="456612" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="5.235346" biome="coldcaverns" locations="83,91">
+        <Level seed="Hyperenor LineaTelephassa Linea" biome="coldcaverns" type="LocationConnection" difficulty="5.235346" size="120000,100000" generationparams="coldcavernsmaze" initialdepth="183166" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="32.78782" biome="theaphoticplateau" locations="54,92">
+        <Level seed="PowysDunwice" biome="theaphoticplateau" type="LocationConnection" difficulty="32.78782" size="190000,60000" generationparams="plateaubasic" initialdepth="318819" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="38.893726" biome="theaphoticplateau" locations="67,92">
+        <Level seed="BerithDunwice" biome="theaphoticplateau" type="LocationConnection" difficulty="38.893726" size="184000,60000" generationparams="plateaubasic" initialdepth="392616" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="18.546999" biome="europanridge" locations="47,93">
+        <Level seed="Tormsdale LineaAdonis Linea" biome="europanridge" type="LocationConnection" difficulty="18.546999" size="124000,60000" generationparams="ridgebasic" initialdepth="230709" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="16.406479" biome="europanridge" locations="86,93">
+        <Level seed="Onga LineaAdonis Linea" biome="europanridge" type="LocationConnection" difficulty="16.406479" size="120000,60000" generationparams="ridgebasic" initialdepth="236332" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="1.765666" biome="coldcaverns" locations="85,94">
+        <Level seed="NomeBalagtan" biome="coldcaverns" type="LocationConnection" difficulty="1.765666" size="140000,70000" generationparams="coldcavernsbasic" initialdepth="137973" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="63.90338" biome="hydrothermalwastes" locations="68,95">
+        <Level seed="ApepDrumskinny Linea" biome="hydrothermalwastes" type="LocationConnection" difficulty="63.90338" size="256000,60000" generationparams="wastesbasic" initialdepth="420589" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="7.1106596" biome="coldcaverns" locations="94,96">
+        <Level seed="BalagtanUusi-Turcu" biome="coldcaverns" type="LocationConnection" difficulty="7.1106596" size="122000,100000" generationparams="coldcavernsmaze" initialdepth="161566" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="2.7715454" biome="coldcaverns" locations="75,96">
+        <Level seed="Sparti LineaUusi-Turcu" biome="coldcaverns" type="LocationConnection" difficulty="2.7715454" size="120000,100000" generationparams="coldcavernsmaze" initialdepth="163897" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="15.46101" biome="europanridge" locations="78,97">
+        <Level seed="Sidon FlexusSermilik" biome="europanridge" type="LocationConnection" difficulty="15.46101" size="120000,60000" generationparams="ridgebasic" initialdepth="260204" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="28.92449" biome="theaphoticplateau" locations="43,98">
+        <Level seed="MildaCorick Linea" biome="theaphoticplateau" type="LocationConnection" difficulty="28.92449" size="184000,60000" generationparams="plateaubasic" initialdepth="308639" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="13.432911" biome="coldcaverns" locations="69,99">
+        <Level seed="RivilleDelphi Flexus" biome="coldcaverns" type="LocationConnection" difficulty="13.432911" size="124000,100000" generationparams="coldcavernsmaze" initialdepth="195201" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="47.778976" biome="thegreatsea" locations="79,100">
+        <Level seed="Rhadamanthys LineaTopol" biome="thegreatsea" type="LocationConnection" difficulty="47.778976" size="202000,70000" generationparams="greatseabasic" initialdepth="469262" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="62.93897" biome="thegreatsea" locations="73,101">
+        <Level seed="Androgeos LineaPhoenix Linea" biome="thegreatsea" type="LocationConnection" difficulty="62.93897" size="204000,70000" generationparams="greatseabasic" initialdepth="443004" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="19.609697" biome="europanridge" locations="60,93">
+        <Level seed="Cadmus LineaAdonis Linea" biome="europanridge" type="LocationConnection" difficulty="19.609697" size="122000,60000" generationparams="ridgebasic" initialdepth="207334" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="61.99655" biome="hydrothermalwastes" locations="90,87">
+        <Level seed="Belus LineaEchion Linea" biome="hydrothermalwastes" type="LocationConnection" difficulty="61.99655" size="250000,60000" generationparams="wastesbasic" initialdepth="421698" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="67.78529" biome="hydrothermalwastes" locations="95,89">
+        <Level seed="Drumskinny LineaAgenor Linea" biome="hydrothermalwastes" type="LocationConnection" difficulty="67.78529" size="258000,60000" generationparams="wastesbasic" initialdepth="473569" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="31.919209" biome="theaphoticplateau" locations="81,102">
+        <Level seed="DolgovskoyEuphemus Linea" biome="theaphoticplateau" type="LocationConnection" difficulty="31.919209" size="180000,60000" generationparams="plateaubasic" initialdepth="350631" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="31.805792" biome="theaphoticplateau" locations="92,102">
+        <Level seed="DunwiceEuphemus Linea" biome="theaphoticplateau" type="LocationConnection" difficulty="31.805792" size="192000,60000" generationparams="plateaubasic" initialdepth="349126" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="59.028976" biome="thegreatsea" locations="74,103">
+        <Level seed="Agave LineaAttis" biome="thegreatsea" type="LocationConnection" difficulty="59.028976" size="206000,70000" generationparams="greatseabasic" initialdepth="430013" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="58.027374" biome="thegreatsea" locations="101,103">
+        <Level seed="Phoenix LineaAttis" biome="thegreatsea" type="LocationConnection" difficulty="58.027374" size="216000,70000" generationparams="greatseabasic" initialdepth="462238" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="78.181625" biome="hydrothermalwastes" locations="80,104">
+        <Level seed="NomeArgadnel" biome="hydrothermalwastes" type="LocationConnection" difficulty="78.181625" size="250000,60000" generationparams="wastesbasic" initialdepth="469714" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="51.357475" biome="thegreatsea" locations="77,100">
+        <Level seed="AnnwnTopol" biome="thegreatsea" type="LocationConnection" difficulty="51.357475" size="212000,70000" generationparams="greatseabasic" initialdepth="437316" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="43.971714" biome="theaphoticplateau" locations="92,82">
+        <Level seed="DunwiceMehen Linea" biome="theaphoticplateau" type="LocationConnection" difficulty="43.971714" size="194000,60000" generationparams="plateaubasic" initialdepth="358197" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="62.09715" biome="hydrothermalwastes" locations="90,95">
+        <Level seed="Belus LineaDrumskinny Linea" biome="hydrothermalwastes" type="LocationConnection" difficulty="62.09715" size="256000,60000" generationparams="wastesbasic" initialdepth="446227" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="13.767934" biome="europanridge" locations="97,93">
+        <Level seed="SermilikAdonis Linea" biome="europanridge" type="LocationConnection" difficulty="13.767934" size="122000,60000" generationparams="ridgebasic" initialdepth="257922" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="30.936462" biome="europanridge" locations="84,105">
+        <Level seed="HuroniaTormsdale Linea" biome="europanridge" type="LocationConnection" difficulty="30.936462" size="120000,60000" generationparams="ridgebasic" initialdepth="237770" hashuntinggrounds="true" originallyhadhuntinggrounds="true" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="12.400379" biome="coldcaverns" locations="91,99">
+        <Level seed="Telephassa LineaDelphi Flexus" biome="coldcaverns" type="LocationConnection" difficulty="12.400379" size="142000,70000" generationparams="coldcavernsbasic" initialdepth="117584" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="43.42251" biome="thegreatsea" locations="88,106">
+        <Level seed="FalgaMehen Linea" biome="thegreatsea" type="LocationConnection" difficulty="43.42251" size="200000,70000" generationparams="greatseabasic" initialdepth="438583" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="47.51971" biome="thegreatsea" locations="100,106">
+        <Level seed="TopolMehen Linea" biome="thegreatsea" type="LocationConnection" difficulty="47.51971" size="224000,70000" generationparams="greatseabasic" initialdepth="405086" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="34.06125" biome="theaphoticplateau" locations="98,107">
+        <Level seed="Corick LineaTormsdale Linea" biome="theaphoticplateau" type="LocationConnection" difficulty="34.06125" size="180000,60000" generationparams="plateaubasic" initialdepth="356482" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="33.705544" biome="theaphoticplateau" locations="81,107">
+        <Level seed="DolgovskoyTormsdale Linea" biome="theaphoticplateau" type="LocationConnection" difficulty="33.705544" size="190000,60000" generationparams="plateaubasic" initialdepth="317710" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="51.62736" biome="thegreatsea" locations="77,103">
+        <Level seed="AnnwnAttis" biome="thegreatsea" type="LocationConnection" difficulty="51.62736" size="214000,70000" generationparams="greatseabasic" initialdepth="436113" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="70.59009" biome="hydrothermalwastes" locations="89,108">
+        <Level seed="Agenor LineaUusi-Turcu" biome="hydrothermalwastes" type="LocationConnection" difficulty="70.59009" size="260000,60000" generationparams="wastesbasic" initialdepth="414421" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="77.711624" biome="hydrothermalwastes" locations="104,108">
+        <Level seed="ArgadnelUusi-Turcu" biome="hydrothermalwastes" type="LocationConnection" difficulty="77.711624" size="250000,60000" generationparams="wastesbasic" initialdepth="448024" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="60.90683" biome="thegreatsea" locations="101,109">
+        <Level seed="Phoenix LineaSet" biome="thegreatsea" type="LocationConnection" difficulty="60.90683" size="202000,70000" generationparams="greatseabasic" initialdepth="447315" hasbeaconstation="True" isbeaconactive="False" />
+      </connection>
+      <connection passed="false" locked="false" difficulty="100" biome="endzone" locations="80,49">
+        <Level seed="NomeMalcam's Cauldron" biome="endzone" type="LocationConnection" difficulty="100" size="120000,120000" generationparams="endlocationbasic" initialdepth="500000" hashuntinggrounds="true" originallyhadhuntinggrounds="true" />
+      </connection>
+      <Radiation amount="-200" enabled="False" />
+    </map>
+    <cargo />
+    <upgrademanager>
+      <PendingUpgrades />
+    </upgrademanager>
+  </SinglePlayerCampaign>
+</Gamesession>
